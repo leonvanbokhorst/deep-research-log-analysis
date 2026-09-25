@@ -34,7 +34,7 @@ The two questions that guide the report are simple: **what did all that recursiv
 
 ---
 
-## 1. What we actually analysed
+## 1. What we analysed
 
 The original research happened in one DSH root session with recursive delegation enabled to a maximum depth of three. The root remained the sole final synthesiser. Under it sat **16 depth-1 branches, 45 depth-2 analyses and 91 depth-3 leaves**, giving 153 sessions in total ([genealogy reconstruction](analysis/02-agent-genealogy.md)).
 
@@ -52,7 +52,7 @@ The run is also not one continuous 96-minute burst. There is a roughly **33-minu
 
 ---
 
-## 2. Scale really did buy breadth
+## 2. Scale bought breadth
 
 One of our initial suspicions was that recursive fan-out might mostly manufacture duplication: many agents searching for similar terms, landing on the same handful of sources and then summarising each other. At this scale, that would still look impressive in a file tree while adding little epistemically.
 
@@ -70,7 +70,7 @@ Still, on the question we could actually measure well, the result was clear: **r
 
 ---
 
-## 3. Deep recursion behaved like accidental peer review
+## 3. Depth behaved like peer review
 
 The most encouraging finding did not come from breadth alone. It came from what happened at the bottom of the tree.
 
@@ -94,7 +94,7 @@ A compact way of saying it is: **the value of fan-out was adversarial coverage, 
 
 ---
 
-## 4. Independent evidence gathering was not independent judgment
+## 4. Independent evidence, centralised judgment
 
 The most uncomfortable finding started with one sentence in the final research report: **“six independent evidence streams converged”** on the formulation *plausible, novel, and currently unobserved*.
 
@@ -120,7 +120,7 @@ This became the central distinction in the whole analysis: **independent evidenc
 
 ---
 
-## 5. Facts had reviewers. Framing mostly did not.
+## 5. Facts had reviewers. Framing didn't.
 
 Once we had separated evidence independence from judgment independence, another asymmetry became easier to see.
 
@@ -138,7 +138,7 @@ The design implication is not that synthesis should be decentralised completely.
 
 ---
 
-## 6. Detecting a correction was easier than applying it
+## 6. Finding errors was easier than fixing them
 
 A second weakness appeared after the system had already done something right: it found errors that were not fully repaired in the final artefact.
 
@@ -158,7 +158,7 @@ That may be one of the most reusable lessons from the case: **process claims sho
 
 ---
 
-## 7. The tree did not stop because it was finished
+## 7. The tree stopped at a fence
 
 The final genealogy has 91 leaves at depth 3. It is tempting to read that shape as a natural endpoint: the research decomposed until the questions became small enough, then the leaves returned their findings.
 
@@ -178,7 +178,7 @@ Or less formally: the creature had not reached epistemic satiation. We put up a 
 
 ---
 
-## 8. Stopping turned out to be the harder problem
+## 8. Stopping was the harder problem
 
 The run contains a very clear diminishing-return signal. General source discovery falls sharply over time. The first tenth of model work found **428 new evidence hosts**. The final two tenths found only **48** and **66**.
 
@@ -220,7 +220,7 @@ The broader lesson is mundane but important: **instrument the channels the syste
 
 ---
 
-## 10. The economics change what is feasible, not what is true
+## 10. Cheap scale changes feasibility, not truth
 
 The run's logical input volume was **1.277 billion tokens**. Only **18.8 million** of those were cache misses.
 
@@ -242,7 +242,7 @@ So cache efficiency is best understood as a **feasibility condition**, not as ev
 
 ---
 
-## 11. What we would change next time
+## 11. What we'd change next time
 
 We would not respond to this case by simply making the tree smaller. The broad search and deep verification were two of the strongest parts of the run. The redesign should preserve those benefits while moving independence into places where this architecture lacked it.
 
@@ -260,7 +260,7 @@ The design direction is therefore not “more recursion”. It is **different ki
 
 ---
 
-## 12. What this case can and cannot support
+## 12. What this case supports - and doesn't
 
 This is one run, and the details matter. It used one harness, one provider/model configuration, one maximum recursion depth, one final synthesiser and two related research questions. The research topic itself encouraged source checking and sceptical evidence handling. Another domain could behave differently.
 
@@ -274,7 +274,7 @@ We think **forensic case study** is the right description. It is close enough to
 
 ---
 
-## 13. What we are taking forward
+## 13. What we take forward
 
 The headline is not that 153 agents beat one agent. That comparison was never run, and it would flatten the interesting part of the case anyway.
 
