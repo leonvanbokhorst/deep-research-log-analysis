@@ -4,6 +4,14 @@
 
 *Practitioner report — working draft*
 
+**Leon van Bokhorst**  
+Research Group IxD · Fontys University of Applied Sciences
+
+> **Start here**  
+> **Original research artefact:** [`leonvanbokhorst/deep-research`](https://github.com/leonvanbokhorst/deep-research) — what the agents researched and concluded.  
+> **Process analysis and this report:** [`leonvanbokhorst/deep-research-log-analysis`](https://github.com/leonvanbokhorst/deep-research-log-analysis) — what the 153-agent process actually did.  
+> The analysed research artefact is frozen at [`deep-research@33ca23b`](https://github.com/leonvanbokhorst/deep-research/commit/33ca23b474a11b5ee90563a9f59ed002de485abd).
+
 ---
 
 We did not set out to run an experiment on recursive research. We were using DSH to do research, and the work simply became large enough that the process itself started to become interesting.
