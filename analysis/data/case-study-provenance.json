@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "original_research": {
+    "repository": "leonvanbokhorst/deep-research",
+    "frozen_commit": "33ca23b474a11b5ee90563a9f59ed002de485abd",
+    "frozen_commit_short": "33ca23b",
+    "research_cutoff": "2026-09-25"
+  },
+  "dsh_corpus": {
+    "root_session_id": "session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357",
+    "root_session_relpath": "session.v3.jsonl",
+    "root_session_sha256": "1a9de4e9cc3efd43feb5eaddc78ce2894fa381e44d20541ece511233c9bf037d",
+    "session_files": 153,
+    "hash_algorithm": "sha256",
+    "full_manifest": "analysis/data/manifest.json",
+    "note": "The original export archive itself is not committed or singly hashed here; the complete corpus is pinned by 153 per-file SHA-256 digests in manifest.json."
+  },
+  "process_analysis": {
+    "repository": "leonvanbokhorst/deep-research-log-analysis",
+    "relationship": "This repository analyses the frozen research artefact and its DSH execution trace; it is not part of the original research corpus."
+  }
+}
