@@ -94,7 +94,7 @@ A compact way of saying it is: **the value of fan-out was adversarial coverage, 
 
 ---
 
-## 4. Independent evidence, centralised judgment
+## 4. Evidence spread, judgment didn't
 
 The most uncomfortable finding started with one sentence in the final research report: **“six independent evidence streams converged”** on the formulation *plausible, novel, and currently unobserved*.
 
@@ -138,7 +138,7 @@ The design implication is not that synthesis should be decentralised completely.
 
 ---
 
-## 6. Finding errors was easier than fixing them
+## 6. Finding errors, missing fixes
 
 A second weakness appeared after the system had already done something right: it found errors that were not fully repaired in the final artefact.
 
@@ -220,7 +220,7 @@ The broader lesson is mundane but important: **instrument the channels the syste
 
 ---
 
-## 10. Cheap scale changes feasibility, not truth
+## 10. What cheap scale changes
 
 The run's logical input volume was **1.277 billion tokens**. Only **18.8 million** of those were cache misses.
 
@@ -260,7 +260,7 @@ The design direction is therefore not “more recursion”. It is **different ki
 
 ---
 
-## 12. What this case supports - and doesn't
+## 12. What this case supports
 
 This is one run, and the details matter. It used one harness, one provider/model configuration, one maximum recursion depth, one final synthesiser and two related research questions. The research topic itself encouraged source checking and sceptical evidence handling. Another domain could behave differently.
 
