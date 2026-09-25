@@ -13,6 +13,27 @@ This workspace is the **analysis**. It is not part of the research corpus.
 
 ---
 
+## Relationship to the original research
+
+This repository is the **second half of the case study**. The substantive research
+lives in [`leonvanbokhorst/deep-research`](https://github.com/leonvanbokhorst/deep-research).
+
+The process analysis treats the original research artefact as frozen at:
+
+- **research commit:** [`33ca23b474a11b5ee90563a9f59ed002de485abd`](https://github.com/leonvanbokhorst/deep-research/commit/33ca23b474a11b5ee90563a9f59ed002de485abd)
+- **DSH root session:** `session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357`
+- **root session SHA-256:** `1a9de4e9cc3efd43feb5eaddc78ce2894fa381e44d20541ece511233c9bf037d`
+- **complete corpus identity:** 153 per-file SHA-256 digests in
+  [`analysis/data/manifest.json`](analysis/data/manifest.json)
+- **machine-readable cross-pin:** [`analysis/data/case-study-provenance.json`](analysis/data/case-study-provenance.json)
+
+The original export archive is not shipped or assigned an invented single-file hash.
+Its contents are pinned file-by-file. This distinction is deliberate: the research
+repo answers **what the agents concluded**; this repo asks **what the agents actually
+did while getting there**.
+
+---
+
 ## Start here
 
 **[`analysis/00-synthesis.md`](analysis/00-synthesis.md)** — the synthesis report:
