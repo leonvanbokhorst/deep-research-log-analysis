@@ -12,6 +12,8 @@ Research Group IxD · Fontys University of Applied Sciences
 > **Process analysis and this report:** [`leonvanbokhorst/deep-research-log-analysis`](https://github.com/leonvanbokhorst/deep-research-log-analysis) — what the 153-agent process actually did.  
 > The analysed research artefact is frozen at [`deep-research@33ca23b`](https://github.com/leonvanbokhorst/deep-research/commit/33ca23b474a11b5ee90563a9f59ed002de485abd).
 
+**Suggested citation:** van Bokhorst, L. R. (2026). *What 153 agents actually bought us: Lessons from a 1.28-billion-token recursive research run.* Research Group IxD, Fontys University of Applied Sciences.
+
 ---
 
 We did not set out to run an experiment on recursive research. We were using DSH to do research, and the work simply became large enough that the process itself started to become interesting.
