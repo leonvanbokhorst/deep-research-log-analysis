@@ -159,47 +159,62 @@ marginal input has collapsed.
 
 ---
 
-## 6. The economics of cache-enabled scaling
+## 6. The economics of cache-enabled scaling — provider reconciled
 
-**DERIVED RESULT.** Cost reduction depends entirely on the cache-read discount,
-which is not in the data. Under three illustrative discounts:
+A same-day DeepSeek Platform export was added after the original log analysis.
+The raw provider files are kept private because they contain account/API-key
+identifiers; sanitised hourly aggregates and the full reconciliation are in
+[`08-provider-billing-reconciliation.md`](08-provider-billing-reconciliation.md).
 
-| assumed cache-read price (vs fresh) | input-equivalent tokens, no cache | with cache | reduction |
-|---|---|---|---|
-| 1/5 | 1,277,222,497 | 270,512,225 | 78.8% |
-| 1/10 | 1,277,222,497 | 144,673,441 | 88.7% |
-| 1/20 | 1,277,222,497 | 81,754,049 | **93.6%** |
+**OBSERVATION — prices actually billed on 25 September 2026:**
 
-**DERIVED RESULT — cost scales with agent count, not with tree size.** Because each
-new agent starts warm, the marginal cost of one more depth-1 branch is dominated by
-its *own* accumulated context and output, not by a cold prefix. The distribution is
-therefore unusually favourable to fan-out: 130M of the run's 1.286B tokens (10.1%)
-were spent in the root, and the remaining 90% bought 152 agents.
+| token class | observed price |
+|---|---:|
+| cache-hit input | **$0.003 / 1M tokens** |
+| cache-miss input | **$0.15 / 1M tokens** |
+| output | **$0.60 / 1M tokens** |
 
-**INTERPRETATION — what cache made feasible, stated carefully.**
+**DERIVED RESULT — exact provider cross-check on the separate analysis run.**
+The frozen 4-session analysis export contains 398 model-usage records:
+52,629,376 cache-hit input tokens, 551,434 cache-miss input tokens and 358,751
+output tokens. DeepSeek Platform's 12:00–13:00 bucket reports **exactly the same
+398 requests and the same three token counts**. Applying the provider prices gives
+$0.455853828; the provider reports the same value.
 
-- The run's *logical* volume (1.28B input tokens) would be impractical to recompute
-  at full price. Serving 97.8% of it from cache is very likely the condition that
-  made a 153-agent, 96-minute run affordable at all.
-- But **cache efficiency is not an argument for scale**. The same mechanism that
-  makes fan-out cheap also makes *re-synthesis* cheap, which is why the late run
-  could produce 81 new artefacts from an exhausted source pool without the volume
-  showing up as new knowledge.
-- The 7,936-token shared prefix is the clearest lever: it is paid once per agent
-  and is identical for all of them. A run that varies its system prompt or tool set
-  per branch would forfeit it.
+That exact match validates the DSH field interpretation used throughout this report.
 
-**Explicitly not computable.** No money figure is offered. Cache writes are
-unrecorded, so the cache-fill cost — plausibly the dominant term for short-lived
-sessions — cannot be estimated. A session that writes 300K tokens of context and
-reads it back 8 times may be *net negative* on caching, and this export cannot
-distinguish that case.
+**DERIVED RESULT — original research-run cost.** Applying those observed provider
+prices to the frozen 153-session research trace:
 
----
+| class | tokens | cost |
+|---|---:|---:|
+| cache-hit input | 1,258,387,840 | **$3.77516352** |
+| cache-miss input | 18,834,657 | **$2.82519855** |
+| output | 9,308,857 | **$5.58531420** |
+| **total** | **1,286,531,354** | **$12.18567627** |
+
+The input cache-hit rate is **98.525%**:
+`cacheRead / (cacheRead + freshInput)`. The earlier 97.81% figure is the share of
+*all tokens including output* that consists of cache reads; it is not the prompt
+cache-hit rate.
+
+**INTERPRETATION.** The run's logical scale is therefore not merely large but
+economically unusual: 1.277B logical input tokens were processed while only 18.8M
+were billed as cache misses. Under the observed DeepSeek pricing, the frozen research
+run cost about **$12.19**.
+
+This does not make scale epistemically valuable by itself. The same cheap reuse that
+made broad fan-out feasible also made late re-synthesis cheap. Cache architecture is
+a feasibility condition, not evidence of research quality.
+
+**BOUNDARY.** DeepSeek's 10:00–12:00 hourly account buckets are slightly larger than
+the frozen research trace because they include activity outside the trace boundary.
+Those residual requests/tokens are deliberately not attributed to the research run.
+The exact reconciliation is documented in report 08.
 
 ## 7. Limitations
 
-1. **Cache writes, prices, latency absent** — see §1. No cost claim is made.
+1. **Cache writes and latency remain absent from the DSH session export.** Prices and billed cost are supplied by a separate same-day DeepSeek Platform export and reconciled in report 08; the session logs alone still cannot provide monetary cost.
 2. **Context size is inferred**, not reported. `inputTokens + cacheReadTokens` is
    the prompt length, which is a lower bound on position in the window.
 3. **Reasoning text is unevenly retained**, though reasoning *tokens* are complete
