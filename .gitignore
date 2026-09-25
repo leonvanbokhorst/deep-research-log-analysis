@@ -28,6 +28,12 @@ analysis/work/artefact_firsts.csv
 analysis/work/marker_firsts.csv
 analysis/work/assertions.json
 
+# Raw provider/session exports may contain account or API-key identifiers.
+# Sanitised derivatives belong under analysis/data/provider-billing/.
+/amount-*.csv
+/cost-*.csv
+/dsh-session-session-*.zip
+
 # --- Cruft -----------------------------------------------------------------
 .DS_Store
 **/__pycache__/
