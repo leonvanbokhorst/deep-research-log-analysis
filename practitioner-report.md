@@ -6,358 +6,270 @@
 
 ---
 
-We did not set out to run an experiment on recursive research.
+We did not set out to run an experiment on recursive research. We were using DSH to do research, and the work simply became large enough that the process itself started to become interesting.
 
-We were using DSH for research.
+The task was genuinely open-ended. We were investigating two related questions, delegating parts of them to specialist agents, asking those agents to retrieve evidence and challenge weak claims, and then pulling the result back together into something a human could actually use. The run grew to **153 sessions, 10,037 model steps, 16,195 tool calls and 1.286 billion logged tokens** over roughly 96 minutes of wall-clock time.
 
-The task was genuinely open-ended: investigate two related questions, fan the work out into specialist branches, retrieve primary evidence where possible, challenge weak claims, and pull the result back together into something a human could actually use. The run grew much larger than expected: **153 sessions, 10,037 model steps, 16,195 tool calls and 1.286 billion logged tokens** across roughly 96 minutes of wall-clock time.
+At first the scale was impressive for the obvious reason: it produced a lot. The research workspace filled up with source captures, findings briefs, notes, scripts and revisions. The final reports looked unusually well-supported for something produced so quickly.
 
-At first, the scale looked impressive for the obvious reason: it produced a lot.
+Then we exported the full session tree and treated the run itself as data.
 
-Then we exported the full session tree and looked at what had actually happened.
+That changed the interesting question. Instead of asking whether a 153-agent system could produce a substantial report, we wanted to know **what the recursion had actually contributed**. Had the agents found genuinely different evidence, or mostly repeated each other? Did deeper delegation improve checking? Did agreement mean independent convergence? When did the run stop learning new things? How much of the apparent scale was made possible by caching? And perhaps most importantly: what kinds of error did the architecture notice, and what kinds did it leave alone?
 
-That was more interesting.
+The answers were mixed in a way we did not anticipate. The agents gathered evidence with surprisingly little overlap. Deep leaves corrected claims their parents had already accepted. Several important findings only appeared late, after general source discovery had begun to flatten. At the same time, the final synthesis overstated how independently its central conclusion had emerged. The system developed a fairly effective distributed mechanism for checking facts, while final interpretation remained concentrated in one synthesiser.
 
-The agents had gathered evidence with surprisingly little overlap. Deep leaves had corrected claims that their parents had already accepted. Several important findings only appeared late, after source discovery had begun to flatten. At the same time, the final synthesis overstated how independently its central conclusion had emerged. The system was very good at finding wrong facts and much less good at challenging its own framing.
+This report is therefore not a benchmark and not an argument that “153 agents are better than one”. It is a forensic practitioner case: one unusually well-traced recursive research run, inspected closely enough to see where scale helped, where it did not, and what we would redesign next time.
 
-So this report is not a benchmark and not a claim about “agents” in general. It is a close look at one large, traceable research run, using the run itself as the empirical object.
-
-The question is simple:
-
-> **What did all that recursive scale actually buy us?**
-
-And, underneath that:
-
-> **When does more research become more knowledge, and when does it become more confidence?**
+The two questions that guide the report are simple: **what did all that recursive scale actually buy us, and when does more research become more knowledge rather than merely more confidence?**
 
 ---
 
-## 1. The run
+## 1. What we actually analysed
 
-The original research was performed in a single DSH root session with recursive delegation to a maximum depth of three. The root remained the sole final synthesiser.
+The original research happened in one DSH root session with recursive delegation enabled to a maximum depth of three. The root remained the sole final synthesiser. Under it sat **16 depth-1 branches, 45 depth-2 analyses and 91 depth-3 leaves**, giving 153 sessions in total.
 
-The resulting tree was:
+The exported trace is unusually rich for this kind of work. It contains the delegation tree, exact sub-agent prompts, model usage, tool calls and results, inter-agent messages, timestamps, file operations and the research workspace produced during the run. We preserved the corpus rather than cleaning it up after the fact: the 153 session files are pinned individually by SHA-256, and all derived tables can be regenerated from read-only analysis scripts in this repository.
 
-- **1** root session
-- **16** depth-1 branches
-- **45** depth-2 sub-analyses
-- **91** depth-3 leaves
+That matters because much of what follows is not visible from the final report alone. A polished synthesis hides the order in which evidence arrived, which branch first wrote a claim, whether a correction travelled upward, and whether two apparently independent findings actually share an ancestor. The session trace lets us reconstruct those things.
 
-That makes **153 sessions** in total.
+We did **not** use the process analysis to decide whether every substantive claim in the original threat research was true. That would be another research project. Here the object is the research process itself: what the system searched, delegated, corrected, retained and claimed about its own work.
 
-The run produced **1,286,531,354 logged tokens**. Of those, **1,258,387,840 were cache reads**, **18,834,657 were fresh/cache-miss input**, and **9,308,857 were output**. The actual prompt-side cache-hit rate was **98.525%**.
-
-DeepSeek's provider billing export later let us reconcile those token classes against what was actually charged. At the prices billed on 25 September 2026, the frozen research run cost approximately **$12.19**.
-
-That number sounds absurdly low next to “1.28 billion tokens”, and that is precisely why the cache architecture matters. The system repeatedly re-used a very large shared prefix instead of paying full price for every logical token processed.
-
-But cheap scale is not the same thing as useful scale. That is where the logs became valuable.
+The run is also not one continuous 96-minute burst. There is a roughly **33-minute idle gap** between the two research questions. Active work is therefore closer to 63 minutes. We keep the 96-minute wall-clock span because it describes the exported session, but we avoid turning it into a productivity statistic.
 
 > **Figure 1 — Agent genealogy of the DSH run**  
-> 1 → 16 → 45 → 91, including the depth cap and highlighted correction-producing leaves.
+> 1 → 16 → 45 → 91, with the hard depth cap and the leaves that produced major corrections highlighted.
 
 ---
 
-## 2. The first surprise: the agents really did look in different places
+## 2. Scale really did buy breadth
 
-Before inspecting the trace, we expected a lot of recursive duplication: many agents independently searching for the same papers, reading the same reports, and then summarising each other.
+One of our initial suspicions was that recursive fan-out might mostly manufacture duplication: many agents searching for similar terms, landing on the same handful of sources and then summarising each other. At this scale, that would still look impressive in a file tree while adding little epistemically.
 
-That is not what happened.
+The trace showed something quite different. Across the 16 depth-1 branches, the median pairwise domain overlap was only **0.031**. The branches collectively reached **1,609 distinct evidence hosts**. Their host counts summed to 2,400, an overlap factor of only 1.49×. At the query level the pattern was even clearer: only **1.9% of 2,416 normalised unique queries** were repeated across sessions.
 
-Across the 16 depth-1 branches, the median pairwise domain overlap was only **0.031**. The union contained **1,609 distinct evidence hosts**, while the sum of branch-level hosts was 2,400. Only **1.9% of 2,416 normalised unique queries** were repeated by more than one session.
+So the fan-out was not mainly many copies of the same search. Different branches really did explore different parts of the evidence space.
 
-In other words, fan-out genuinely bought breadth.
+That breadth mattered because several important negative findings were independently encountered from different directions. Different agents reached the same primary material through different queries, while many other sources remained branch-specific. This is a stronger result than “the agents wrote lots of notes”. It means the architecture created something close to parallel investigative coverage.
 
-That matters because some of the strongest negative findings were reached independently from different directions. The system was not simply manufacturing volume around a fixed handful of sources. It was exploring a wide evidence surface.
+There is a caveat. The branches were not independent in every sense. When DSH's first-class web search repeatedly failed, agents created shared shell tooling and told each other about it. Scripts such as `tools/news.sh` and `tools/get.sh` became common infrastructure used across many branches. The genealogy therefore looks more independent than the retrieval substrate actually was. A bug in one of those shared scripts could have affected multiple branches at once.
 
-This is one place where “more agents” meant something concrete.
+That hidden coupling is useful to notice because “different agents” is not the same thing as “independent evidence channels”. Independence has layers: prompts, source selection, tools, framing and final adjudication can each be shared or separate.
 
-Not more agreement.
-
-More coverage.
+Still, on the question we could actually measure well, the result was clear: **recursive scale bought substantial search breadth with much less duplication than we expected**.
 
 ---
 
-## 3. The second surprise: deep recursion behaved a bit like accidental peer review
+## 3. Deep recursion behaved like accidental peer review
 
-Three of the four largest corrections in the run came from **depth-3 leaves**.
+The most encouraging finding did not come from breadth alone. It came from what happened at the bottom of the tree.
 
-These were not cosmetic edits. They were cases where a narrow specialist went to a primary source and discovered that a stronger claim higher in the tree did not survive contact with the source.
+Three of the four largest corrections in the run originated in **depth-3 leaves**. These were not style edits or minor citation cleanups. In each case, a narrow specialist went closer to a primary source and found that a stronger claim higher in the tree did not survive the check.
 
-Examples included:
+One agent retrieved Foster et al. (2012) and found that the relevant effect was driven by **repetition rather than the number of independent sources**, undermining a claimed amplification mechanism. Another found a recent **author correction** that retired a persuasion effect size already circulating through the research. A third searched a full text through the Internet Archive and returned no support for a quotation that had already been attributed to Liddell Hart.
 
-- a primary psychology paper showing **repetition, not number of sources**, undermining a claimed amplification mechanism;
-- a recent **author correction** that retired a widely cited persuasion effect size;
-- a full-text search that found **no support** for a quotation already attributed to Liddell Hart.
+The pattern is worth dwelling on. Parent branches often had the broader conceptual task: establish the landscape, connect literatures, identify a plausible mechanism. A deeper child was more likely to receive a narrow question such as “verify this figure”, “find the primary source”, or “check whether this quotation is actually there”. That narrower mandate created enough attention to challenge material the broader branch had already treated as usable.
 
-This pattern appeared repeatedly: the broader parent branch established a plausible interpretation, while the narrower child did the tedious source work that destabilised it.
+Across the run we reconstructed roughly twenty corrections. Most were deflationary: they removed overstatement, weakened an attribution, downgraded a source, or reduced confidence. Only a small minority pushed in the opposite direction.
 
-That is probably the most encouraging finding in the entire trace.
+That is not what we expected recursion to be best at. We initially thought of delegation mainly as a way to increase coverage. Instead, depth sometimes created a crude form of **peer review by task decomposition**. No agent was formally appointed as Reviewer 2. The review behaviour emerged because narrow descendants re-opened claims that their ancestors had already compressed into a narrative.
 
-Recursive delegation did not make the system better because many agents “voted” for the same conclusion. It made the system better because narrow agents sometimes had enough attention to **check what everybody else had treated as settled**.
+This also changes how we think about the value of agent count. The useful mechanism was not voting or consensus. It was the chance that some branch would approach the same issue with a different, narrower verification task.
 
-> **The value of fan-out was adversarial coverage, not consensus.**
-
-We reconstructed roughly twenty corrections across the run. Most moved in a deflationary direction: removing overstatement, weakening attribution or reducing confidence.
-
-That is a useful behaviour in research.
+A compact way of saying it is: **the value of fan-out was adversarial coverage, not consensus**.
 
 > **Figure 2 — Epistemic anatomy**  
 > Breadth decentralised → verification distributed → judgment centralised.
 
 ---
 
-## 4. Then we found the uncomfortable part
+## 4. Independent evidence gathering was not independent judgment
 
-The final research report said that **“six independent evidence streams converged”** on the central formulation *plausible, novel, and currently unobserved*.
+The most uncomfortable finding started with one sentence in the final research report: **“six independent evidence streams converged”** on the formulation *plausible, novel, and currently unobserved*.
 
-That sounded strong.
+That sentence sounded reassuring. It implied that several independent routes through the evidence had reached the same conclusion.
 
-It did not survive provenance analysis.
+The provenance trace told a different story.
 
-The “six streams” were six sibling agents spawned by one depth-1 branch. One depth-2 agent first wrote the exact verdict phrase. The final root report imported it shortly afterwards.
+The “six streams” were six sibling sub-agents created by one depth-1 branch. One depth-2 agent inside that branch was the first place where the exact phrase *plausible, novel, and currently unobserved* appeared. Shortly afterwards the branch reported convergence upward and the root imported that language into the final report.
 
-More importantly, the root had already written a large draft containing the core framing at about **+59.7 minutes**.
+The more important part is temporal. The root had already written a substantial draft containing the central framing at about **+59.7 minutes**. Several of the findings later presented as decisive support arrived after that. The Foster null appeared around +63 minutes, the Salvi correction around +66, the USC paper that the report itself later called the “single most important constraint finding” around **+80.7**, OpenAI's strongest negative evidence around +86, and the Botometer caution around +95.
 
-Several of the findings later presented as decisive support had not arrived yet.
+None of this proves the conclusion was wrong. It may still be the best interpretation of the evidence. Nor does it mean the later research was fake or merely decorative: we can see that the branches gathered genuinely different sources and contradicted each other on many factual claims.
 
-The Foster null arrived around +63 minutes. The Salvi correction around +66. The USC paper that the report itself called the “single most important constraint finding” arrived around **+80.7 minutes**. OpenAI's strongest negative evidence arrived around +86. The Botometer caution arrived around +95.
+What the trace does show is that the conclusion was not produced by six independent judgments converging from scratch. A better description is that **a prior was stated early, independent evidence gathering followed, and much of the later evidence turned out to be consistent with that prior**.
 
-The conclusion may still be a reasonable one.
+That is a meaningful difference. Independent search can strengthen a conclusion without independently generating it. When a system describes those two things as the same process, it overstates the epistemic independence of its result.
 
-But the process did not independently generate that conclusion six times.
-
-What happened was subtler:
-
-**a prior was stated early, independent evidence gathering followed, and much of the later evidence was consistent with the prior.**
-
-That is not the same thing as independent conclusion production.
-
-This distinction became one of the core lessons from the run:
-
-> **Independent evidence gathering is not independent judgment.**
+This became the central distinction in the whole analysis: **independent evidence gathering is not independent judgment**.
 
 > **Figure 3 — Verdict formation vs arrival of key evidence**  
-> Show the early draft/verdict against the later arrival of decisive evidence.
+> The visual should make the timing legible without implying that “early” automatically means “wrong”.
 
 ---
 
-## 5. The system corrected facts better than framing
+## 5. Facts had reviewers. Framing mostly did not.
 
-Once we noticed the convergence problem, another asymmetry became visible.
+Once we had separated evidence independence from judgment independence, another asymmetry became easier to see.
 
-The run was quite willing to correct **checkable factual claims**: dates, quotes, dollar figures, source attributions, effect sizes and publication details.
+The run was quite willing to correct **checkable factual claims**. We found disagreements over dates, quotations, publication details, dollar figures, effect sizes and source attributions. In thirteen documented cases, one part of the tree successfully corrected another.
 
-We found thirteen documented disagreements where one part of the tree corrected another.
+The one disagreement that clearly touched the interpretive core behaved differently. A specialist agent judged “reflexive control” only a **partial** conceptual fit and explained why: the source tradition was human-decision-centric, deliberate and state-centric, while the emerging argument was about AI-enabled, potentially self-amplifying processes. The branch lead explicitly recorded that it had **kept the rating high**, which matched the framing already present in the draft.
 
-But the one disagreement that directly touched the interpretive core went the other way. A specialist judged “reflexive control” only a **partial** conceptual fit. The branch lead explicitly recorded that it had **kept the rating high**, matching the framing already present in the draft.
+One case is not enough to claim that recursive systems always defend framing while correcting facts. But architecturally the pattern makes sense. There were many agents capable of checking pieces of evidence. There was only one final place where those pieces were turned into meaning.
 
-This is one run, so we should resist turning that into a law of agent systems.
+The root synthesiser therefore played two roles at once. It integrated the evidence, and it adjudicated what the evidence meant. That concentration is efficient: without it the result might never become a coherent report. It is also an obvious bottleneck if the synthesiser's framing needs to be challenged.
 
-But as a design signal it is hard to ignore.
+This is why the phrase **“breadth decentralised, verification distributed, judgment centralised”** feels like more than a slogan. It describes the actual architecture of this run.
 
-The architecture had many mechanisms for challenging facts and only one place where final interpretation was adjudicated.
-
-The same root that integrated the evidence also decided what the evidence meant.
-
-So the system had something like a distributed immune system for factual error, but a centralised interpretive bottleneck.
-
-That is not necessarily a flaw. Somebody has to synthesise.
-
-The problem is that the synthesiser had no equivalent reviewer.
+The design implication is not that synthesis should be decentralised completely. A report eventually needs an authorial position. The implication is that interpretive review probably deserves its **own** independence, rather than assuming that factual diversity automatically supplies it.
 
 ---
 
-## 6. Finding an error was not the same as fixing it
+## 6. Detecting a correction was easier than applying it
 
-The agents found corrections that never fully propagated into the final report.
+A second weakness appeared after the system had already done something right: it found errors that were not fully repaired in the final artefact.
 
-At least two claims were explicitly withdrawn in one place while surviving elsewhere in the document under their original wording.
+At least two claims were explicitly withdrawn or weakened in one part of the report while surviving elsewhere under their original wording. The final verification pass helps explain why. It searched for known bad strings and named claims. That is effective when the problem is a distinctive quotation or citation. It is much less effective when the same idea survives semantically in a differently worded paragraph.
 
-The final verification pass helps explain why. It searched for known bad strings and named claims. That works when the error is a distinctive quotation or citation. It does not work when a withdrawn idea survives semantically in slightly different prose.
+Correction latency compounded the problem. Some warnings moved up the tree quickly; others took many minutes. One important correction took more than sixteen minutes to reach the root. During that interval, thousands of other model steps continued across the system.
 
-Correction latency also mattered.
+At this scale, the bottleneck was no longer simply **finding** an error. It was moving that correction to the one context that could apply it, identifying every affected passage, and confirming that the correction had actually propagated.
 
-Some corrections took several minutes to move up the tree. One took more than sixteen minutes. During that time, thousands of model steps continued elsewhere.
+The run treated corrections mostly as messages. A useful next architecture would treat them as **stateful objects**. A correction could identify the challenged claim, the supporting primary source, the sessions or artefacts likely to be affected, and whether each downstream occurrence had been reconsidered. In software terms, this starts looking less like a chat message and more like an issue that stays open until resolved.
 
-At this scale the limiting factor was no longer simply **finding** an error.
+That sounds procedural, but it is an epistemic design problem. A research system that can discover its mistakes but cannot reliably update its own synthesis is only halfway corrigible.
 
-It was routing the correction to the one context that could apply it, and making sure that context actually did so.
+There was an additional irony here. Some of the least well-verified claims in the run were the system's claims about **its own process**: how many independent streams had converged, how many corrections it had made, and why the recursion had stopped. No dedicated branch was checking those statements. The system was much better at verifying the world than at verifying its narration of itself.
 
-That gives us a practical design problem:
-
-> **Correction throughput needs its own architecture.**
-
-Not just better retrieval. Not just more reviewers. A correction needs to become a first-class object that can be tracked until every affected claim has been reconsidered.
+That may be one of the most reusable lessons from the case: **process claims should be subjected to the same verification discipline as domain claims**.
 
 ---
 
-## 7. The run did not naturally decide it was done
+## 7. The tree did not stop because it was finished
 
-Another thing we initially read too generously was the shape of the tree.
+The final genealogy has 91 leaves at depth 3. It is tempting to read that shape as a natural endpoint: the research decomposed until the questions became small enough, then the leaves returned their findings.
 
-There were 91 depth-3 leaves because the research had reached a sensible stopping point, right?
+The trace makes that interpretation impossible.
 
-No.
+**Forty of the 91 depth-3 sessions attempted to delegate further.** Together they made **99 depth-4 spawn attempts**, each with a fully written prompt. Every one was rejected by the harness because `maxDepth=3`.
 
-**Forty of those 91 leaves tried to delegate again.**
+So the tree was censored by infrastructure. It did not naturally decide that further delegation had no value.
 
-Together they made **99 depth-4 spawn attempts**. Every one was rejected because the harness had a hard `maxDepth=3` limit.
+This matters for two reasons. First, tree shape is partly a property of the harness configuration, not just of the problem. A depth histogram can look like a property of “how research decomposes” while actually reflecting an arbitrary fence.
 
-The tree was therefore not “finished” in an epistemic sense.
+Second, recursive systems have no obvious internal notion of epistemic satiation. Many agents could always imagine another useful sub-question. Without a budget, depth limit, time limit or explicit stopping mechanism, the process might simply continue generating plausible work.
 
-It hit a fence.
+The max-depth setting was therefore both epistemically crude and operationally useful. It stopped the run predictably. We would keep some kind of hard budget next time, but we would be more careful not to interpret that boundary as evidence that the research itself had reached a natural end.
 
-That matters because recursive systems can easily create the impression that a tree shape reflects some natural decomposition of a problem. Here the bottom of the tree was partly an infrastructure artefact.
-
-The creature had not reached epistemic satiation. We put up a fence.
+Or less formally: the creature had not reached epistemic satiation. We put up a fence.
 
 ---
 
-## 8. When should a recursive research run stop?
+## 8. Stopping turned out to be the harder problem
 
-This turned out to be harder than expected.
+The run contains a very clear diminishing-return signal. General source discovery falls sharply over time. The first tenth of model work found **428 new evidence hosts**. The final two tenths found only **48** and **66**.
 
-Source discovery clearly decayed. The first tenth of the run found **428 new evidence hosts**. The last two tenths found only **48** and **66**.
+If new-source rate were the only thing that mattered, this would suggest a straightforward stopping rule.
 
-If that were the whole story, a simple diminishing-return rule would work.
+But the rest of the trace refuses to cooperate. Artefact production stayed comparatively steady late in the run, with roughly 38–45 new artefacts per decile. More importantly, several of the **best corrections and strongest negative findings arrived late**. The Foster null first appeared at roughly 63% of the work, the Salvi correction around 66%, the USC constraint paper around 77%, OpenAI's strongest negative evidence around 86%, and the Botometer caution around 95%.
 
-But artefact production did not decay in the same way. Late in the run, agents were still producing 38–45 new artefacts per decile.
+A stopping rule based on “we are not finding many new domains anymore” would therefore have removed a disproportionate amount of the work that made the final report more cautious and better grounded.
 
-More importantly, several of the **best corrections arrived late**:
+A rule based on **conclusion stability** would have been worse. The central conclusion stabilised early, before much of the evidence later used to justify it arrived. In this run, stable judgment was partly a sign of early commitment, not epistemic maturity.
 
-- Foster null: ~63% through the work
-- Salvi correction: ~66%
-- USC constraint paper: ~77%
-- OpenAI negative evidence: ~86%
-- Botometer caution: ~95%
+The late phase was therefore not simply “low value”. It was **high variance**. It contained both some of the strongest corrections and a lot of churn: repeated synthesis, document bookkeeping, additional delegation attempts that hit the depth cap, and new artefacts built from an increasingly familiar source pool.
 
-A stopping rule based only on “we are not finding many new sources anymore” would have cut off much of the most valuable corrective work.
+The best discriminator we could find was narrower than general novelty. Valuable late work disproportionately involved **new primary sources**: original papers, author corrections, full-text archives and direct institutional documents. Less valuable late work more often revisited already familiar material.
 
-A rule based on **conclusion stability** would have been worse. The central conclusion stabilised before much of the evidence that later justified it had arrived.
-
-So in this run, conclusion stability was not a sign of epistemic maturity.
-
-It was partly a sign of early commitment.
-
-The best candidate signal we found was narrower:
-
-> **Keep watching whether agents are still reaching new primary sources.**
-
-Late work that mattered disproportionately involved primary literature, author corrections, archived full text and original institutional material. Late work that did not matter was more often another pass over an already familiar source space.
-
-That is not yet a stopping algorithm.
-
-But it is a better question than “have the agents started agreeing?”
+That does not yet give us a clean stopping algorithm. “Primary source” itself needs classification, and one new primary document can be trivial while another overturns a whole section. But it does give us a better live question: **is the system still reaching new primary evidence, or is it mostly rearranging what it already knows?**
 
 > **Figure 4 — Discovery falls while artefact production stays alive**  
-> Overlay markers for late decisive corrections.
+> Add the late corrective findings on top of the two curves. The tension between diminishing novelty and late epistemic value is the point.
 
 ---
 
-## 9. The economics were strange enough to change the design space
+## 9. Messages mattered more than files
 
-The run's logical input volume was **1.277 billion tokens**.
+One methodological surprise is worth pulling out because it changes how we would instrument similar systems.
 
-Only **18.8 million** of those were cache misses.
+If we had measured contribution only through files, many agents would have appeared useless. A file-based analysis initially made a large fraction of presented deliverables look “orphaned”: written by an agent but never subsequently read.
 
-The provider-side billing data gave us an unusually clean cross-check. A later, separate four-session analysis run produced exactly **398 model calls**, and DeepSeek's 12:00–13:00 billing bucket contained exactly 398 requests with identical cache-hit, cache-miss and output-token totals.
+That was misleading.
 
-That let us validate both the DSH accounting fields and the historical prices.
+The dominant transfer channel was **agent-to-agent messaging**. The trace contains 374 genuine inter-agent messages carrying about 1.65 million characters. Once those messages are included, **152 of 153 sessions produced output that reached another session**.
 
-For the original research run:
+This matters for evaluation. In recursive research, contribution is not equivalent to “file created and later opened”. A useful agent may send a compact correction, a URL, a warning or a synthesis directly upward without leaving a durable artefact that another agent reads from disk.
 
-- cached input: **$3.78**
-- fresh input: **$2.83**
-- output: **$5.59**
-- total: **$12.19**
+It also matters for provenance. Messages are fast and convenient, but they make information flow less visible than file inheritance. A future harness intended for serious research should probably make important claim transfer more structured: source, claim, confidence, correction status and provenance could travel together rather than as prose that must later be reconstructed.
 
-This does not mean “a billion tokens costs twelve dollars”.
+The broader lesson is mundane but important: **instrument the channels the system actually uses, not the channels we expect it to use**.
 
-It means that **this particular recursive architecture, with this model, this shared prefix and these provider prices, made enormous logical context reuse extremely cheap**.
+---
 
-That changes what is technically feasible.
+## 10. The economics change what is feasible, not what is true
 
-It also creates a trap.
+The run's logical input volume was **1.277 billion tokens**. Only **18.8 million** of those were cache misses.
 
-If repeated re-synthesis is nearly free, a system can keep producing polished output long after it has stopped learning much.
+Initially we could only describe that architecture in token terms because the DSH export does not contain provider pricing. Later we obtained the same-day DeepSeek Platform billing export and a separate four-session DSH analysis export. That second run gave us a remarkably clean validation: it contained exactly **398 model calls**, and DeepSeek's 12:00–13:00 billing bucket also contained exactly 398 requests, with identical cache-hit, cache-miss and output-token totals.
 
-Cheap tokens can support better checking.
+That lets us use the provider's actual historical prices with confidence for this case. The frozen 153-session research run reconstructs to approximately **$12.19**: about **$3.78** for cached input, **$2.83** for fresh input and **$5.59** for output.
 
-They can also support very inexpensive epistemic bureaucracy.
+The important claim is not that “a billion tokens costs twelve dollars”. It plainly does not in general. The claim is narrower and more interesting: **this particular architecture, model, shared-prefix structure and provider pricing made enormous logical context reuse extremely cheap**.
+
+That changes the design space for recursive agents. A branch can inherit a large hot prefix, do some fresh work and repeatedly re-read its growing context without each logical token being billed at the fresh-input rate. Fan-out becomes economically plausible at a scale that would otherwise look absurd.
+
+But the same mechanism also lowers the cost of low-value activity. Re-reading context, re-synthesising the same evidence and polishing another version of a report can all become nearly frictionless. Cheap computation does not distinguish useful verification from epistemic bureaucracy.
+
+So cache efficiency is best understood as a **feasibility condition**, not as evidence that the resulting scale was worthwhile. The trace still has to tell us what that scale bought.
 
 > **Figure 5 — Token and cost composition**  
-> Show the enormous cached logical volume next to its surprisingly small monetary share.
+> The useful contrast is not only cached vs fresh volume, but logical scale vs actual billed cost.
 
 ---
 
-## 10. What we would change next time
+## 11. What we would change next time
 
-We would not respond to this run by making the tree smaller.
+We would not respond to this case by simply making the tree smaller. The broad search and deep verification were two of the strongest parts of the run. The redesign should preserve those benefits while moving independence into places where this architecture lacked it.
 
-The breadth and deep verification were genuinely useful.
+The first change would be a **second adjudication pass that does not inherit the synthesiser's framing**. This is different from adding another evidence-gathering branch. The reviewer would see the evidence and perhaps the synthesis, but would be explicitly asked to reconstruct plausible interpretations, identify where evidence has been turned into stronger language than it supports, and challenge the organising frame itself.
 
-We would change where independence is introduced.
+We would also make **interpretive dissent an explicit task**. Current sub-agents often challenged factual details because their prompts asked them to verify sources or examine a narrow claim. Very few were asked, in effect, “what if the framing that organises these facts is wrong?” That question deserves its own branch rather than hoping it emerges accidentally.
 
-A next version should probably include:
+Corrections should become **first-class, trackable objects** rather than prose messages. A correction should remain open until affected passages have been revisited. That would make correction propagation observable during the run instead of something we can only reconstruct afterwards.
 
-**A second adjudicator that does not inherit the synthesiser's framing.**  
-Not another evidence-gathering branch. A deliberately separate interpretation pass.
+We would instrument **primary-source novelty** as a live signal. It should not automatically stop or continue the run, but it could help distinguish “we are still reaching new evidence” from “we are generating more structure around an exhausted source pool”. Combined with a correction queue and a hard budget, that seems more promising than waiting for agent agreement.
 
-**Explicit interpretive dissent.**  
-Some agents should be asked to challenge the framing, not merely verify factual claims inside it.
+Finally, we would explicitly verify **process claims**. If the final system wants to say that six streams independently converged, that eight claims were corrected, or that the tree stopped because returns had diminished, those claims should be checked against the trace before publication. In this run, some of the most overstated statements were about the research process itself.
 
-**First-class correction propagation.**  
-A correction should identify affected claims and remain open until those claims have been revisited.
-
-**Process claims should be verified like research claims.**  
-The least reliable statements in this run were some of the system's claims about its own process: how many independent streams converged, how many corrections it had made, and why the run had stopped.
-
-**Primary-source novelty as a live stopping signal.**  
-Not because every primary source is valuable, but because it tracked high-value late work better than general source novelty or agreement did here.
-
-**A hard budget remains useful.**  
-The depth cap was arbitrary epistemically, but predictable operationally. Recursive systems still need fences.
+The design direction is therefore not “more recursion”. It is **different kinds of independence at different stages**: broad delegation for discovery, narrow delegation for verification, independent review for interpretation, and explicit state for correction.
 
 ---
 
-## 11. What this report does not show
+## 12. What this case can and cannot support
 
-This is one research run.
+This is one run, and the details matter. It used one harness, one provider/model configuration, one maximum recursion depth, one final synthesiser and two related research questions. The research topic itself encouraged source checking and sceptical evidence handling. Another domain could behave differently.
 
-It used one harness, one model/provider configuration, one maximum recursion depth, one final synthesiser and two related research questions. The research topic itself may also have encouraged skeptical, source-heavy behaviour in ways that another domain would not.
+We cannot infer that depth 3 is optimal, that 153 sessions is a sensible default, or that a similar system on another provider would have the same economics. We also cannot turn one observed asymmetry between factual correction and interpretive correction into a universal claim about agent systems.
 
-We did not independently re-litigate every substantive claim in the original research report.
+What we can support is more modest and, for practice, more useful. In this run, recursive delegation produced broad, relatively non-redundant evidence gathering. Deep descendants sometimes discovered corrections that shallower branches missed. Final interpretation remained structurally centralised despite that distributed evidence work. General source novelty decayed before high-value corrective work stopped. And provider-side caching made the entire scale economically feasible at surprisingly low cost.
 
-We therefore cannot claim that depth 3 is optimal, that 153 agents is a useful number, that these economics generalise to another provider, or that recursive research systems generally behave this way.
+The case is unusually inspectable. The complete session tree is pinned file-by-file, the derived data and scripts are in the repository, and the provider accounting has been independently reconciled against a separate frozen run. That does not make the conclusions general. It makes the path from trace to claim inspectable.
 
-What we *can* do is reconstruct this run unusually well.
-
-The full session tree is preserved by per-file hashes. The delegation structure, token accounting, tool calls, messages, source retrieval, corrections and timing can all be inspected. The provider billing was independently reconciled against a separate frozen run.
-
-That makes this less like a controlled study and more like a **forensic case study of a real research process**.
-
-That is exactly how we intend it.
+We think **forensic case study** is the right description. It is close enough to practice to retain the mess, but structured enough that other builders can check where our conclusions came from.
 
 ---
 
-## 12. The bit we are taking forward
+## 13. What we are taking forward
 
-The most important lesson is not that 153 agents are better than one.
+The headline is not that 153 agents beat one agent. That comparison was never run, and it would flatten the interesting part of the case anyway.
 
-The run did something more interesting than that.
+What the trace shows is that different epistemic functions scaled differently. **Breadth scaled well. Verification scaled surprisingly well. Judgment did not decentralise merely because evidence gathering did.**
 
-It showed that different epistemic functions scaled differently.
+The same early commitment that helped one synthesiser turn an enormous amount of material into a coherent report also weakened the independence of the final interpretation. That is not simply a failure. Coherence requires selection and framing. The practical problem is to preserve that coherence while giving the framing itself somewhere to be challenged.
 
-**Breadth scaled well.**
+The next system we want to build is therefore not one that merely spawns more agents. It is one that knows the difference between **searching broadly, checking narrowly, correcting reliably and judging independently**.
 
-**Verification scaled surprisingly well.**
-
-**Judgment did not decentralise just because research did.**
-
-The same early commitment that helped the root turn a huge amount of material into a coherent report also made the independence of its final interpretation weaker than the final prose suggested.
-
-That tension is probably the thing worth designing for next.
+That feels like the more useful lesson from 1.28 billion tokens:
 
 > **Recursive scale made it easier to know more. It did not automatically make it easier to know whether our interpretation was right.**
 
@@ -365,9 +277,9 @@ That tension is probably the thing worth designing for next.
 
 ## Evidence and reproducibility
 
-This practitioner report is a human-facing synthesis of the forensic analysis in this repository.
+This practitioner report is a human-facing synthesis of the forensic analysis in this repository. It deliberately leaves the detailed tables, reconstruction notes and event-level argumentation in the technical reports rather than reproducing them here.
 
-The underlying technical reports are:
+The main supporting documents are:
 
 - [`analysis/00-synthesis.md`](analysis/00-synthesis.md)
 - [`analysis/02-agent-genealogy.md`](analysis/02-agent-genealogy.md)
