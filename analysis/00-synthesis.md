@@ -294,16 +294,41 @@ actively dangerous here.** The conclusion never moved after +59.7 min while evid
 kept arriving. A stability-based stopping rule would have ratified the pre-written
 verdict before the evidence justifying it existed.
 
-### 3.5 Cost transparency
+### 3.5 Cost transparency — now provider reconciled
 
-**DERIVED RESULT.** The export contains **no** cache-write counts, prices, latency
-or billing data — one cache field only. No monetary cost can be computed. A session
-that writes 300K tokens of context and reads it back 8 times may be **net negative**
-on caching, and this export cannot distinguish that case.
+The original session export contained token classes but no prices or billing data, so
+the first version of this analysis correctly declined to produce a money figure.
+A same-day DeepSeek Platform export was subsequently added and reconciled against a
+separate frozen DSH analysis run.
 
-**INTERPRETATION.** Claims that this run "cost X" would be unsupported. What can be
-said is the shape: 1.28B logical input tokens, 97.8% cache-served, 9.3M output
-tokens.
+**DERIVED RESULT — the validation is exact.** The separate analysis run contains
+398 model requests, 52,629,376 cache-hit input tokens, 551,434 cache-miss input
+tokens and 358,751 output tokens. DeepSeek Platform's 12:00–13:00 bucket reports
+**exactly those same counts** and bills **$0.455853828**.
+
+That establishes the historical provider rates used here: **$0.003/M cache-hit
+input, $0.15/M cache-miss input, and $0.60/M output**.
+
+Applying those observed rates to the frozen 153-session research trace gives:
+
+- cache-hit input: **$3.77516352**
+- cache-miss input: **$2.82519855**
+- output: **$5.58531420**
+- **total research-run cost: $12.18567627**
+
+The run's input cache-hit rate is **98.525%**. The 97.81% headline above is the
+share of *all tokens including output* represented by cache reads, not the prompt
+cache-hit rate.
+
+**INTERPRETATION.** The economics are therefore an empirical finding, not an
+illustrative scenario: this specific DSH + `deepseek-flash` configuration processed
+1.277B logical input tokens for a frozen-run cost of about **$12.19**. That says
+something important about cache-enabled fan-out, but nothing by itself about the
+epistemic value of the resulting work.
+
+The full provider/account window is slightly larger than the research specimen.
+Those residual requests are not attributed to the research run. Full provenance and
+reconciliation are in `08-provider-billing-reconciliation.md`.
 
 ---
 
@@ -446,7 +471,7 @@ Recorded so that absence is not read as a search result.
   assert the decisive null; all 7 performed retrieval; none asserted it with none.
 - **No sycophancy or flattery toward the parent.** Disagreement was frequent and
   substantive.
-- **No cost figure can be produced** — cache writes, prices and billing are absent.
+- **The session logs alone cannot produce a cost figure.** A separate provider export now supplies historical prices and validates the reconstruction; see report 08.
 
 ---
 
