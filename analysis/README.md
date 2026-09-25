@@ -11,6 +11,8 @@ An empirical reconstruction of a completed DSH recursive research run
 
 This workspace is the **analysis**. It is not part of the research corpus.
 
+**Practitioner report DOI:** [10.13140/RG.2.2.27040.14080](https://doi.org/10.13140/RG.2.2.27040.14080)
+
 ---
 
 ## Relationship to the original research
