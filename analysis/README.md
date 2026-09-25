@@ -35,17 +35,21 @@ agent research.
 | [`analysis/05-independence-and-convergence.md`](analysis/05-independence-and-convergence.md) | test of the "six independent evidence streams" claim |
 | [`analysis/06-anomalies-and-unexpected-behaviour.md`](analysis/06-anomalies-and-unexpected-behaviour.md) | 12 anomalies |
 | [`analysis/07-marginal-return-and-stopping.md`](analysis/07-marginal-return-and-stopping.md) | diminishing returns and stopping rules |
+| [`analysis/08-provider-billing-reconciliation.md`](analysis/08-provider-billing-reconciliation.md) | DeepSeek provider billing, exact cross-check and frozen-run cost |
 | [`analysis/notes/corrections.md`](analysis/notes/corrections.md) | forensic reconstruction of ~20 corrections |
 | [`analysis/notes/independence.md`](analysis/notes/independence.md) | full independence analysis |
 | [`analysis/notes/validation.md`](analysis/notes/validation.md) | verification of the delegated analyses |
 
 ### Data
 
-`analysis/data/` — 19 derived datasets, including `manifest.json` (SHA-256 of every
+`analysis/data/` — derived datasets, including `manifest.json` (SHA-256 of every
 corpus file), `genealogy.json`, `sessions.csv`, `edges.csv` (with full spawn
 prompts), `usage_steps.csv`, `toolcalls.csv`, `io_acts.csv`, `fileprovenance.csv`,
 `messages.csv`, `queries.csv`, `targets.csv`, `retrieval.csv`,
-`correction_candidates.csv`.
+`correction_candidates.csv`. Provider-side billing evidence is in
+`analysis/data/provider-billing/`: a sanitised hourly DeepSeek export and a
+per-session breakdown of the separate 4-session analysis run. Raw provider exports
+are intentionally not committed because they contain account/API-key identifiers.
 
 `analysis/tables/` — 14 rollup tables, including `branch_table.csv`,
 `cache_by_depth.csv`, `cache_timeline.csv`, `discovery_by_work.csv`,
@@ -126,6 +130,10 @@ the reports without re-running anything.
 3. **The dominant channel between agents was messages, not files.** Any analysis
    that counts artefact reads will declare 86 of 168 deliverables "orphaned" and be
    wrong. See [`06`](analysis/06-anomalies-and-unexpected-behaviour.md) §A2.
+
+4. **The billion-token run cost about $12.19 under the actual DeepSeek prices billed that day.**
+   A separate frozen analysis run matches the provider's 12:00–13:00 request and token
+   counts exactly, validating the reconstruction. See [`08`](analysis/08-provider-billing-reconciliation.md).
 
 ## Reproducing
 
