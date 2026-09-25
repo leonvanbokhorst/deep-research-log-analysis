@@ -4,7 +4,7 @@
 
 *Practitioner report — working draft*
 
-**Leon van Bokhorst**  
+**Leon R. van Bokhorst**  
 Research Group IxD · Fontys University of Applied Sciences
 
 > **Start here**  
