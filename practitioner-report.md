@@ -26,9 +26,9 @@ The two questions that guide the report are simple: **what did all that recursiv
 
 ## 1. What we actually analysed
 
-The original research happened in one DSH root session with recursive delegation enabled to a maximum depth of three. The root remained the sole final synthesiser. Under it sat **16 depth-1 branches, 45 depth-2 analyses and 91 depth-3 leaves**, giving 153 sessions in total.
+The original research happened in one DSH root session with recursive delegation enabled to a maximum depth of three. The root remained the sole final synthesiser. Under it sat **16 depth-1 branches, 45 depth-2 analyses and 91 depth-3 leaves**, giving 153 sessions in total ([genealogy reconstruction](analysis/02-agent-genealogy.md)).
 
-The exported trace is unusually rich for this kind of work. It contains the delegation tree, exact sub-agent prompts, model usage, tool calls and results, inter-agent messages, timestamps, file operations and the research workspace produced during the run. We preserved the corpus rather than cleaning it up after the fact: the 153 session files are pinned individually by SHA-256, and all derived tables can be regenerated from read-only analysis scripts in this repository.
+The exported trace is unusually rich for this kind of work. It contains the delegation tree, exact sub-agent prompts, model usage, tool calls and results, inter-agent messages, timestamps, file operations and the research workspace produced during the run. We preserved the corpus rather than cleaning it up after the fact: the 153 session files are pinned individually by SHA-256 in the [corpus manifest](analysis/data/manifest.json), and all derived tables can be regenerated from read-only analysis scripts in this repository ([schema and reconstruction notes](analysis/01-corpus-manifest-and-schema.md)).
 
 That matters because much of what follows is not visible from the final report alone. A polished synthesis hides the order in which evidence arrived, which branch first wrote a claim, whether a correction travelled upward, and whether two apparently independent findings actually share an ancestor. The session trace lets us reconstruct those things.
 
@@ -36,8 +36,9 @@ We did **not** use the process analysis to decide whether every substantive clai
 
 The run is also not one continuous 96-minute burst. There is a roughly **33-minute idle gap** between the two research questions. Active work is therefore closer to 63 minutes. We keep the 96-minute wall-clock span because it describes the exported session, but we avoid turning it into a productivity statistic.
 
-> **Figure 1 — Agent genealogy of the DSH run**  
-> 1 → 16 → 45 → 91, with the hard depth cap and the leaves that produced major corrections highlighted.
+![Agent genealogy of the DSH run](figures/01-agent-genealogy.svg)
+
+*Figure 1. Agent genealogy of the DSH run. The tree is structurally broad, but its bottom edge is censored by the hard depth cap rather than a natural stopping condition.*
 
 ---
 
@@ -45,7 +46,7 @@ The run is also not one continuous 96-minute burst. There is a roughly **33-minu
 
 One of our initial suspicions was that recursive fan-out might mostly manufacture duplication: many agents searching for similar terms, landing on the same handful of sources and then summarising each other. At this scale, that would still look impressive in a file tree while adding little epistemically.
 
-The trace showed something quite different. Across the 16 depth-1 branches, the median pairwise domain overlap was only **0.031**. The branches collectively reached **1,609 distinct evidence hosts**. Their host counts summed to 2,400, an overlap factor of only 1.49×. At the query level the pattern was even clearer: only **1.9% of 2,416 normalised unique queries** were repeated across sessions.
+The trace showed something quite different. Across the 16 depth-1 branches, the median pairwise domain overlap was only **0.031**. The branches collectively reached **1,609 distinct evidence hosts**. Their host counts summed to 2,400, an overlap factor of only 1.49×. At the query level the pattern was even clearer: only **1.9% of 2,416 normalised unique queries** were repeated across sessions ([synthesis §2.1](analysis/00-synthesis.md#21-genuine-broad-non-overlapping-evidence-gathering)).
 
 So the fan-out was not mainly many copies of the same search. Different branches really did explore different parts of the evidence space.
 
@@ -69,7 +70,7 @@ One agent retrieved Foster et al. (2012) and found that the relevant effect was 
 
 The pattern is worth dwelling on. Parent branches often had the broader conceptual task: establish the landscape, connect literatures, identify a plausible mechanism. A deeper child was more likely to receive a narrow question such as “verify this figure”, “find the primary source”, or “check whether this quotation is actually there”. That narrower mandate created enough attention to challenge material the broader branch had already treated as usable.
 
-Across the run we reconstructed roughly twenty corrections. Most were deflationary: they removed overstatement, weakened an attribution, downgraded a source, or reduced confidence. Only a small minority pushed in the opposite direction.
+Across the run we reconstructed roughly twenty corrections. Most were deflationary: they removed overstatement, weakened an attribution, downgraded a source, or reduced confidence. Only a small minority pushed in the opposite direction ([correction forensics](analysis/notes/corrections.md)).
 
 That is not what we expected recursion to be best at. We initially thought of delegation mainly as a way to increase coverage. Instead, depth sometimes created a crude form of **peer review by task decomposition**. No agent was formally appointed as Reviewer 2. The review behaviour emerged because narrow descendants re-opened claims that their ancestors had already compressed into a narrative.
 
@@ -77,8 +78,9 @@ This also changes how we think about the value of agent count. The useful mechan
 
 A compact way of saying it is: **the value of fan-out was adversarial coverage, not consensus**.
 
-> **Figure 2 — Epistemic anatomy**  
-> Breadth decentralised → verification distributed → judgment centralised.
+![Epistemic anatomy of the DSH run](figures/02-epistemic-anatomy.svg)
+
+*Figure 2. Epistemic anatomy of the run. Evidence gathering and verification spread through the tree, while final interpretation remained concentrated in the root synthesiser.*
 
 ---
 
@@ -88,7 +90,7 @@ The most uncomfortable finding started with one sentence in the final research r
 
 That sentence sounded reassuring. It implied that several independent routes through the evidence had reached the same conclusion.
 
-The provenance trace told a different story.
+The [provenance trace](analysis/05-independence-and-convergence.md) told a different story.
 
 The “six streams” were six sibling sub-agents created by one depth-1 branch. One depth-2 agent inside that branch was the first place where the exact phrase *plausible, novel, and currently unobserved* appeared. Shortly afterwards the branch reported convergence upward and the root imported that language into the final report.
 
@@ -102,8 +104,9 @@ That is a meaningful difference. Independent search can strengthen a conclusion 
 
 This became the central distinction in the whole analysis: **independent evidence gathering is not independent judgment**.
 
-> **Figure 3 — Verdict formation vs arrival of key evidence**  
-> The visual should make the timing legible without implying that “early” automatically means “wrong”.
+![Verdict formation vs arrival of key evidence](figures/03-verdict-evidence-timeline.svg)
+
+*Figure 3. Verdict formation versus the arrival of key evidence. The timing does not make the early framing wrong; it does make later claims of independent convergence harder to sustain.*
 
 ---
 
@@ -129,7 +132,7 @@ The design implication is not that synthesis should be decentralised completely.
 
 A second weakness appeared after the system had already done something right: it found errors that were not fully repaired in the final artefact.
 
-At least two claims were explicitly withdrawn or weakened in one part of the report while surviving elsewhere under their original wording. The final verification pass helps explain why. It searched for known bad strings and named claims. That is effective when the problem is a distinctive quotation or citation. It is much less effective when the same idea survives semantically in a differently worded paragraph.
+At least two claims were explicitly withdrawn or weakened in one part of the report while surviving elsewhere under their original wording ([anomaly and correction analysis](analysis/06-anomalies-and-unexpected-behaviour.md)). The final verification pass helps explain why. It searched for known bad strings and named claims. That is effective when the problem is a distinctive quotation or citation. It is much less effective when the same idea survives semantically in a differently worded paragraph.
 
 Correction latency compounded the problem. Some warnings moved up the tree quickly; others took many minutes. One important correction took more than sixteen minutes to reach the root. During that interval, thousands of other model steps continued across the system.
 
@@ -151,7 +154,7 @@ The final genealogy has 91 leaves at depth 3. It is tempting to read that shape 
 
 The trace makes that interpretation impossible.
 
-**Forty of the 91 depth-3 sessions attempted to delegate further.** Together they made **99 depth-4 spawn attempts**, each with a fully written prompt. Every one was rejected by the harness because `maxDepth=3`.
+**Forty of the 91 depth-3 sessions attempted to delegate further.** Together they made **99 depth-4 spawn attempts**, each with a fully written prompt. Every one was rejected by the harness because `maxDepth=3` ([depth-cap reconstruction](analysis/06-anomalies-and-unexpected-behaviour.md#a1--recursion-was-terminated-by-a-hard-cap-not-by-diminishing-returns)).
 
 So the tree was censored by infrastructure. It did not naturally decide that further delegation had no value.
 
@@ -183,8 +186,9 @@ The best discriminator we could find was narrower than general novelty. Valuable
 
 That does not yet give us a clean stopping algorithm. “Primary source” itself needs classification, and one new primary document can be trivial while another overturns a whole section. But it does give us a better live question: **is the system still reaching new primary evidence, or is it mostly rearranging what it already knows?**
 
-> **Figure 4 — Discovery falls while artefact production stays alive**  
-> Add the late corrective findings on top of the two curves. The tension between diminishing novelty and late epistemic value is the point.
+![Discovery falls while artefact production stays alive](figures/04-discovery-vs-artefacts.svg)
+
+*Figure 4. General source discovery decays while artefact production stays active. Several high-value corrections and negative findings still arrived late, making stopping a high-variance problem rather than a simple diminishing-return threshold ([full stopping analysis](analysis/07-marginal-return-and-stopping.md)).*
 
 ---
 
@@ -196,7 +200,7 @@ If we had measured contribution only through files, many agents would have appea
 
 That was misleading.
 
-The dominant transfer channel was **agent-to-agent messaging**. The trace contains 374 genuine inter-agent messages carrying about 1.65 million characters. Once those messages are included, **152 of 153 sessions produced output that reached another session**.
+The dominant transfer channel was **agent-to-agent messaging**. The trace contains 374 genuine inter-agent messages carrying about 1.65 million characters. Once those messages are included, **152 of 153 sessions produced output that reached another session** ([message-channel analysis](analysis/06-anomalies-and-unexpected-behaviour.md#a2--the-dominant-transfer-channel-was-messages-not-files)).
 
 This matters for evaluation. In recursive research, contribution is not equivalent to “file created and later opened”. A useful agent may send a compact correction, a URL, a warning or a synthesis directly upward without leaving a durable artefact that another agent reads from disk.
 
@@ -212,7 +216,7 @@ The run's logical input volume was **1.277 billion tokens**. Only **18.8 million
 
 Initially we could only describe that architecture in token terms because the DSH export does not contain provider pricing. Later we obtained the same-day DeepSeek Platform billing export and a separate four-session DSH analysis export. That second run gave us a remarkably clean validation: it contained exactly **398 model calls**, and DeepSeek's 12:00–13:00 billing bucket also contained exactly 398 requests, with identical cache-hit, cache-miss and output-token totals.
 
-That lets us use the provider's actual historical prices with confidence for this case. The frozen 153-session research run reconstructs to approximately **$12.19**: about **$3.78** for cached input, **$2.83** for fresh input and **$5.59** for output.
+That lets us use the provider's actual historical prices with confidence for this case. The frozen 153-session research run reconstructs to approximately **$12.19**: about **$3.78** for cached input, **$2.83** for fresh input and **$5.59** for output ([provider reconciliation](analysis/08-provider-billing-reconciliation.md)).
 
 The important claim is not that “a billion tokens costs twelve dollars”. It plainly does not in general. The claim is narrower and more interesting: **this particular architecture, model, shared-prefix structure and provider pricing made enormous logical context reuse extremely cheap**.
 
@@ -222,8 +226,9 @@ But the same mechanism also lowers the cost of low-value activity. Re-reading co
 
 So cache efficiency is best understood as a **feasibility condition**, not as evidence that the resulting scale was worthwhile. The trace still has to tell us what that scale bought.
 
-> **Figure 5 — Token and cost composition**  
-> The useful contrast is not only cached vs fresh volume, but logical scale vs actual billed cost.
+![Token and cost composition](figures/05-token-cost.svg)
+
+*Figure 5. Token and cost composition. Cache-enabled reuse made the logical scale economically feasible; it did not determine whether the work was epistemically valuable.*
 
 ---
 
@@ -253,7 +258,7 @@ We cannot infer that depth 3 is optimal, that 153 sessions is a sensible default
 
 What we can support is more modest and, for practice, more useful. In this run, recursive delegation produced broad, relatively non-redundant evidence gathering. Deep descendants sometimes discovered corrections that shallower branches missed. Final interpretation remained structurally centralised despite that distributed evidence work. General source novelty decayed before high-value corrective work stopped. And provider-side caching made the entire scale economically feasible at surprisingly low cost.
 
-The case is unusually inspectable. The complete session tree is pinned file-by-file, the derived data and scripts are in the repository, and the provider accounting has been independently reconciled against a separate frozen run. That does not make the conclusions general. It makes the path from trace to claim inspectable.
+The case is unusually inspectable. The complete session tree is pinned file-by-file, the derived data and scripts are in the repository, and the provider accounting has been independently reconciled against a separate frozen run. The cross-repository boundary is recorded in a [machine-readable provenance record](analysis/data/case-study-provenance.json). That does not make the conclusions general. It makes the path from trace to claim inspectable.
 
 We think **forensic case study** is the right description. It is close enough to practice to retain the mess, but structured enough that other builders can check where our conclusions came from.
 
