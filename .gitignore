@@ -1,0 +1,34 @@
+# --- Publish-excluded data -------------------------------------------------
+# The exported session corpus is externally-supplied source data, not authored
+# work, and it is large. Every file in it is pinned by SHA-256, size and line
+# count in analysis/data/manifest.json, which IS committed. Restore the export
+# from wherever it was produced, then verify with:
+#   python3 analysis/tools/manifest.py
+dsh-session-session-*/
+
+# Large intermediate dumps regenerable from the corpus by analysis/tools/.
+# The curated summary tables alongside these (findings_inventory.csv,
+# decile_series.csv, marginal_by_phase.csv) ARE committed.
+analysis/work/tl_*.jsonl
+analysis/work/retrieval_acts.json
+analysis/work/spawns.json
+analysis/work/spawns2.json
+analysis/work/evidence_reads.json
+analysis/work/urls_by_stream.json
+analysis/work/queries_by_stream.json
+analysis/work/root_user_msgs.json
+analysis/work/domains_by_stream.json
+analysis/work/anc.json
+analysis/work/probes2.json
+analysis/work/probe_first_hits2.json
+analysis/work/fact_token_firsts.csv
+analysis/work/host_firsts.csv
+analysis/work/decile_facts.csv
+analysis/work/artefact_firsts.csv
+analysis/work/marker_firsts.csv
+analysis/work/assertions.json
+
+# --- Cruft -----------------------------------------------------------------
+.DS_Store
+**/__pycache__/
+*.pyc

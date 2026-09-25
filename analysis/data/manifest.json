@@ -1,0 +1,1549 @@
+{
+ "corpusRoot": "dsh-session-session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357",
+ "mainSessionId": "session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357",
+ "nSessionFiles": 153,
+ "totalBytes": 281391742,
+ "totalLines": 67072,
+ "hashAlgorithm": "sha256",
+ "files": [
+  {
+   "sessionId": "session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357",
+   "relPath": "session.v3.jsonl",
+   "bytes": 8862751,
+   "lines": 2052,
+   "sha256": "1a9de4e9cc3efd43feb5eaddc78ce2894fa381e44d20541ece511233c9bf037d"
+  },
+  {
+   "sessionId": "00b48589-437f-4e6d-9dea-4db4e0da97f3",
+   "relPath": "subagents/00b48589-437f-4e6d-9dea-4db4e0da97f3/session.v3.jsonl",
+   "bytes": 676232,
+   "lines": 100,
+   "sha256": "fee84c132b272214b950eebf60a06e9c5811f42c46bde123ff30a833cc4a15ce"
+  },
+  {
+   "sessionId": "00e8d90f-0854-4fba-84ad-ab19fe7fb462",
+   "relPath": "subagents/00e8d90f-0854-4fba-84ad-ab19fe7fb462/session.v3.jsonl",
+   "bytes": 172088,
+   "lines": 66,
+   "sha256": "03bdb2536ede53549fbb5e218d9156348c28ebeb1309ada54ac15fd4a9544b87"
+  },
+  {
+   "sessionId": "010532ac-1274-460b-a461-1b7566bc3f87",
+   "relPath": "subagents/010532ac-1274-460b-a461-1b7566bc3f87/session.v3.jsonl",
+   "bytes": 1131900,
+   "lines": 317,
+   "sha256": "b9fc9814358b42a166e7664c53a903468e13a9e61767ed929d6462bd5cf92cd0"
+  },
+  {
+   "sessionId": "03610d94-497f-4c66-86a1-26dedb722877",
+   "relPath": "subagents/03610d94-497f-4c66-86a1-26dedb722877/session.v3.jsonl",
+   "bytes": 1392567,
+   "lines": 361,
+   "sha256": "7ee14fcc0e0f2e17868eefc4d4db665bab5ad67e613d9de3f38ee1400ce0b5a5"
+  },
+  {
+   "sessionId": "061dc849-dc73-4073-a541-119ab5377aa9",
+   "relPath": "subagents/061dc849-dc73-4073-a541-119ab5377aa9/session.v3.jsonl",
+   "bytes": 448287,
+   "lines": 161,
+   "sha256": "083ed3d91d27f948276da5b3da3b372429c1e5c692756adf941b172ffce25a15"
+  },
+  {
+   "sessionId": "0995197a-2bd6-40b0-9e9f-95c97303a4b0",
+   "relPath": "subagents/0995197a-2bd6-40b0-9e9f-95c97303a4b0/session.v3.jsonl",
+   "bytes": 1126953,
+   "lines": 239,
+   "sha256": "d3190ec2c80e94a5db1fff910dad9b0c69482ebdc4ba737a74a255e76a22ba09"
+  },
+  {
+   "sessionId": "0bad5fb6-bd2c-4a53-9a01-4b5f2a60311f",
+   "relPath": "subagents/0bad5fb6-bd2c-4a53-9a01-4b5f2a60311f/session.v3.jsonl",
+   "bytes": 770840,
+   "lines": 225,
+   "sha256": "c01fb969330cc6a6542012b55888609fa0c77101132327854c76ac5c9e4066a2"
+  },
+  {
+   "sessionId": "0c0085ae-9b77-4f1a-a065-50ca523039a1",
+   "relPath": "subagents/0c0085ae-9b77-4f1a-a065-50ca523039a1/session.v3.jsonl",
+   "bytes": 1664276,
+   "lines": 431,
+   "sha256": "7cbb8f32a9ed3fed1798be2af317b8340dcb654b720ceddbf2c5b1e37fb0a774"
+  },
+  {
+   "sessionId": "0c1ed671-3cc2-4e4b-9068-6dd263c5f1b6",
+   "relPath": "subagents/0c1ed671-3cc2-4e4b-9068-6dd263c5f1b6/session.v3.jsonl",
+   "bytes": 563875,
+   "lines": 183,
+   "sha256": "af43384bb02e018b86814aa714856e8af343cba84b90b98f3fa0224421aa4001"
+  },
+  {
+   "sessionId": "0d16099c-35f0-4538-a480-5c5c15cf5b87",
+   "relPath": "subagents/0d16099c-35f0-4538-a480-5c5c15cf5b87/session.v3.jsonl",
+   "bytes": 1652383,
+   "lines": 391,
+   "sha256": "215ac0ab1d0e4eb1847df9a734b81b1dda4e51a818cc97b2b6bb9fe71767d785"
+  },
+  {
+   "sessionId": "109e924b-6fb2-4a09-822c-b44e4256f317",
+   "relPath": "subagents/109e924b-6fb2-4a09-822c-b44e4256f317/session.v3.jsonl",
+   "bytes": 1552715,
+   "lines": 441,
+   "sha256": "04eaf9ae5a6160895f9ceaa3d1cc9b9dbb4dc1716d222b18063266c1dcad12d0"
+  },
+  {
+   "sessionId": "160bfb86-67c6-40e3-921b-b3686e80f6df",
+   "relPath": "subagents/160bfb86-67c6-40e3-921b-b3686e80f6df/session.v3.jsonl",
+   "bytes": 932391,
+   "lines": 186,
+   "sha256": "93f43d9bf2d2b19e26048323e566462551d3ad8889a0da728df4eb3a7ac6d8cc"
+  },
+  {
+   "sessionId": "16a40545-5872-4714-bcb8-3b7c88271b52",
+   "relPath": "subagents/16a40545-5872-4714-bcb8-3b7c88271b52/session.v3.jsonl",
+   "bytes": 550596,
+   "lines": 191,
+   "sha256": "5478275ec2239f2bf7da5389df28e26468373e0524cb60089209d9d8e2cf0a35"
+  },
+  {
+   "sessionId": "1788fcf5-a3e3-46db-9345-cdeacf0a4fa5",
+   "relPath": "subagents/1788fcf5-a3e3-46db-9345-cdeacf0a4fa5/session.v3.jsonl",
+   "bytes": 2219740,
+   "lines": 355,
+   "sha256": "e91a09eb2f94799f119a9e90b242e8061eeb0d9401305b804b7e9428e48ed47e"
+  },
+  {
+   "sessionId": "17a084cf-9432-43a8-b80b-8919b47feba3",
+   "relPath": "subagents/17a084cf-9432-43a8-b80b-8919b47feba3/session.v3.jsonl",
+   "bytes": 1227211,
+   "lines": 356,
+   "sha256": "778bb01865d6eac6c240949b07c937d6763eb5dee1126e674fdec6ec742ee5ec"
+  },
+  {
+   "sessionId": "1b475704-43dc-4507-a2f9-d7efa55e7b9c",
+   "relPath": "subagents/1b475704-43dc-4507-a2f9-d7efa55e7b9c/session.v3.jsonl",
+   "bytes": 1060164,
+   "lines": 209,
+   "sha256": "5df27d8f925d973959f084b60b92614e81783b71ab1c992c360f9d49ff8dd7fd"
+  },
+  {
+   "sessionId": "1bf60fa7-70cb-49e0-87a2-17d8a39320a6",
+   "relPath": "subagents/1bf60fa7-70cb-49e0-87a2-17d8a39320a6/session.v3.jsonl",
+   "bytes": 1956388,
+   "lines": 402,
+   "sha256": "d618b39827c98eecfd03e09dd92eaf9b9174858cae293d43d6d08b0c049bf938"
+  },
+  {
+   "sessionId": "1deec50d-0878-4863-bb81-61106e0e28a5",
+   "relPath": "subagents/1deec50d-0878-4863-bb81-61106e0e28a5/session.v3.jsonl",
+   "bytes": 1664773,
+   "lines": 459,
+   "sha256": "5fc326ef5c65e18f9aa2bdd22ee8c2a2a05b9ac92a8e91e496505d0945a229ce"
+  },
+  {
+   "sessionId": "1e0ef8e5-13ab-407d-9611-97e58bc5370f",
+   "relPath": "subagents/1e0ef8e5-13ab-407d-9611-97e58bc5370f/session.v3.jsonl",
+   "bytes": 2188254,
+   "lines": 496,
+   "sha256": "540a9b9552b74246cd06259c03e2743789402a16235c73e2e5f5de4d6f9f3524"
+  },
+  {
+   "sessionId": "1ece4a27-295e-45a1-b4e8-f4a61be5e7a2",
+   "relPath": "subagents/1ece4a27-295e-45a1-b4e8-f4a61be5e7a2/session.v3.jsonl",
+   "bytes": 1544574,
+   "lines": 361,
+   "sha256": "11a496b445289246db916e8b80ae9ae3e4447e7cdd96a60ec7193d3379a82b7e"
+  },
+  {
+   "sessionId": "203408d4-bf52-4104-973b-d706b0c5b4e9",
+   "relPath": "subagents/203408d4-bf52-4104-973b-d706b0c5b4e9/session.v3.jsonl",
+   "bytes": 2629846,
+   "lines": 541,
+   "sha256": "87e74e19df623745fcc5e3738ee7a87e008d8f15c2c5ff581fd340a04ccec95b"
+  },
+  {
+   "sessionId": "214d85c6-dbe8-43ae-bb06-96929af0216d",
+   "relPath": "subagents/214d85c6-dbe8-43ae-bb06-96929af0216d/session.v3.jsonl",
+   "bytes": 2825131,
+   "lines": 821,
+   "sha256": "1555b369e9e878814dbe4d7ba161ce88072c3b1e64dca4a09d18c7160a39dfe7"
+  },
+  {
+   "sessionId": "219f73d7-254d-4d3d-962b-879d88a0bc7c",
+   "relPath": "subagents/219f73d7-254d-4d3d-962b-879d88a0bc7c/session.v3.jsonl",
+   "bytes": 1215803,
+   "lines": 367,
+   "sha256": "2c83aadea429d3309332a466dfbe5384b06490dab3cafb63dcae3c6ef9eecfea"
+  },
+  {
+   "sessionId": "230a12e6-6703-4fa1-97a8-d3265be4edb1",
+   "relPath": "subagents/230a12e6-6703-4fa1-97a8-d3265be4edb1/session.v3.jsonl",
+   "bytes": 1437593,
+   "lines": 347,
+   "sha256": "5d9e42e31a3c3c0abaab94380f9e163830eb6029daa4a81eb957b65e9760c409"
+  },
+  {
+   "sessionId": "279d0ac8-42e7-4ca8-8ac6-58f028f6451c",
+   "relPath": "subagents/279d0ac8-42e7-4ca8-8ac6-58f028f6451c/session.v3.jsonl",
+   "bytes": 1779020,
+   "lines": 269,
+   "sha256": "d1838ea8b7a7a212c873e699604fb642001a17c633707788fffd524ad185a210"
+  },
+  {
+   "sessionId": "2da418c8-78b5-4a1e-bf1c-bde3fd2d89c0",
+   "relPath": "subagents/2da418c8-78b5-4a1e-bf1c-bde3fd2d89c0/session.v3.jsonl",
+   "bytes": 1181088,
+   "lines": 337,
+   "sha256": "877e0f7affb77589f0ba3d5f115bd259c46fa7751e1ba5d1e7b79c84397db2d4"
+  },
+  {
+   "sessionId": "31ca772b-cb14-42f3-b07d-64354d9cda59",
+   "relPath": "subagents/31ca772b-cb14-42f3-b07d-64354d9cda59/session.v3.jsonl",
+   "bytes": 3068169,
+   "lines": 720,
+   "sha256": "5e0f515aca5494e271d97df380c73ab4ae6ab80e549ebb854263b2ed305325cc"
+  },
+  {
+   "sessionId": "3772f16b-2bc9-4aa4-ac37-ccd5595b0118",
+   "relPath": "subagents/3772f16b-2bc9-4aa4-ac37-ccd5595b0118/session.v3.jsonl",
+   "bytes": 1124702,
+   "lines": 426,
+   "sha256": "d3d8d543fce6f446a03591b2fe86defb900d6f046597e084b3beedf63fa25a52"
+  },
+  {
+   "sessionId": "3795a316-6973-4223-bd76-0c6937d676ee",
+   "relPath": "subagents/3795a316-6973-4223-bd76-0c6937d676ee/session.v3.jsonl",
+   "bytes": 934037,
+   "lines": 188,
+   "sha256": "3540b99a87aa1d1e4eda001a23bea1fed2e36f39865ba40d8f455353ada7b984"
+  },
+  {
+   "sessionId": "37c2487b-2257-4105-aba3-b5761765d4c4",
+   "relPath": "subagents/37c2487b-2257-4105-aba3-b5761765d4c4/session.v3.jsonl",
+   "bytes": 968130,
+   "lines": 348,
+   "sha256": "3be26a4a566b6e14b0d3d0c4bacdba1d514bd06c2e87d02c1a8c4176ac5404f1"
+  },
+  {
+   "sessionId": "3b284c34-2f3a-489e-bd11-6c9add7fde1c",
+   "relPath": "subagents/3b284c34-2f3a-489e-bd11-6c9add7fde1c/session.v3.jsonl",
+   "bytes": 1911834,
+   "lines": 607,
+   "sha256": "dafee12e3a4a7a6b315a54002fb7cd59df9c83fb8a56d5ccab3e3a192d2d2ab5"
+  },
+  {
+   "sessionId": "414abba5-9455-4df0-b917-95ea002ee90b",
+   "relPath": "subagents/414abba5-9455-4df0-b917-95ea002ee90b/session.v3.jsonl",
+   "bytes": 1856002,
+   "lines": 418,
+   "sha256": "abf4f894db861df8e490224af2c5c20a01d587e318b8e63c6aef45eb5dd24286"
+  },
+  {
+   "sessionId": "42c75fd5-9805-461d-bb22-827fd626fba5",
+   "relPath": "subagents/42c75fd5-9805-461d-bb22-827fd626fba5/session.v3.jsonl",
+   "bytes": 1405443,
+   "lines": 250,
+   "sha256": "8ed9b3f8073001eafa7427dc16f112484890cf03e5ec737fb8fff163a27d5c79"
+  },
+  {
+   "sessionId": "43ef5bbb-5c03-40a7-9dd3-5ee7fcdb2981",
+   "relPath": "subagents/43ef5bbb-5c03-40a7-9dd3-5ee7fcdb2981/session.v3.jsonl",
+   "bytes": 1282724,
+   "lines": 392,
+   "sha256": "54c79ee8ed9a7e11d199b128202b4e7cf7a7a1e7313cf43a96a89277f620cd57"
+  },
+  {
+   "sessionId": "46b82e74-e114-4473-b55d-e2c13cfef604",
+   "relPath": "subagents/46b82e74-e114-4473-b55d-e2c13cfef604/session.v3.jsonl",
+   "bytes": 5296878,
+   "lines": 931,
+   "sha256": "bc45f102e3b7429c792322b0900d1bbc1f83b835bfdacd558bc314eb081637a0"
+  },
+  {
+   "sessionId": "488c117a-eb10-4b07-a2c5-aa16a6a495af",
+   "relPath": "subagents/488c117a-eb10-4b07-a2c5-aa16a6a495af/session.v3.jsonl",
+   "bytes": 1596161,
+   "lines": 424,
+   "sha256": "b4f8e68a7db8c76216d8cc98c3d7d2bee2ddd3fbba1c351881fe17e28f01dc75"
+  },
+  {
+   "sessionId": "4b196287-db27-4f90-9ecc-72e329e450d8",
+   "relPath": "subagents/4b196287-db27-4f90-9ecc-72e329e450d8/session.v3.jsonl",
+   "bytes": 3702859,
+   "lines": 740,
+   "sha256": "15503a9878cdf9e9d26d8d77be8abf43f4f2c6442256baa4f161a32e50f9791d"
+  },
+  {
+   "sessionId": "4c7b0eb7-ce4e-4ce2-9f59-753903f97546",
+   "relPath": "subagents/4c7b0eb7-ce4e-4ce2-9f59-753903f97546/session.v3.jsonl",
+   "bytes": 2272261,
+   "lines": 483,
+   "sha256": "4b383c46888bfcb4d8ab25573fbdd8bf10015bd9b3708918b5ab001923e47bdf"
+  },
+  {
+   "sessionId": "4cb878d7-f1f8-43fe-a5f6-e457721c9553",
+   "relPath": "subagents/4cb878d7-f1f8-43fe-a5f6-e457721c9553/session.v3.jsonl",
+   "bytes": 1942703,
+   "lines": 469,
+   "sha256": "b4ba665cdcf9bfa2c94f4bf03469334259bcb5e997b530b5e59681b6c6a89bdd"
+  },
+  {
+   "sessionId": "4d64b50a-7a7d-4341-ad42-7423dfdb7063",
+   "relPath": "subagents/4d64b50a-7a7d-4341-ad42-7423dfdb7063/session.v3.jsonl",
+   "bytes": 1230113,
+   "lines": 289,
+   "sha256": "b35a2f0aa36ad39f0ca9b1cb0f7d7d0fd8a633180bbc79f8831486a12ac306ba"
+  },
+  {
+   "sessionId": "4db3eaea-9340-4bc4-afcd-2eb00a500626",
+   "relPath": "subagents/4db3eaea-9340-4bc4-afcd-2eb00a500626/session.v3.jsonl",
+   "bytes": 867350,
+   "lines": 303,
+   "sha256": "c94e074a08d780ad27f45fc2484e6b212fd36d0eb293a2f695a3ce0e1fd6b837"
+  },
+  {
+   "sessionId": "4f250851-e006-4514-a721-35202c9cd223",
+   "relPath": "subagents/4f250851-e006-4514-a721-35202c9cd223/session.v3.jsonl",
+   "bytes": 1099875,
+   "lines": 271,
+   "sha256": "2852f768859d53850cace514f2d42a661005810926850af10ae38d9322dce15b"
+  },
+  {
+   "sessionId": "500069eb-b528-47b9-8cbf-6873331d1c1c",
+   "relPath": "subagents/500069eb-b528-47b9-8cbf-6873331d1c1c/session.v3.jsonl",
+   "bytes": 2684681,
+   "lines": 704,
+   "sha256": "d47fc89131d54fcb13463281cc1824f8c1727a7f95ca137bde0eaae8c07d3d75"
+  },
+  {
+   "sessionId": "51cd8c6f-79cc-4c21-9a72-2bb7c3828e01",
+   "relPath": "subagents/51cd8c6f-79cc-4c21-9a72-2bb7c3828e01/session.v3.jsonl",
+   "bytes": 1546785,
+   "lines": 444,
+   "sha256": "2acef18f44b80e0c1797f20d823096199b42a2cb63d1c720cde0d8c6c2f78046"
+  },
+  {
+   "sessionId": "51f796a3-f550-4344-be44-eba389ff8b73",
+   "relPath": "subagents/51f796a3-f550-4344-be44-eba389ff8b73/session.v3.jsonl",
+   "bytes": 997770,
+   "lines": 199,
+   "sha256": "f9e0e42e1973f17dc5cfcf54a6b7fe142481359e587783c27bf088ae1f3041d2"
+  },
+  {
+   "sessionId": "51fc805d-9281-411b-af39-b6f876f81b1d",
+   "relPath": "subagents/51fc805d-9281-411b-af39-b6f876f81b1d/session.v3.jsonl",
+   "bytes": 2184813,
+   "lines": 552,
+   "sha256": "27c824ad4adb313d6eb31921692052826c9345fbcdeb09a3328514f45fcef42d"
+  },
+  {
+   "sessionId": "52f269b0-843f-4c9a-9902-198968ecd5f5",
+   "relPath": "subagents/52f269b0-843f-4c9a-9902-198968ecd5f5/session.v3.jsonl",
+   "bytes": 1951045,
+   "lines": 385,
+   "sha256": "36317059505c2f91c9532a6b9f75b0486de38a230861812c17a0dd468c24c571"
+  },
+  {
+   "sessionId": "53ed1b24-a136-4bab-84d3-06ff837a055d",
+   "relPath": "subagents/53ed1b24-a136-4bab-84d3-06ff837a055d/session.v3.jsonl",
+   "bytes": 1358356,
+   "lines": 336,
+   "sha256": "3e4f19e48dd651a5ca5edb4fe5ff5298786fdd3462d0f7ff1cd79ec1eb36bf95"
+  },
+  {
+   "sessionId": "54430afb-5e40-47af-b371-e15deabcbf27",
+   "relPath": "subagents/54430afb-5e40-47af-b371-e15deabcbf27/session.v3.jsonl",
+   "bytes": 1156170,
+   "lines": 260,
+   "sha256": "82fe044cd2510fd21be84ba40636d8a7ab3e6388f9ab86dd296ec9a9c3e921bf"
+  },
+  {
+   "sessionId": "56542a81-0524-4af5-acd1-92a7cbbf9c8b",
+   "relPath": "subagents/56542a81-0524-4af5-acd1-92a7cbbf9c8b/session.v3.jsonl",
+   "bytes": 1746091,
+   "lines": 310,
+   "sha256": "e139766b7880e9907eb4ef7de696611c4d6abfc41a7c0c512fd9ec57e323765c"
+  },
+  {
+   "sessionId": "5ae391ef-e246-4ce4-a2a8-90ded6cc0940",
+   "relPath": "subagents/5ae391ef-e246-4ce4-a2a8-90ded6cc0940/session.v3.jsonl",
+   "bytes": 1623956,
+   "lines": 456,
+   "sha256": "4abbb5b90965a1c3d9289c94102d5ce7ffd966b2700197f4869079a3e1f7102f"
+  },
+  {
+   "sessionId": "5be694c4-da25-46a7-8195-38c359b42860",
+   "relPath": "subagents/5be694c4-da25-46a7-8195-38c359b42860/session.v3.jsonl",
+   "bytes": 671292,
+   "lines": 198,
+   "sha256": "691d91ff8c760dc3272ee096758a179e40ddf83811dcee7f3151a65d14fea177"
+  },
+  {
+   "sessionId": "5c68d179-2392-4852-896c-1a4933d59ebf",
+   "relPath": "subagents/5c68d179-2392-4852-896c-1a4933d59ebf/session.v3.jsonl",
+   "bytes": 890114,
+   "lines": 242,
+   "sha256": "00ca1de33a81813ac0b75bf0a9751f0a1303556170fe4b8bb400316600dce172"
+  },
+  {
+   "sessionId": "5c72160c-7771-45e4-aa96-c81976ec5f83",
+   "relPath": "subagents/5c72160c-7771-45e4-aa96-c81976ec5f83/session.v3.jsonl",
+   "bytes": 1482396,
+   "lines": 441,
+   "sha256": "aab0ec67665428a90137a9e3979d0f27726f70bd3e92e768c2c8e819437609be"
+  },
+  {
+   "sessionId": "5e2d13b6-32ba-4fcc-9c15-452b9f884509",
+   "relPath": "subagents/5e2d13b6-32ba-4fcc-9c15-452b9f884509/session.v3.jsonl",
+   "bytes": 1772434,
+   "lines": 440,
+   "sha256": "69b0f778ce0292dc44f42e0014ed25d3dcc230eafcc8ab96d43826073f94396c"
+  },
+  {
+   "sessionId": "5fb605f1-c023-4869-ba9a-7d3e11e1fcd7",
+   "relPath": "subagents/5fb605f1-c023-4869-ba9a-7d3e11e1fcd7/session.v3.jsonl",
+   "bytes": 1055448,
+   "lines": 212,
+   "sha256": "6580cdcb4965e04dfebbf36fbbed46d5e673360128ce117f3b0fb1bb677a1ba5"
+  },
+  {
+   "sessionId": "5fe471da-406c-4b74-ac78-9e1d2d25a90f",
+   "relPath": "subagents/5fe471da-406c-4b74-ac78-9e1d2d25a90f/session.v3.jsonl",
+   "bytes": 1032226,
+   "lines": 301,
+   "sha256": "5a11c2846e90f20320dd623230b244ed192d0f6eb84b0715fa4a747d65ee961a"
+  },
+  {
+   "sessionId": "61b1e41b-32e7-4092-aa70-26577f10fb08",
+   "relPath": "subagents/61b1e41b-32e7-4092-aa70-26577f10fb08/session.v3.jsonl",
+   "bytes": 3093690,
+   "lines": 631,
+   "sha256": "419f26782f50e5877d8ec3eca6f4cfa5f4711764b92979667dc80b6277f66e6d"
+  },
+  {
+   "sessionId": "66e40dd4-27e6-4a85-83e8-edb605b0b1d9",
+   "relPath": "subagents/66e40dd4-27e6-4a85-83e8-edb605b0b1d9/session.v3.jsonl",
+   "bytes": 2294540,
+   "lines": 522,
+   "sha256": "6d854ab29e077eea6c513292d1b2e3c62b9aa66d41e5a57c259c27d6dfb8244d"
+  },
+  {
+   "sessionId": "69945366-9aea-4a07-a7fb-3ae889133eb7",
+   "relPath": "subagents/69945366-9aea-4a07-a7fb-3ae889133eb7/session.v3.jsonl",
+   "bytes": 1317356,
+   "lines": 341,
+   "sha256": "131f2c757f803efeb10af029dc2654e8cd7afd02b5b14eaa31bf5b72e0f1c073"
+  },
+  {
+   "sessionId": "6d105fdb-03f9-44c6-93a2-3d50ac916f2a",
+   "relPath": "subagents/6d105fdb-03f9-44c6-93a2-3d50ac916f2a/session.v3.jsonl",
+   "bytes": 1789066,
+   "lines": 505,
+   "sha256": "27d6604fe04bf2c6cb8346194b34b24559a3db1969c4d81425cabcd0a7505de8"
+  },
+  {
+   "sessionId": "6f182957-7587-4604-97e9-5b8275f63b51",
+   "relPath": "subagents/6f182957-7587-4604-97e9-5b8275f63b51/session.v3.jsonl",
+   "bytes": 4425381,
+   "lines": 1095,
+   "sha256": "e9c92d32e0116da1c78e51287aa5cb2ecb2345c8218452b7e03b1ddc54f2b9f4"
+  },
+  {
+   "sessionId": "6f3e236e-1a8d-43fa-a135-c0eb0229a696",
+   "relPath": "subagents/6f3e236e-1a8d-43fa-a135-c0eb0229a696/session.v3.jsonl",
+   "bytes": 1451946,
+   "lines": 406,
+   "sha256": "0a7fbeaca3e4b7671cdc24dee8ac2d114949a9ddc3b1a154b8e0727dae8d1b13"
+  },
+  {
+   "sessionId": "74e3962c-673c-4068-90c4-60d02d23773c",
+   "relPath": "subagents/74e3962c-673c-4068-90c4-60d02d23773c/session.v3.jsonl",
+   "bytes": 2054982,
+   "lines": 514,
+   "sha256": "89c2f8ada757d0321e01223c87dfdef0bb7ba7e25852d409d2e72a1b31ef0706"
+  },
+  {
+   "sessionId": "77ee89e8-327b-4e3a-a160-c2ca700953df",
+   "relPath": "subagents/77ee89e8-327b-4e3a-a160-c2ca700953df/session.v3.jsonl",
+   "bytes": 2401327,
+   "lines": 737,
+   "sha256": "bb4c6a60c86fabd10b402887dd1e1e5cd53186c3b420d1580b5c1867197e61e7"
+  },
+  {
+   "sessionId": "788b4f96-a913-4fb4-93d7-d44af41dd69e",
+   "relPath": "subagents/788b4f96-a913-4fb4-93d7-d44af41dd69e/session.v3.jsonl",
+   "bytes": 1143367,
+   "lines": 311,
+   "sha256": "0cdb2a2bfe59289fcb400ed8180f199198b289ec08195b8c101ae0a6c310f512"
+  },
+  {
+   "sessionId": "78eb7cd5-19e0-4682-857d-67f6cdd17f3e",
+   "relPath": "subagents/78eb7cd5-19e0-4682-857d-67f6cdd17f3e/session.v3.jsonl",
+   "bytes": 2900875,
+   "lines": 576,
+   "sha256": "97178aada2f13a15c2a9c8c99444c4c89814bbb272929c523aea5b242ac736ab"
+  },
+  {
+   "sessionId": "7b92362e-8682-4b98-afdf-b980936427fc",
+   "relPath": "subagents/7b92362e-8682-4b98-afdf-b980936427fc/session.v3.jsonl",
+   "bytes": 1687973,
+   "lines": 316,
+   "sha256": "c4d501dbe68dff285f70b87cfaaa53b90fd6a9fa3773422046f707a53b3854ca"
+  },
+  {
+   "sessionId": "7c73d0c4-2fbe-48b3-b02e-f5d48bf540df",
+   "relPath": "subagents/7c73d0c4-2fbe-48b3-b02e-f5d48bf540df/session.v3.jsonl",
+   "bytes": 1758444,
+   "lines": 410,
+   "sha256": "4e9a1cfdaac470a963718c4c9e07f3f20087b59cddcd29f6d0c12c6f387b3e38"
+  },
+  {
+   "sessionId": "7cf0e1f7-e315-47b5-8bd3-c0fe5f3bc631",
+   "relPath": "subagents/7cf0e1f7-e315-47b5-8bd3-c0fe5f3bc631/session.v3.jsonl",
+   "bytes": 1576837,
+   "lines": 538,
+   "sha256": "ed561f704534117ecaa34d6c461e70f28c80b57d299c6375845e05a1a7953a27"
+  },
+  {
+   "sessionId": "7d77b175-ad9d-4569-ac05-e9e66bdc78b3",
+   "relPath": "subagents/7d77b175-ad9d-4569-ac05-e9e66bdc78b3/session.v3.jsonl",
+   "bytes": 1888415,
+   "lines": 485,
+   "sha256": "37d8bd0c196299a18ea95c422858a87b11656b1203e7f8e53331853c7f3e0f18"
+  },
+  {
+   "sessionId": "80582e1e-cc24-4c49-bd41-86060a72245a",
+   "relPath": "subagents/80582e1e-cc24-4c49-bd41-86060a72245a/session.v3.jsonl",
+   "bytes": 948080,
+   "lines": 270,
+   "sha256": "a48b9fc265cec4bf765c23bd0b845c22ed4c55392766d1c64898a71e63d9858f"
+  },
+  {
+   "sessionId": "83090c92-ff01-4abc-9b2e-a07744680239",
+   "relPath": "subagents/83090c92-ff01-4abc-9b2e-a07744680239/session.v3.jsonl",
+   "bytes": 750372,
+   "lines": 239,
+   "sha256": "ca672ee0b427be98a0c850c4f81a7a6f41b3d6d1269e3ba4d4de7e374306bc88"
+  },
+  {
+   "sessionId": "8605360c-4c6f-42c8-91a0-b14fdbd777da",
+   "relPath": "subagents/8605360c-4c6f-42c8-91a0-b14fdbd777da/session.v3.jsonl",
+   "bytes": 2907460,
+   "lines": 737,
+   "sha256": "13118edd0e5e80e88265a2c7181db16a1f8b66cf3073476db78f79435501c580"
+  },
+  {
+   "sessionId": "8751d743-58c1-4ab8-b071-69ef3942b863",
+   "relPath": "subagents/8751d743-58c1-4ab8-b071-69ef3942b863/session.v3.jsonl",
+   "bytes": 1221616,
+   "lines": 183,
+   "sha256": "bbd3f3586c93356f9ed1b482f87480a5ec8bde621bfc1774a80dfc519654f01a"
+  },
+  {
+   "sessionId": "8a55607d-c2f7-40a7-8d99-f0d1e5c44581",
+   "relPath": "subagents/8a55607d-c2f7-40a7-8d99-f0d1e5c44581/session.v3.jsonl",
+   "bytes": 2935729,
+   "lines": 497,
+   "sha256": "2b481a002f231e6a735b4c152ac19d68bd6ff3144725ca2902d1ea2310a4f2d7"
+  },
+  {
+   "sessionId": "8af84e58-43fa-4764-a1b4-7912b5822dcf",
+   "relPath": "subagents/8af84e58-43fa-4764-a1b4-7912b5822dcf/session.v3.jsonl",
+   "bytes": 1396860,
+   "lines": 353,
+   "sha256": "f7665010fa23fff11cd3f1efd0641558922ee33a899a87df042971280da019e6"
+  },
+  {
+   "sessionId": "8bc9d075-fab0-400a-9e01-b232d368ee02",
+   "relPath": "subagents/8bc9d075-fab0-400a-9e01-b232d368ee02/session.v3.jsonl",
+   "bytes": 1807472,
+   "lines": 668,
+   "sha256": "aecc8ed2f723434671a76c08f836d03ae77e6e16889820bf73b2a24c048586fc"
+  },
+  {
+   "sessionId": "8e5bc453-00b8-4d6d-8809-d06846ad9c63",
+   "relPath": "subagents/8e5bc453-00b8-4d6d-8809-d06846ad9c63/session.v3.jsonl",
+   "bytes": 1258979,
+   "lines": 333,
+   "sha256": "cae94f0ccbf63804c2b4576099cb6114e5e1cc5a400085f164f1e8074cc89a5d"
+  },
+  {
+   "sessionId": "91004cb5-9eb3-4dce-a088-e6396350299a",
+   "relPath": "subagents/91004cb5-9eb3-4dce-a088-e6396350299a/session.v3.jsonl",
+   "bytes": 2137800,
+   "lines": 648,
+   "sha256": "27c06d692c76f9abe59046ceeb31c9c29705652e3461f648644d2c33b0b8cbe4"
+  },
+  {
+   "sessionId": "98b0ee43-1076-4c8e-8f8a-9512a5c4cdac",
+   "relPath": "subagents/98b0ee43-1076-4c8e-8f8a-9512a5c4cdac/session.v3.jsonl",
+   "bytes": 2120307,
+   "lines": 458,
+   "sha256": "13fc2b9e3e726e9ec43791ad82b196ccd671cccc306af3c78f83d0fdac2fea20"
+  },
+  {
+   "sessionId": "99dae34e-50a3-42d8-b818-f7eda5a3f4f6",
+   "relPath": "subagents/99dae34e-50a3-42d8-b818-f7eda5a3f4f6/session.v3.jsonl",
+   "bytes": 3435433,
+   "lines": 620,
+   "sha256": "0795573eda1f887c7572a30a84c284d4dde25f8e65b6e853b2f01fca0aaa06d1"
+  },
+  {
+   "sessionId": "9ab7a0c1-d19a-45d5-b511-696d1d884a19",
+   "relPath": "subagents/9ab7a0c1-d19a-45d5-b511-696d1d884a19/session.v3.jsonl",
+   "bytes": 1248496,
+   "lines": 414,
+   "sha256": "00f33d0715db8355ea3ba8adaf6530400202e2d131fcd782611b151748529418"
+  },
+  {
+   "sessionId": "a03701b7-142d-488a-a322-e5feeafd11d9",
+   "relPath": "subagents/a03701b7-142d-488a-a322-e5feeafd11d9/session.v3.jsonl",
+   "bytes": 1115180,
+   "lines": 410,
+   "sha256": "082d6c0a5cf6d5cc93e0534a8a06e518e5431b2aabf99f9006e62c862c3bf155"
+  },
+  {
+   "sessionId": "a067dd8e-2222-440c-8e7c-641668d7d696",
+   "relPath": "subagents/a067dd8e-2222-440c-8e7c-641668d7d696/session.v3.jsonl",
+   "bytes": 1065696,
+   "lines": 285,
+   "sha256": "f69b548f05699bbbd27baf2039e05872f0429d5118b214df962e30134088c081"
+  },
+  {
+   "sessionId": "a1c59a96-24c6-4c8a-8958-0ca6b7c17078",
+   "relPath": "subagents/a1c59a96-24c6-4c8a-8958-0ca6b7c17078/session.v3.jsonl",
+   "bytes": 888098,
+   "lines": 157,
+   "sha256": "abf9805a0da43e09d369d4a4c89de831dea53cae56dbf0f12c4f304d881bdc80"
+  },
+  {
+   "sessionId": "a44a0b87-ba76-4be9-949f-240869398872",
+   "relPath": "subagents/a44a0b87-ba76-4be9-949f-240869398872/session.v3.jsonl",
+   "bytes": 1182856,
+   "lines": 250,
+   "sha256": "564efe9f69b1a16ced10157549db5083de0f0228efb84dc8d064afcc031810d4"
+  },
+  {
+   "sessionId": "a4a04330-c73f-4cd8-a92e-9837ccb861ba",
+   "relPath": "subagents/a4a04330-c73f-4cd8-a92e-9837ccb861ba/session.v3.jsonl",
+   "bytes": 3021219,
+   "lines": 695,
+   "sha256": "1cdd85e75447d775c06c410a753e1071f0e2bafacaef9a09b3e471a93dbb3d8b"
+  },
+  {
+   "sessionId": "a7eef189-3bc7-404b-9379-01dd00107abc",
+   "relPath": "subagents/a7eef189-3bc7-404b-9379-01dd00107abc/session.v3.jsonl",
+   "bytes": 1867414,
+   "lines": 526,
+   "sha256": "bd675d4da48ee9ac65f20c4c6d4e4b1349f650a16c4c13e8f4be3b924116da24"
+  },
+  {
+   "sessionId": "a87a9e47-2c5c-469b-920f-e10080392655",
+   "relPath": "subagents/a87a9e47-2c5c-469b-920f-e10080392655/session.v3.jsonl",
+   "bytes": 1600400,
+   "lines": 464,
+   "sha256": "bc914d86db294c4de8a8ee0b425077d58383554627c2427245ff18062f6227f2"
+  },
+  {
+   "sessionId": "aa3fc864-9f3a-48a6-886d-b7860bff5228",
+   "relPath": "subagents/aa3fc864-9f3a-48a6-886d-b7860bff5228/session.v3.jsonl",
+   "bytes": 1682756,
+   "lines": 333,
+   "sha256": "0de61161f8131ad4ee2855cd218b97f3cdb124f4f8d306010ef75849b9b1cdbd"
+  },
+  {
+   "sessionId": "ac188085-eef8-4b4d-82d2-e1555f17ba4a",
+   "relPath": "subagents/ac188085-eef8-4b4d-82d2-e1555f17ba4a/session.v3.jsonl",
+   "bytes": 3235538,
+   "lines": 817,
+   "sha256": "bfd529d7d99bd59c625a6a58454f51b59f21bdd6163eb69705b0f98309fc3b74"
+  },
+  {
+   "sessionId": "ac2e73e0-e9f1-433d-94ae-6e2ff77072d7",
+   "relPath": "subagents/ac2e73e0-e9f1-433d-94ae-6e2ff77072d7/session.v3.jsonl",
+   "bytes": 2029387,
+   "lines": 455,
+   "sha256": "3420a27b75c6f2210671ca1560984b1556b8c07f074b15064faf879932101bfe"
+  },
+  {
+   "sessionId": "aecad63f-f9ac-4428-ba51-fa4643681903",
+   "relPath": "subagents/aecad63f-f9ac-4428-ba51-fa4643681903/session.v3.jsonl",
+   "bytes": 1764754,
+   "lines": 428,
+   "sha256": "dad749563b93950ee370f6aec079958f4ab35e4f753b28f47a08bc4e9dd51fc0"
+  },
+  {
+   "sessionId": "af14560f-2086-4ece-843f-bcf1c8c6454e",
+   "relPath": "subagents/af14560f-2086-4ece-843f-bcf1c8c6454e/session.v3.jsonl",
+   "bytes": 1970703,
+   "lines": 398,
+   "sha256": "74b4dbec7080af56402892ac763282ef08a54f0ba7205de5dc1d14599f4a271a"
+  },
+  {
+   "sessionId": "b0f0ef6b-188b-48bb-a9b0-a808aa6a8393",
+   "relPath": "subagents/b0f0ef6b-188b-48bb-a9b0-a808aa6a8393/session.v3.jsonl",
+   "bytes": 1867069,
+   "lines": 377,
+   "sha256": "e5899d24c7c5b1c7caf41c38d957d5153c1ef4e294e56c704a84108f197315ad"
+  },
+  {
+   "sessionId": "b1c47186-e044-4c6c-9148-2f6913193f95",
+   "relPath": "subagents/b1c47186-e044-4c6c-9148-2f6913193f95/session.v3.jsonl",
+   "bytes": 3303086,
+   "lines": 576,
+   "sha256": "9040f6dc47ae7995e198129d9cc2a36c12196b7980a7203444ee9d53d3e69705"
+  },
+  {
+   "sessionId": "b61859d5-9abc-4cc9-8ea7-06c15e81ef05",
+   "relPath": "subagents/b61859d5-9abc-4cc9-8ea7-06c15e81ef05/session.v3.jsonl",
+   "bytes": 5235483,
+   "lines": 976,
+   "sha256": "73d1738de9474f6033fafaf9c6b0b18329bdeb6ce6d4d9a2479e38f6317a9c25"
+  },
+  {
+   "sessionId": "bc7323c8-aee3-4194-a341-b6c18b1b0475",
+   "relPath": "subagents/bc7323c8-aee3-4194-a341-b6c18b1b0475/session.v3.jsonl",
+   "bytes": 2463957,
+   "lines": 529,
+   "sha256": "397f30cec0bc1330505d4fbba1e0767ba52645af71ee92f444ec1730ef9600d0"
+  },
+  {
+   "sessionId": "bd42af51-5254-4fed-9c58-31009c05088d",
+   "relPath": "subagents/bd42af51-5254-4fed-9c58-31009c05088d/session.v3.jsonl",
+   "bytes": 1016662,
+   "lines": 260,
+   "sha256": "ec617ce5333b0f41cea05da7458a681cadcd6ef72f03e6ee266550dc09e32bd9"
+  },
+  {
+   "sessionId": "c0fd3b9e-4ce0-4a6e-837d-b7459d0efeb1",
+   "relPath": "subagents/c0fd3b9e-4ce0-4a6e-837d-b7459d0efeb1/session.v3.jsonl",
+   "bytes": 1206368,
+   "lines": 271,
+   "sha256": "2081eb440005b948e7723f0554d490006bc77bb5a9d3c17af472f5c950282277"
+  },
+  {
+   "sessionId": "c226e74e-90e4-4e33-b349-0decbf893847",
+   "relPath": "subagents/c226e74e-90e4-4e33-b349-0decbf893847/session.v3.jsonl",
+   "bytes": 2713959,
+   "lines": 359,
+   "sha256": "8dccb90cd90683570893f879ded01fc5ec0de78f13ebff32182b19d7e8977c79"
+  },
+  {
+   "sessionId": "c2e2b954-63bb-4c00-8d45-37e953901183",
+   "relPath": "subagents/c2e2b954-63bb-4c00-8d45-37e953901183/session.v3.jsonl",
+   "bytes": 3117348,
+   "lines": 906,
+   "sha256": "6951ef5476036a971dcc08249e1216a739ed53dc8eebe9c6d33ac3440a65dcbd"
+  },
+  {
+   "sessionId": "ca75c80e-2ca5-4d1c-afd7-9ad9309b35cf",
+   "relPath": "subagents/ca75c80e-2ca5-4d1c-afd7-9ad9309b35cf/session.v3.jsonl",
+   "bytes": 2614198,
+   "lines": 568,
+   "sha256": "a499c370995f901f359d241a267228c459dae0589e59fa70d8a263943b88062d"
+  },
+  {
+   "sessionId": "cad4acd7-2d5d-468e-9c3a-c82006a265ff",
+   "relPath": "subagents/cad4acd7-2d5d-468e-9c3a-c82006a265ff/session.v3.jsonl",
+   "bytes": 1457061,
+   "lines": 457,
+   "sha256": "2ca3a235842cdf0b2983759da80848dc49a166f181d943ede722165f70bc0949"
+  },
+  {
+   "sessionId": "cbade403-6f00-4ad7-814c-2792a2001fa2",
+   "relPath": "subagents/cbade403-6f00-4ad7-814c-2792a2001fa2/session.v3.jsonl",
+   "bytes": 1507558,
+   "lines": 384,
+   "sha256": "d0ab414c67a9c4913de191e11428569324075c7025491af60ee0ca42cebeecb3"
+  },
+  {
+   "sessionId": "cbd79d49-d00e-47b2-8613-1814b77230c7",
+   "relPath": "subagents/cbd79d49-d00e-47b2-8613-1814b77230c7/session.v3.jsonl",
+   "bytes": 2134080,
+   "lines": 400,
+   "sha256": "73c5f883ade546a5ab26d031cb8b67f76975cd930321c311cda5b4a15a5c240c"
+  },
+  {
+   "sessionId": "cc07f9d4-0390-4bb3-90b1-866e31d30b66",
+   "relPath": "subagents/cc07f9d4-0390-4bb3-90b1-866e31d30b66/session.v3.jsonl",
+   "bytes": 2425311,
+   "lines": 587,
+   "sha256": "4c1be9b2f774a01845f0867b9c668739f5c13f307b1d6aa5f7977778936c9de2"
+  },
+  {
+   "sessionId": "cc1fd076-ce12-4f21-9a03-de36e199d4ef",
+   "relPath": "subagents/cc1fd076-ce12-4f21-9a03-de36e199d4ef/session.v3.jsonl",
+   "bytes": 2834627,
+   "lines": 562,
+   "sha256": "9dbe79a69136deb6feeaf36adbc9ec901fb1da0d24e8f317b95af2ce265115bf"
+  },
+  {
+   "sessionId": "cceedd38-6543-457a-a7f8-753d6bda1067",
+   "relPath": "subagents/cceedd38-6543-457a-a7f8-753d6bda1067/session.v3.jsonl",
+   "bytes": 2080048,
+   "lines": 726,
+   "sha256": "cf0b70afb3207f87fc1404627ebd0e86c9a0dd683ef4cb73d4b620001125eb85"
+  },
+  {
+   "sessionId": "cf585c39-06cc-4e86-814e-fd4bb5dfcee8",
+   "relPath": "subagents/cf585c39-06cc-4e86-814e-fd4bb5dfcee8/session.v3.jsonl",
+   "bytes": 1674478,
+   "lines": 354,
+   "sha256": "8dba2ff5b69d44bbd286dba1850c78fa1fac99703de57ff9cc70538b7d0f0d61"
+  },
+  {
+   "sessionId": "cf5cf6dc-ad72-4113-af71-f5d02bdcbaa9",
+   "relPath": "subagents/cf5cf6dc-ad72-4113-af71-f5d02bdcbaa9/session.v3.jsonl",
+   "bytes": 561073,
+   "lines": 233,
+   "sha256": "d6bf13d3303fd0050f5c44ee65c45219b48c475b992682bbcca37b8e27f2f88b"
+  },
+  {
+   "sessionId": "d07fdde4-91a3-4617-9341-d7100c77ab33",
+   "relPath": "subagents/d07fdde4-91a3-4617-9341-d7100c77ab33/session.v3.jsonl",
+   "bytes": 1593413,
+   "lines": 343,
+   "sha256": "0132652f3c2db64d6f6a333a36717657e2c6f68179ec7e8c2d3544877fa33598"
+  },
+  {
+   "sessionId": "d0d01526-dedf-4523-9301-738d6b6201fb",
+   "relPath": "subagents/d0d01526-dedf-4523-9301-738d6b6201fb/session.v3.jsonl",
+   "bytes": 1300154,
+   "lines": 541,
+   "sha256": "c1e2dae0902cf4c1266ad10ff4bda7b3a522cc04fd13d285518476ff07f95fd1"
+  },
+  {
+   "sessionId": "d621470b-d5c3-4d66-8068-39bb2bf6b1b1",
+   "relPath": "subagents/d621470b-d5c3-4d66-8068-39bb2bf6b1b1/session.v3.jsonl",
+   "bytes": 518214,
+   "lines": 220,
+   "sha256": "e540f6d83195ff009d02613515dd7ab0a91f8a44f96c59f5c251c68a78034db6"
+  },
+  {
+   "sessionId": "d66ce668-ccde-4227-ba1d-cc1b1a1ffabb",
+   "relPath": "subagents/d66ce668-ccde-4227-ba1d-cc1b1a1ffabb/session.v3.jsonl",
+   "bytes": 1522463,
+   "lines": 409,
+   "sha256": "891a8a079e3c0c06b62c247e15addec2bcc56e1b8fce685eb058c1d083173c1a"
+  },
+  {
+   "sessionId": "da3f0b85-eed0-4f76-9e18-fe1bac271b94",
+   "relPath": "subagents/da3f0b85-eed0-4f76-9e18-fe1bac271b94/session.v3.jsonl",
+   "bytes": 1408731,
+   "lines": 223,
+   "sha256": "f04bae010368dc05b337090b5a2ece8ec644ccfd4b866c7a16041b5d6157457e"
+  },
+  {
+   "sessionId": "da686808-a9a8-4593-82da-6d9877f9814b",
+   "relPath": "subagents/da686808-a9a8-4593-82da-6d9877f9814b/session.v3.jsonl",
+   "bytes": 654975,
+   "lines": 180,
+   "sha256": "5ee7b560a594ab7ce4bcc03007f0caa03b88f7f8f67d75dc705d939b3c7c1d8a"
+  },
+  {
+   "sessionId": "dabeb4b9-b19b-4707-bb52-c02368aacf3c",
+   "relPath": "subagents/dabeb4b9-b19b-4707-bb52-c02368aacf3c/session.v3.jsonl",
+   "bytes": 2438181,
+   "lines": 639,
+   "sha256": "472e8dd98858f4bb4d30652c3e6e3a4b173a08998105294936f5252f7558b402"
+  },
+  {
+   "sessionId": "db47cece-2df5-48fe-85ed-0ec663494f6a",
+   "relPath": "subagents/db47cece-2df5-48fe-85ed-0ec663494f6a/session.v3.jsonl",
+   "bytes": 1061189,
+   "lines": 210,
+   "sha256": "3e321289b65aac0bd4ccb9099d442f971d5d30ca47a4212720b7e2ec8f90bf84"
+  },
+  {
+   "sessionId": "dc0b75f5-7e62-49c9-a810-8793a1c7648f",
+   "relPath": "subagents/dc0b75f5-7e62-49c9-a810-8793a1c7648f/session.v3.jsonl",
+   "bytes": 3117024,
+   "lines": 502,
+   "sha256": "511cb9260afe9ee3e9ac921a74594df6112ce6d5df9e546d22dff99f31b3b08e"
+  },
+  {
+   "sessionId": "defd571a-2f0d-47a2-8239-28e4b4bccd9e",
+   "relPath": "subagents/defd571a-2f0d-47a2-8239-28e4b4bccd9e/session.v3.jsonl",
+   "bytes": 1407108,
+   "lines": 458,
+   "sha256": "8815b8eb26c914625af62092efcb8002f3b914a320462727127cd1d837afdd2e"
+  },
+  {
+   "sessionId": "dfc6a190-85d7-4f6a-a2d3-52df9a1a18eb",
+   "relPath": "subagents/dfc6a190-85d7-4f6a-a2d3-52df9a1a18eb/session.v3.jsonl",
+   "bytes": 1886028,
+   "lines": 402,
+   "sha256": "ba3ee0ebaa82ef584f25e2b2688a7ce164569ec7da28e08931c02eec732ecbed"
+  },
+  {
+   "sessionId": "e1f701aa-bb3e-40c8-82b5-4bbd71f77ab5",
+   "relPath": "subagents/e1f701aa-bb3e-40c8-82b5-4bbd71f77ab5/session.v3.jsonl",
+   "bytes": 1917324,
+   "lines": 374,
+   "sha256": "96af1a7a827f242194ebab332fe10dc88edd0d41bc3a4a65c2c75756a6dcbab7"
+  },
+  {
+   "sessionId": "e289f909-7350-45de-8d96-c53ca34ad0e9",
+   "relPath": "subagents/e289f909-7350-45de-8d96-c53ca34ad0e9/session.v3.jsonl",
+   "bytes": 1385154,
+   "lines": 336,
+   "sha256": "31cf72548711421d598df5ee2affce67c1fb2c127efbcb3f2afb27f6f8ae40b8"
+  },
+  {
+   "sessionId": "e465e26f-14d4-4ebd-8832-5e216849629a",
+   "relPath": "subagents/e465e26f-14d4-4ebd-8832-5e216849629a/session.v3.jsonl",
+   "bytes": 1882940,
+   "lines": 522,
+   "sha256": "d8c06885e3c45aafc01abf3eacc40054b56ba348a200aab9937189f57bd5254c"
+  },
+  {
+   "sessionId": "e49930ac-674f-41f7-8ead-2c84161d693d",
+   "relPath": "subagents/e49930ac-674f-41f7-8ead-2c84161d693d/session.v3.jsonl",
+   "bytes": 1321429,
+   "lines": 359,
+   "sha256": "670c3aaef595d23fb17adf2b3ff9d97e3add351c38bc8e2983828903292b6116"
+  },
+  {
+   "sessionId": "e5f8178b-4e43-4785-a609-d874a0b4c8ff",
+   "relPath": "subagents/e5f8178b-4e43-4785-a609-d874a0b4c8ff/session.v3.jsonl",
+   "bytes": 1710662,
+   "lines": 464,
+   "sha256": "a760e92358a2b6ba35cc6315c476156b5393015eb30fa44509201545e634ee8a"
+  },
+  {
+   "sessionId": "e6d543ab-0b19-4bf2-b18f-38035131a688",
+   "relPath": "subagents/e6d543ab-0b19-4bf2-b18f-38035131a688/session.v3.jsonl",
+   "bytes": 2095878,
+   "lines": 413,
+   "sha256": "b9d7b29628ea224108caa9488e4e6b92b68db21b89fa86443f6599871a34b54f"
+  },
+  {
+   "sessionId": "e7ffd16b-4bd4-497b-8ecb-6dbf531dcd45",
+   "relPath": "subagents/e7ffd16b-4bd4-497b-8ecb-6dbf531dcd45/session.v3.jsonl",
+   "bytes": 905541,
+   "lines": 291,
+   "sha256": "e733791ce981ab3782978d2d91298269d7633061e56e0678806a5b5b8f8dd9bf"
+  },
+  {
+   "sessionId": "e88833f3-45c6-4e44-bab5-b0ee7c154093",
+   "relPath": "subagents/e88833f3-45c6-4e44-bab5-b0ee7c154093/session.v3.jsonl",
+   "bytes": 2302623,
+   "lines": 470,
+   "sha256": "9c634af3ca23073de65671dea2b6947f484011e5589b9a982c48910142e1c4b1"
+  },
+  {
+   "sessionId": "e8b3050c-765a-4f10-9bae-9fcc012336ae",
+   "relPath": "subagents/e8b3050c-765a-4f10-9bae-9fcc012336ae/session.v3.jsonl",
+   "bytes": 2012280,
+   "lines": 419,
+   "sha256": "4d71ec552d42822572b6b521dd2fd29ddc8497772e5ff6258fcd6b816893d718"
+  },
+  {
+   "sessionId": "ea5b5eba-bb5c-4abc-a533-fa3166962e11",
+   "relPath": "subagents/ea5b5eba-bb5c-4abc-a533-fa3166962e11/session.v3.jsonl",
+   "bytes": 2039318,
+   "lines": 521,
+   "sha256": "5ce10f29889e740f31cdfdb38f8a52e10ffcef9c2f292002e93500e3a121cc22"
+  },
+  {
+   "sessionId": "eb8d439f-0c62-46e9-b56b-166d47739816",
+   "relPath": "subagents/eb8d439f-0c62-46e9-b56b-166d47739816/session.v3.jsonl",
+   "bytes": 1289393,
+   "lines": 330,
+   "sha256": "55be6b64966fd4c952351befd2ec8deb58b6a62f151de8ca0adbc456b44d5f56"
+  },
+  {
+   "sessionId": "ed3f5438-bc1e-4e73-a3eb-c39a1a6720c4",
+   "relPath": "subagents/ed3f5438-bc1e-4e73-a3eb-c39a1a6720c4/session.v3.jsonl",
+   "bytes": 2367622,
+   "lines": 786,
+   "sha256": "34531b81432171acd420296e6afea70b155527297c42a73356d4df1f69cd8501"
+  },
+  {
+   "sessionId": "edb0f8d3-0c07-4a47-9834-d2bb6ae9a3ac",
+   "relPath": "subagents/edb0f8d3-0c07-4a47-9834-d2bb6ae9a3ac/session.v3.jsonl",
+   "bytes": 2196862,
+   "lines": 555,
+   "sha256": "d9ffd40a13106dc5d95f0c1292d1e658e0bbbba5be8354810b0624f4aa289544"
+  },
+  {
+   "sessionId": "eeb7ab60-2a68-4c2c-ac20-2ecd68401faa",
+   "relPath": "subagents/eeb7ab60-2a68-4c2c-ac20-2ecd68401faa/session.v3.jsonl",
+   "bytes": 1259000,
+   "lines": 233,
+   "sha256": "a6bffad74ef4b0dd1ec175030d6d60d6db1ceb9dd60d2f8397f5914da3b3a564"
+  },
+  {
+   "sessionId": "f075487c-22fd-44f1-b4d8-b5fe1df11602",
+   "relPath": "subagents/f075487c-22fd-44f1-b4d8-b5fe1df11602/session.v3.jsonl",
+   "bytes": 2731739,
+   "lines": 812,
+   "sha256": "49e4c62a9771407604b612c4bf1b3068cc15eb3bfb3057c62b9573b90cf1e06a"
+  },
+  {
+   "sessionId": "f38af81e-dc28-419d-ba96-1e5e64b5619c",
+   "relPath": "subagents/f38af81e-dc28-419d-ba96-1e5e64b5619c/session.v3.jsonl",
+   "bytes": 1303493,
+   "lines": 411,
+   "sha256": "ea0f538618fa63831d12d7105fc3f0f718bae96dada32a4d693e302f6a9fe95b"
+  },
+  {
+   "sessionId": "f46b62e3-769c-456c-86bf-bdc081345c27",
+   "relPath": "subagents/f46b62e3-769c-456c-86bf-bdc081345c27/session.v3.jsonl",
+   "bytes": 1746712,
+   "lines": 353,
+   "sha256": "4c9a35cd3892f964040fe813d9fe195954ffffde57b7ec07472db1be0b4634ad"
+  },
+  {
+   "sessionId": "f51e95e9-cb4e-4789-88f1-e8f8db604767",
+   "relPath": "subagents/f51e95e9-cb4e-4789-88f1-e8f8db604767/session.v3.jsonl",
+   "bytes": 1284715,
+   "lines": 461,
+   "sha256": "447a1e144dd19c062d6adec1c6403360fa6d70e72bba08488e05fb6deb3e0e7a"
+  },
+  {
+   "sessionId": "f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6",
+   "relPath": "subagents/f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6/session.v3.jsonl",
+   "bytes": 4656469,
+   "lines": 842,
+   "sha256": "1e2f0a81293e005ea25cd1f497f338feb7ed2ac3d1b6cde83f34da37dafd6dd6"
+  },
+  {
+   "sessionId": "f55f1385-9dbe-48d0-bdb9-b173663b724d",
+   "relPath": "subagents/f55f1385-9dbe-48d0-bdb9-b173663b724d/session.v3.jsonl",
+   "bytes": 1116996,
+   "lines": 302,
+   "sha256": "b16dfeeafa528593c4d9e5f4a1444273a3d825036eace59b730acc6998c3b90e"
+  },
+  {
+   "sessionId": "f5d926fb-1c4e-4c16-af8f-c7dce00748fd",
+   "relPath": "subagents/f5d926fb-1c4e-4c16-af8f-c7dce00748fd/session.v3.jsonl",
+   "bytes": 4875641,
+   "lines": 599,
+   "sha256": "a248f1609810654c115e7a449d189afcee4b5529626cdf626316d49d774d6d03"
+  },
+  {
+   "sessionId": "f5df77f0-07e0-4f4c-b651-3c39c0ad7fc5",
+   "relPath": "subagents/f5df77f0-07e0-4f4c-b651-3c39c0ad7fc5/session.v3.jsonl",
+   "bytes": 1361716,
+   "lines": 406,
+   "sha256": "cb0c62b5a11cb0988e315608fb8e4bb479a138cc0e2d467a4149f40f7df1c19b"
+  },
+  {
+   "sessionId": "f5e96aa3-70c9-4e26-9382-93d9e43e4ad1",
+   "relPath": "subagents/f5e96aa3-70c9-4e26-9382-93d9e43e4ad1/session.v3.jsonl",
+   "bytes": 1542578,
+   "lines": 321,
+   "sha256": "e7a06e7743ab7b0b89e71654ca79733bcca2ce225fd6b98f4f7a1fe5ddec9008"
+  },
+  {
+   "sessionId": "f638b8fd-d6d5-4a0c-90a4-f56c8d2a833a",
+   "relPath": "subagents/f638b8fd-d6d5-4a0c-90a4-f56c8d2a833a/session.v3.jsonl",
+   "bytes": 781524,
+   "lines": 212,
+   "sha256": "71ee740d8f637ba9ac0c4c2a7fa1b3372edf8861920edfd3472271f2e0309237"
+  },
+  {
+   "sessionId": "f73d55cf-1c48-412b-9e84-8cd33f0e1045",
+   "relPath": "subagents/f73d55cf-1c48-412b-9e84-8cd33f0e1045/session.v3.jsonl",
+   "bytes": 2004103,
+   "lines": 462,
+   "sha256": "992b1a04e92a4ba6ae6b06e1cae337eb458ad683e48702a1ad994e8935cc577a"
+  },
+  {
+   "sessionId": "f77cc8b8-0dbc-4a09-bc93-2b32146d1abb",
+   "relPath": "subagents/f77cc8b8-0dbc-4a09-bc93-2b32146d1abb/session.v3.jsonl",
+   "bytes": 2194339,
+   "lines": 703,
+   "sha256": "f9e0589cce10a819aa15e1ff0cc88897a6a5173b0b345617ad1658895604b394"
+  },
+  {
+   "sessionId": "fc1be9de-04ba-4111-abe0-c4c21b4b864c",
+   "relPath": "subagents/fc1be9de-04ba-4111-abe0-c4c21b4b864c/session.v3.jsonl",
+   "bytes": 2229114,
+   "lines": 382,
+   "sha256": "9477fd35254ed74345bb13fb2024995e3de380f2f1e55734751de04db7d64918"
+  },
+  {
+   "sessionId": "fd99d7af-8074-4047-8e7d-4e2aa26856b5",
+   "relPath": "subagents/fd99d7af-8074-4047-8e7d-4e2aa26856b5/session.v3.jsonl",
+   "bytes": 2213180,
+   "lines": 394,
+   "sha256": "7ac9301649a60b608c94f4247409ea4f944292459c7a86c685b9e79d6f80aa87"
+  },
+  {
+   "sessionId": "fe9e2e13-60d9-4f06-b9a7-06ae33839116",
+   "relPath": "subagents/fe9e2e13-60d9-4f06-b9a7-06ae33839116/session.v3.jsonl",
+   "bytes": 1026490,
+   "lines": 259,
+   "sha256": "899d498a35f6bb69ba85a2aa2096d62271e289ae1a83b4302a8400d3927f90ba"
+  }
+ ],
+ "eventTypeCounts": {
+  "tool/call": 16195,
+  "tool/result": 16195,
+  "step/start": 10040,
+  "step/end": 10040,
+  "assistant/message": 10037,
+  "agent/inbox/spliced": 1166,
+  "user/message": 938,
+  "web/deepseek-search-llm-request": 345,
+  "todo/write": 196,
+  "turn/start": 190,
+  "turn/end": 189,
+  "deliverables/presented": 159,
+  "request/header": 154,
+  "session": 153,
+  "sandbox/mode": 153,
+  "approval/policy": 153,
+  "system/message": 153,
+  "request/context": 153,
+  "session/title": 153,
+  "subagent/catalog": 152,
+  "subagent/descriptor": 152,
+  "assistant/attempt": 3,
+  "permission/preset": 1,
+  "agent-preset/selected": 1,
+  "session/end-seed": 1
+ },
+ "eventSchemas": {
+  "agent-preset/selected": [
+   "data",
+   "data.agentPreset",
+   "seq",
+   "time",
+   "type"
+  ],
+  "agent/inbox/spliced": [
+   "data",
+   "data.inserted",
+   "data.inserted[].content",
+   "data.inserted[].content[].text",
+   "data.inserted[].content[].type",
+   "data.inserted[].id",
+   "data.inserted[].role",
+   "data.inserted[].source",
+   "data.inserted[].source.clientTimeZone",
+   "data.inserted[].source.form",
+   "data.inserted[].source.kind",
+   "data.inserted[].source.plugin",
+   "data.inserted[].source.rpcId",
+   "data.inserted[].source.senderSessionId",
+   "data.inserted[].source.summary",
+   "data.removedCount",
+   "data.start",
+   "data.target",
+   "seq",
+   "time",
+   "type"
+  ],
+  "approval/policy": [
+   "data",
+   "data.policy",
+   "data.source",
+   "seq",
+   "time",
+   "type"
+  ],
+  "assistant/attempt": [
+   "data",
+   "data.step",
+   "data.stream",
+   "data.stream[].chunk",
+   "data.stream[].chunk.reason",
+   "data.stream[].chunk.reason.failure",
+   "data.stream[].chunk.reason.failure.code",
+   "data.stream[].chunk.reason.failure.message",
+   "data.stream[].chunk.reason.failure.status",
+   "data.stream[].chunk.reason.kind",
+   "data.stream[].chunk.type",
+   "data.stream[].time",
+   "data.stream[].type",
+   "data.turn",
+   "seq",
+   "time",
+   "type"
+  ],
+  "assistant/message": [
+   "data",
+   "data.interrupted",
+   "data.message",
+   "data.message.content",
+   "data.message.content[].arguments",
+   "data.message.content[].id",
+   "data.message.content[].name",
+   "data.message.content[].text",
+   "data.message.content[].type",
+   "data.message.id",
+   "data.message.role",
+   "data.message.source",
+   "data.message.source.kind",
+   "data.message.source.model",
+   "data.message.source.provider",
+   "data.step",
+   "data.stream",
+   "data.stream[].args",
+   "data.stream[].chunk",
+   "data.stream[].chunk.blockType",
+   "data.stream[].chunk.index",
+   "data.stream[].chunk.type",
+   "data.stream[].dt",
+   "data.stream[].id",
+   "data.stream[].index",
+   "data.stream[].name",
+   "data.stream[].texts",
+   "data.stream[].time",
+   "data.stream[].time0",
+   "data.stream[].type",
+   "data.turn",
+   "data.usage",
+   "data.usage.cacheReadTokens",
+   "data.usage.inputTokens",
+   "data.usage.outputTokens",
+   "data.usage.reasoningTokens",
+   "data.usage.totalTokens",
+   "seq",
+   "surfaceOp",
+   "time",
+   "type"
+  ],
+  "deliverables/presented": [
+   "data",
+   "data.callId",
+   "data.files",
+   "data.files[].description",
+   "data.files[].path",
+   "data.turn",
+   "seq",
+   "time",
+   "type"
+  ],
+  "permission/preset": [
+   "data",
+   "data.preset",
+   "seq",
+   "time",
+   "type"
+  ],
+  "request/context": [
+   "data",
+   "data.contextWindow",
+   "data.model",
+   "data.provider",
+   "seq",
+   "time",
+   "type"
+  ],
+  "request/header": [
+   "data",
+   "data.header",
+   "data.header.adapterDefaults",
+   "data.header.adapterDefaults.maxTokens",
+   "data.header.config",
+   "data.header.config.maxTokens",
+   "data.header.config.model",
+   "data.header.config.provider",
+   "data.header.config.reasoningEffort",
+   "data.header.tools",
+   "data.header.tools[].description",
+   "data.header.tools[].name",
+   "data.header.tools[].parameters",
+   "data.header.tools[].parameters.properties",
+   "data.header.tools[].parameters.properties.command",
+   "data.header.tools[].parameters.properties.command.description",
+   "data.header.tools[].parameters.properties.command.type",
+   "data.header.tools[].parameters.properties.description",
+   "data.header.tools[].parameters.properties.description.description",
+   "data.header.tools[].parameters.properties.description.type",
+   "data.header.tools[].parameters.properties.justification",
+   "data.header.tools[].parameters.properties.justification.description",
+   "data.header.tools[].parameters.properties.justification.type",
+   "data.header.tools[].parameters.properties.questions",
+   "data.header.tools[].parameters.properties.questions.description",
+   "data.header.tools[].parameters.properties.questions.items",
+   "data.header.tools[].parameters.properties.questions.items.additionalProperties",
+   "data.header.tools[].parameters.properties.questions.items.properties",
+   "data.header.tools[].parameters.properties.questions.items.properties.header",
+   "data.header.tools[].parameters.properties.questions.items.properties.header.description",
+   "data.header.tools[].parameters.properties.questions.items.properties.header.type",
+   "data.header.tools[].parameters.properties.questions.items.properties.id",
+   "data.header.tools[].parameters.properties.questions.items.properties.id.description",
+   "data.header.tools[].parameters.properties.questions.items.properties.id.type",
+   "data.header.tools[].parameters.properties.questions.items.properties.multi_select",
+   "data.header.tools[].parameters.properties.questions.items.properties.multi_select.description",
+   "data.header.tools[].parameters.properties.questions.items.properties.multi_select.type",
+   "data.header.tools[].parameters.properties.questions.items.properties.options",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.description",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.items",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.items.additionalProperties",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.items.properties",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.items.properties.description",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.items.properties.description.description",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.items.properties.description.type",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.items.properties.label",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.items.properties.label.description",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.items.properties.label.type",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.items.required",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.items.type",
+   "data.header.tools[].parameters.properties.questions.items.properties.options.type",
+   "data.header.tools[].parameters.properties.questions.items.properties.question",
+   "data.header.tools[].parameters.properties.questions.items.properties.question.description",
+   "data.header.tools[].parameters.properties.questions.items.properties.question.type",
+   "data.header.tools[].parameters.properties.questions.items.required",
+   "data.header.tools[].parameters.properties.questions.items.type",
+   "data.header.tools[].parameters.properties.questions.type",
+   "data.header.tools[].parameters.properties.run_in_background",
+   "data.header.tools[].parameters.properties.run_in_background.description",
+   "data.header.tools[].parameters.properties.run_in_background.type",
+   "data.header.tools[].parameters.properties.sandbox_permissions",
+   "data.header.tools[].parameters.properties.sandbox_permissions.description",
+   "data.header.tools[].parameters.properties.sandbox_permissions.enum",
+   "data.header.tools[].parameters.properties.sandbox_permissions.type",
+   "data.header.tools[].parameters.properties.timeoutMs",
+   "data.header.tools[].parameters.properties.timeoutMs.description",
+   "data.header.tools[].parameters.properties.timeoutMs.type",
+   "data.header.tools[].parameters.properties.workdir",
+   "data.header.tools[].parameters.properties.workdir.description",
+   "data.header.tools[].parameters.properties.workdir.type",
+   "data.header.tools[].parameters.required",
+   "data.header.tools[].parameters.type",
+   "data.reason",
+   "seq",
+   "time",
+   "type"
+  ],
+  "sandbox/mode": [
+   "data",
+   "data.mode",
+   "data.source",
+   "seq",
+   "time",
+   "type"
+  ],
+  "session": [
+   "agentPreset",
+   "createdAt",
+   "cwd",
+   "delegationDepth",
+   "id",
+   "isSeeded",
+   "origin",
+   "parentSession",
+   "type",
+   "version"
+  ],
+  "session/end-seed": [
+   "data",
+   "seq",
+   "time",
+   "type"
+  ],
+  "session/title": [
+   "data",
+   "data.messageSeqs",
+   "data.source",
+   "data.source.kind",
+   "data.title",
+   "seq",
+   "time",
+   "type"
+  ],
+  "step/end": [
+   "data",
+   "data.step",
+   "data.turn",
+   "seq",
+   "time",
+   "type"
+  ],
+  "step/start": [
+   "data",
+   "data.step",
+   "data.turn",
+   "seq",
+   "time",
+   "type"
+  ],
+  "subagent/catalog": [
+   "data",
+   "data.childCreatedAt",
+   "data.childId",
+   "data.label",
+   "data.mode",
+   "data.version",
+   "seq",
+   "time",
+   "type"
+  ],
+  "subagent/descriptor": [
+   "data",
+   "data.agentModel",
+   "data.agentProvider",
+   "data.agentReasoningEffort",
+   "data.label",
+   "data.mode",
+   "data.provider",
+   "data.version",
+   "seq",
+   "time",
+   "type"
+  ],
+  "system/message": [
+   "data",
+   "data.message",
+   "data.message.content",
+   "data.message.content[].text",
+   "data.message.content[].type",
+   "data.message.id",
+   "data.message.role",
+   "data.message.source",
+   "data.message.source.kind",
+   "data.message.source.plugin",
+   "data.step",
+   "data.turn",
+   "seq",
+   "surfaceOp",
+   "time",
+   "type"
+  ],
+  "todo/write": [
+   "data",
+   "data.todos",
+   "data.todos[].content",
+   "data.todos[].status",
+   "seq",
+   "time",
+   "type"
+  ],
+  "tool/call": [
+   "data",
+   "data.arguments",
+   "data.callId",
+   "data.name",
+   "data.step",
+   "data.turn",
+   "seq",
+   "time",
+   "type"
+  ],
+  "tool/result": [
+   "data",
+   "data.error",
+   "data.error.code",
+   "data.error.name",
+   "data.message",
+   "data.message.content",
+   "data.message.content[].content",
+   "data.message.content[].content[].text",
+   "data.message.content[].content[].type",
+   "data.message.content[].isError",
+   "data.message.content[].toolCallId",
+   "data.message.content[].type",
+   "data.message.id",
+   "data.message.role",
+   "data.message.source",
+   "data.message.source.callId",
+   "data.message.source.kind",
+   "data.meta",
+   "data.meta.diffs",
+   "data.meta.diffs[].newText",
+   "data.meta.diffs[].oldText",
+   "data.meta.diffs[].path",
+   "data.meta.files",
+   "data.meta.files[].matches",
+   "data.meta.files[].matches[].line",
+   "data.meta.files[].matches[].lineNumber",
+   "data.meta.files[].path",
+   "data.meta.lang",
+   "data.meta.lines",
+   "data.meta.lines[].number",
+   "data.meta.lines[].text",
+   "data.meta.offset",
+   "data.meta.path",
+   "data.meta.shape",
+   "data.meta.sources",
+   "data.meta.sources[].title",
+   "data.meta.sources[].url",
+   "data.meta.statusCode",
+   "data.meta.total",
+   "data.meta.totalLines",
+   "data.meta.truncated",
+   "data.meta.url",
+   "data.step",
+   "data.turn",
+   "seq",
+   "sourceEventSeqs",
+   "surfaceOp",
+   "time",
+   "type"
+  ],
+  "turn/end": [
+   "data",
+   "data.reason",
+   "data.reason.error",
+   "data.reason.error.code",
+   "data.reason.error.message",
+   "data.reason.error.status",
+   "data.reason.kind",
+   "data.reason.reason",
+   "data.reason.reason.kind",
+   "data.turn",
+   "seq",
+   "time",
+   "type"
+  ],
+  "turn/start": [
+   "data",
+   "data.turn",
+   "seq",
+   "time",
+   "type"
+  ],
+  "user/message": [
+   "data",
+   "data.content",
+   "data.content[].text",
+   "data.content[].type",
+   "data.id",
+   "data.role",
+   "data.source",
+   "data.source.clientTimeZone",
+   "data.source.entries",
+   "data.source.entries[].description",
+   "data.source.entries[].name",
+   "data.source.form",
+   "data.source.kind",
+   "data.source.plugin",
+   "data.source.rpcId",
+   "data.source.sections",
+   "data.source.sections[].name",
+   "data.source.sections[].text",
+   "data.source.senderSessionId",
+   "data.source.summary",
+   "seq",
+   "surfaceOp",
+   "time",
+   "type"
+  ],
+  "web/deepseek-search-llm-request": [
+   "data",
+   "data.apiVersion",
+   "data.body",
+   "data.body.max_tokens",
+   "data.body.messages",
+   "data.body.messages[].content",
+   "data.body.messages[].content[].text",
+   "data.body.messages[].content[].type",
+   "data.body.messages[].role",
+   "data.body.model",
+   "data.body.tools",
+   "data.body.tools[].max_uses",
+   "data.body.tools[].name",
+   "data.body.tools[].type",
+   "data.endpoint",
+   "seq",
+   "time",
+   "type"
+  ]
+ },
+ "note": "This export is the immutable primary dataset. Session-level rollups for the root session use MAIN_SESSION_ID. No file listed here was modified by the analysis process."
+}

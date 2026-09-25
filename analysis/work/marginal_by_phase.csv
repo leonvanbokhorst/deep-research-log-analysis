@@ -1,0 +1,5 @@
+phase,steps,outputTokens,reasoningTokens,freshInput,totalTokens,targetActs,queryActs,newHosts,newUrls,newFactTokens,newArtefacts,negMarkers,corrMarkers,openMarkers,confMarkers
+P1 batch-1 build (turns 1-6),2699,2474653,762390,5955876,309051457,3488,779,593,2354,226,140,260,422,16,230
+P2 batch-2 build (turn 7),5733,5010743,1644569,11461015,642757582,9043,2200,954,5847,918,188,637,1141,51,495
+P3 batch-2 extension (turns 8-14),1368,1595556,406631,1230680,277139964,994,158,77,494,349,57,349,673,32,337
+P4 finalisation (turns 15-18),237,227905,61294,187086,57582351,247,18,16,72,50,5,83,102,1,43

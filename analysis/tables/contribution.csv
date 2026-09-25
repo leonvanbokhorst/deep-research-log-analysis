@@ -1,0 +1,451 @@
+reportSection,artefact,similarity,sharedTerms,firstWriterSession,firstWriterDepth,firstWriterLabel,inheritedReads
+0.1 The question,amplification/Agentic-Threat-Amplification-2026.md,0.3802,81,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+0.1 The question,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2648,51,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+0.1 The question,amplification/findings/06-health-military-cases.md,0.2503,58,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+0.1 The question,amplification/research/parts/synthesis.md,0.234,35,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+0.1 The question,amplification/research/raw/triage-hf-medina-2023-skyview.txt,0.2178,35,,,,
+0.1 The question,amplification/findings/05-drone-cases.md,0.2128,48,f5d926fb-1c4e-4c16-af8f-c7dce00748fd,1,Drone sighting ambiguity cases,1
+0.2 Why the framing matters,amplification/Agentic-Threat-Amplification-2026.md,0.24,46,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+0.2 Why the framing matters,amplification/findings/01-concepts.md,0.1775,25,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+0.2 Why the framing matters,amplification/notes/msft_tradecraft.txt,0.169,15,dabeb4b9-b19b-4707-bb52-c02368aacf3c,3,AI platform threat reports,0
+0.2 Why the framing matters,amplification/findings/04-agentic-capability.md,0.151,25,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+0.2 Why the framing matters,amplification/sources/platform-propaganda.md,0.1411,20,edb0f8d3-0c07-4a47-9834-d2bb6ae9a3ac,2,Research computational propaganda CIB,0
+0.2 Why the framing matters,amplification/notes/persona-coordination.md,0.1395,26,cc07f9d4-0390-4bb3-90b1-866e31d30b66,2,Persona and coordination research,0
+0.3 Evidence levels,amplification/Agentic-Threat-Amplification-2026.md,0.326,56,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+0.3 Evidence levels,amplification/findings/04-agentic-capability.md,0.2363,31,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+0.3 Evidence levels,amplification/findings/03-computational-propaganda.md,0.2151,34,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+0.3 Evidence levels,README.md,0.2069,15,,,,0
+0.3 Evidence levels,amplification/sources/sub-personas.md,0.2027,27,31ca772b-cb14-42f3-b07d-64354d9cda59,2,Personas and influence-for-hire,0
+0.3 Evidence levels,amplification/notes/monitoring-localisation.md,0.1839,39,bc7323c8-aee3-4194-a341-b6c18b1b0475,2,Monitoring and localisation research,0
+1. Bottom line,amplification/Agentic-Threat-Amplification-2026.md,0.6166,302,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+1. Bottom line,amplification/sources/platform-propaganda.md,0.3739,121,edb0f8d3-0c07-4a47-9834-d2bb6ae9a3ac,2,Research computational propaganda CIB,0
+1. Bottom line,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.3493,157,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+1. Bottom line,amplification/findings/03-computational-propaganda.md,0.3453,138,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+1. Bottom line,amplification/findings/06-health-military-cases.md,0.3435,171,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+1. Bottom line,amplification/findings/04-agentic-capability.md,0.3366,127,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+2. The hypothesis in falsifiable form,amplification/Agentic-Threat-Amplification-2026.md,0.3613,99,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+2. The hypothesis in falsifiable form,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2312,57,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+2. The hypothesis in falsifiable form,amplification/findings/06-health-military-cases.md,0.2216,63,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+2. The hypothesis in falsifiable form,amplification/sources/platform-propaganda.md,0.1912,36,edb0f8d3-0c07-4a47-9834-d2bb6ae9a3ac,2,Research computational propaganda CIB,0
+2. The hypothesis in falsifiable form,amplification/findings/01-concepts.md,0.1878,42,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+2. The hypothesis in falsifiable form,amplification/findings/02-risk-psychology.md,0.1875,54,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+2.1 What would falsify H1,amplification/Agentic-Threat-Amplification-2026.md,0.3953,65,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+2.1 What would falsify H1,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2445,36,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+2.1 What would falsify H1,amplification/research/sources/ipcc-uncertainty-guidance-2010.txt,0.2284,18,,,,0
+2.1 What would falsify H1,amplification/findings/06-health-military-cases.md,0.2255,37,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+2.1 What would falsify H1,amplification/findings/04-agentic-capability.md,0.2129,28,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+2.1 What would falsify H1,amplification/notes/_sub-network-threat-reports.md,0.2113,34,dabeb4b9-b19b-4707-bb52-c02368aacf3c,3,AI platform threat reports,4
+3.1 Concepts that fit well,amplification/findings/01-concepts.md,0.5312,247,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+3.1 Concepts that fit well,amplification/Agentic-Threat-Amplification-2026.md,0.4487,428,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+3.1 Concepts that fit well,amplification/sources/info-ops-perception.md,0.3919,124,51fc805d-9281-411b-af39-b6f876f81b1d,2,Research perception mgmt and info ops,0
+3.1 Concepts that fit well,amplification/sources/self-amplifying-prior-art.md,0.3763,202,a4a04330-c73f-4cd8-a92e-9837ccb861ba,2,Search for self-amplifying attack concept,1
+3.1 Concepts that fit well,amplification/sources/reflexive-control.md,0.3282,133,488c117a-eb10-4b07-a2c5-aa16a6a495af,2,Research reflexive control lineage,0
+3.1 Concepts that fit well,amplification/sources/active-measures-hybrid.md,0.2959,143,414abba5-9455-4df0-b917-95ea002ee90b,2,Research active measures hybrid warfare,0
+3.2 Concepts that fit partially,amplification/findings/02-risk-psychology.md,0.4878,155,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+3.2 Concepts that fit partially,amplification/Agentic-Threat-Amplification-2026.md,0.4398,275,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+3.2 Concepts that fit partially,amplification/findings/01-concepts.md,0.4184,164,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+3.2 Concepts that fit partially,amplification/sources/cascade-theory.md,0.4052,113,1e0ef8e5-13ab-407d-9611-97e58bc5370f,2,Research rumour risk amplification theory,1
+3.2 Concepts that fit partially,amplification/research/02-riskcomms.md,0.3114,129,66e40dd4-27e6-4a85-83e8-edb605b0b1d9,2,Crisis risk communication research,0
+3.2 Concepts that fit partially,amplification/research/sources/uk-ea-sarf.txt,0.2727,51,,,,
+3.3 Concepts that fit poorly or add little,amplification/raw/en-wikipedia-org-wiki-Folk-Devils-and-Moral-Panics-1faf0d.txt,0.3257,12,,,,
+3.3 Concepts that fit poorly or add little,amplification/raw/en-wikipedia-org-wiki-Moral-panic-d344e6.txt,0.2983,51,,,,
+3.3 Concepts that fit poorly or add little,amplification/raw/en-wikipedia-org-wiki-Folk-devil-538917.txt,0.2831,20,,,,
+3.3 Concepts that fit poorly or add little,amplification/findings/01-concepts.md,0.2787,60,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+3.3 Concepts that fit poorly or add little,amplification/Agentic-Threat-Amplification-2026.md,0.2567,82,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+3.3 Concepts that fit poorly or add little,amplification/sources/cascade-theory.md,0.2242,38,1e0ef8e5-13ab-407d-9611-97e58bc5370f,2,Research rumour risk amplification theory,1
+3.4 What is genuinely distinct — and what is not,amplification/findings/01-concepts.md,0.5785,200,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+3.4 What is genuinely distinct — and what is not,amplification/Agentic-Threat-Amplification-2026.md,0.4868,310,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+3.4 What is genuinely distinct — and what is not,amplification/sources/self-amplifying-prior-art.md,0.4472,141,a4a04330-c73f-4cd8-a92e-9837ccb861ba,2,Search for self-amplifying attack concept,1
+3.4 What is genuinely distinct — and what is not,amplification/sources/reflexive-control.md,0.4224,113,488c117a-eb10-4b07-a2c5-aa16a6a495af,2,Research reflexive control lineage,0
+3.4 What is genuinely distinct — and what is not,amplification/raw/en-wikipedia-org-wiki-Reflexive-control-e9b016.txt,0.4001,57,,,,
+3.4 What is genuinely distinct — and what is not,amplification/findings/ai-agent.md,0.3431,77,4c7b0eb7-ce4e-4ce2-9f59-753903f97546,3,AI agent prior art mining,0
+3.5 Fit matrix,amplification/findings/01-concepts.md,0.4489,115,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+3.5 Fit matrix,amplification/sources/cascade-theory.md,0.3534,61,1e0ef8e5-13ab-407d-9611-97e58bc5370f,2,Research rumour risk amplification theory,1
+3.5 Fit matrix,amplification/sources/active-measures-hybrid.md,0.2878,60,414abba5-9455-4df0-b917-95ea002ee90b,2,Research active measures hybrid warfare,0
+3.5 Fit matrix,amplification/findings/02-risk-psychology.md,0.2725,67,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+3.5 Fit matrix,amplification/research/02-riskcomms.md,0.265,62,66e40dd4-27e6-4a85-83e8-edb605b0b1d9,2,Crisis risk communication research,0
+3.5 Fit matrix,amplification/Agentic-Threat-Amplification-2026.md,0.2644,144,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"4.1 The chain, with the amplifier identified",amplification/Agentic-Threat-Amplification-2026.md,0.3847,125,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"4.1 The chain, with the amplifier identified",amplification/findings/05-drone-cases.md,0.2499,57,f5d926fb-1c4e-4c16-af8f-c7dce00748fd,1,Drone sighting ambiguity cases,1
+"4.1 The chain, with the amplifier identified",amplification/findings/01-concepts.md,0.2458,57,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+"4.1 The chain, with the amplifier identified",amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2456,67,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+"4.1 The chain, with the amplifier identified",amplification/research/sources/cerc-media.txt,0.2297,62,,,,0
+"4.1 The chain, with the amplifier identified",amplification/findings/06-health-military-cases.md,0.2198,67,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+4.2 The five categories — and why they must not be merged,amplification/Agentic-Threat-Amplification-2026.md,0.4036,198,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+4.2 The five categories — and why they must not be merged,amplification/findings/01-concepts.md,0.2758,98,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+4.2 The five categories — and why they must not be merged,amplification/notes/_sub-network-threat-reports.md,0.2322,90,dabeb4b9-b19b-4707-bb52-c02368aacf3c,3,AI platform threat reports,4
+4.2 The five categories — and why they must not be merged,amplification/sources/platform-propaganda.md,0.2322,58,edb0f8d3-0c07-4a47-9834-d2bb6ae9a3ac,2,Research computational propaganda CIB,0
+4.2 The five categories — and why they must not be merged,amplification/notes/synthetic-corroboration.md,0.2072,112,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+4.2 The five categories — and why they must not be merged,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2024,83,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+"4.3 The ""small input, large output"" claim",amplification/Agentic-Threat-Amplification-2026.md,0.3396,103,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"4.3 The ""small input, large output"" claim",amplification/findings/03-computational-propaganda.md,0.2096,45,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+"4.3 The ""small input, large output"" claim",amplification/sources/platform-propaganda.md,0.1979,36,edb0f8d3-0c07-4a47-9834-d2bb6ae9a3ac,2,Research computational propaganda CIB,0
+"4.3 The ""small input, large output"" claim",amplification/sources/sub-effectiveness.md,0.1972,34,61b1e41b-32e7-4092-aa70-26577f10fb08,2,Effectiveness evidence,2
+"4.3 The ""small input, large output"" claim",amplification/findings/01-concepts.md,0.1963,48,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+"4.3 The ""small input, large output"" claim",amplification/sources/sub-platforms.md,0.1949,29,f73d55cf-1c48-412b-9e84-8cd33f0e1045,2,AI lab and platform threat reports,0
+4.4 What an agent must actually do,amplification/Agentic-Threat-Amplification-2026.md,0.2372,79,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+4.4 What an agent must actually do,amplification/findings/01-concepts.md,0.1513,31,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+4.4 What an agent must actually do,amplification/notes/raw-topic4.md,0.1377,31,80582e1e-cc24-4c49-bd41-86060a72245a,3,Topic 4 newsjacking research,2
+4.4 What an agent must actually do,amplification/research/parts/synthesis.md,0.1313,22,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+4.4 What an agent must actually do,amplification/sources/08394c5c9c4bac6974284a1183c84420.txt,0.1282,17,,,,
+4.4 What an agent must actually do,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.1275,40,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+"5.1 Ambiguity produces large disruption **without any adversary at all** (L4, strong)",amplification/research/sources/faa-joint-statement-nj-drones.txt,0.4634,72,52f269b0-843f-4c9a-9902-198968ecd5f5,3,National CT unknown-cause guidance,0
+"5.1 Ambiguity produces large disruption **without any adversary at all** (L4, strong)",amplification/findings/05-drone-cases.md,0.4508,140,f5d926fb-1c4e-4c16-af8f-c7dce00748fd,1,Drone sighting ambiguity cases,1
+"5.1 Ambiguity produces large disruption **without any adversary at all** (L4, strong)",amplification/sources/root-level/nj-aj.txt,0.4328,65,,,,
+"5.1 Ambiguity produces large disruption **without any adversary at all** (L4, strong)",amplification/research/raw/us-factcheck-drones-2024-12-19.txt,0.4249,85,,,,0
+"5.1 Ambiguity produces large disruption **without any adversary at all** (L4, strong)",amplification/research/raw/us-strand.md,0.4075,128,5ae391ef-e246-4ce4-a2a8-90ded6cc0940,3,US NJ drone wave verification,1
+"5.1 Ambiguity produces large disruption **without any adversary at all** (L4, strong)",amplification/Agentic-Threat-Amplification-2026.md,0.4015,254,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"5.1b The autumn 2025 European wave: a documented natural experiment (L4, strong)",amplification/research/src/dronewatch-denmark-oneyear-2026.txt,0.551,172,,,,
+"5.1b The autumn 2025 European wave: a documented natural experiment (L4, strong)",amplification/research/dw-denmark-year.txt,0.551,172,,,,
+"5.1b The autumn 2025 European wave: a documented natural experiment (L4, strong)",amplification/findings/05-drone-cases.md,0.5088,173,f5d926fb-1c4e-4c16-af8f-c7dce00748fd,1,Drone sighting ambiguity cases,1
+"5.1b The autumn 2025 European wave: a documented natural experiment (L4, strong)",amplification/findings/drone-cases-amplification-retractions.md,0.5048,225,8a55607d-c2f7-40a7-8d99-f0d1e5c44581,2,European retractions and influence ops,1
+"5.1b The autumn 2025 European wave: a documented natural experiment (L4, strong)",amplification/research/src/dronewatch-61-sightings.txt,0.4994,94,,,,
+"5.1b The autumn 2025 European wave: a documented natural experiment (L4, strong)",amplification/research/dronewatch-61.txt,0.4994,94,,,,
+"5.1c The Boston 2013 case: emergent amplification, real harm, and what actually stopped it",amplification/Agentic-Threat-Amplification-2026.md,0.3179,109,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"5.1c The Boston 2013 case: emergent amplification, real harm, and what actually stopped it",amplification/findings/02-risk-psychology.md,0.2588,66,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+"5.1c The Boston 2013 case: emergent amplification, real harm, and what actually stopped it",amplification/sources/starbird-boston-2014.txt,0.2157,36,d07fdde4-91a3-4617-9341-d7100c77ab33,3,CIB and bot-detection critiques,0
+"5.1c The Boston 2013 case: emergent amplification, real harm, and what actually stopped it",amplification/findings/06-health-military-cases.md,0.192,40,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+"5.1c The Boston 2013 case: emergent amplification, real harm, and what actually stopped it",amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.1896,38,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+"5.1c The Boston 2013 case: emergent amplification, real harm, and what actually stopped it",amplification/notes/physical-incidents.md,0.1856,60,da3f0b85-eed0-4f76-9e18-fe1bac271b94,3,AI and physical incident panics,0
+5.1d The central negative finding,amplification/findings/influence-op-amplification.md,0.5786,110,f38af81e-dc28-419d-ba96-1e5e64b5619c,3,Influence-op drone amplification,0
+5.1d The central negative finding,amplification/findings/drone-cases-amplification-retractions.md,0.5256,162,8a55607d-c2f7-40a7-8d99-f0d1e5c44581,2,European retractions and influence ops,1
+5.1d The central negative finding,amplification/Agentic-Threat-Amplification-2026.md,0.4923,274,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+5.1d The central negative finding,amplification/findings/05-drone-cases.md,0.4488,172,f5d926fb-1c4e-4c16-af8f-c7dce00748fd,1,Drone sighting ambiguity cases,1
+5.1d The central negative finding,criminal-misuse-brief.md,0.4409,115,214d85c6-dbe8-43ae-bb06-96929af0216d,1,Criminal terrorist misuse evidence,1
+5.1d The central negative finding,amplification/research/src/dronewatch-denmark-oneyear-2026.txt,0.4371,107,,,,
+"5.2 Agentic influence operations: the first credible evidence of deployment (L3, emerging ",amplification/Agentic-Threat-Amplification-2026.md,0.4986,462,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"5.2 Agentic influence operations: the first credible evidence of deployment (L3, emerging ",amplification/sources/sub-platforms.md,0.4706,163,f73d55cf-1c48-412b-9e84-8cd33f0e1045,2,AI lab and platform threat reports,0
+"5.2 Agentic influence operations: the first credible evidence of deployment (L3, emerging ",amplification/findings/03-computational-propaganda.md,0.4634,264,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+"5.2 Agentic influence operations: the first credible evidence of deployment (L3, emerging ",amplification/notes/_sub-network-threat-reports.md,0.446,294,dabeb4b9-b19b-4707-bb52-c02368aacf3c,3,AI platform threat reports,4
+"5.2 Agentic influence operations: the first credible evidence of deployment (L3, emerging ",amplification/sources/08394c5c9c4bac6974284a1183c84420.txt,0.4165,107,,,,
+"5.2 Agentic influence operations: the first credible evidence of deployment (L3, emerging ",amplification/notes/monitoring-localisation.md,0.3911,287,bc7323c8-aee3-4194-a341-b6c18b1b0475,2,Monitoring and localisation research,0
+5.3 Synthetic corroboration — the genuinely new capability (L2–L3),amplification/Agentic-Threat-Amplification-2026.md,0.525,410,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+5.3 Synthetic corroboration — the genuinely new capability (L2–L3),amplification/sources/sub-personas.md,0.435,255,31ca772b-cb14-42f3-b07d-64354d9cda59,2,Personas and influence-for-hire,0
+5.3 Synthetic corroboration — the genuinely new capability (L2–L3),amplification/notes/synthetic-corroboration.md,0.4284,286,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+5.3 Synthetic corroboration — the genuinely new capability (L2–L3),amplification/notes/_sub-audience-effects.md,0.3731,134,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,0
+5.3 Synthetic corroboration — the genuinely new capability (L2–L3),amplification/findings/03-computational-propaganda.md,0.3717,219,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+5.3 Synthetic corroboration — the genuinely new capability (L2–L3),amplification/findings/04-agentic-capability.md,0.3657,179,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+5.4 What the reflexive stage actually looks like (L4),amplification/Agentic-Threat-Amplification-2026.md,0.3702,122,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+5.4 What the reflexive stage actually looks like (L4),amplification/research/parts/synthesis.md,0.2941,61,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+5.4 What the reflexive stage actually looks like (L4),AI-Autonomy-Threat-Assessment-2026.md,0.2695,92,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,0
+5.4 What the reflexive stage actually looks like (L4),drone-ai-threat-brief.md,0.2669,70,c2e2b954-63bb-4c00-8d45-37e953901183,1,NATO EU institutional threat assessments,1
+5.4 What the reflexive stage actually looks like (L4),amplification/research/parts/part-B-core-lead.md,0.2532,70,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",0
+5.4 What the reflexive stage actually looks like (L4),amplification/findings/01-concepts.md,0.2284,51,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+6.1 Cross-platform coordination and account creation (L2–L3),amplification/Agentic-Threat-Amplification-2026.md,0.2345,62,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+6.1 Cross-platform coordination and account creation (L2–L3),amplification/sources/08394c5c9c4bac6974284a1183c84420.txt,0.232,25,,,,
+6.1 Cross-platform coordination and account creation (L2–L3),amplification/findings/personas-1-fake-identities.md,0.2213,28,d0d01526-dedf-4523-9301-738d6b6201fb,3,Fake personas long-running cases,0
+6.1 Cross-platform coordination and account creation (L2–L3),amplification/sources/sub-personas.md,0.221,38,31ca772b-cb14-42f3-b07d-64354d9cda59,2,Personas and influence-for-hire,0
+6.1 Cross-platform coordination and account creation (L2–L3),amplification/findings/03-computational-propaganda.md,0.2145,42,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+6.1 Cross-platform coordination and account creation (L2–L3),amplification/raw/openai/oa-2024-05-zero-zeno.txt,0.2111,20,,,,
+"6.3 Continuous monitoring and adaptive narrative selection (L1–L2, contested)",amplification/Agentic-Threat-Amplification-2026.md,0.2258,52,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"6.3 Continuous monitoring and adaptive narrative selection (L1–L2, contested)",amplification/notes/monitoring-localisation.md,0.2196,44,bc7323c8-aee3-4194-a341-b6c18b1b0475,2,Monitoring and localisation research,0
+"6.3 Continuous monitoring and adaptive narrative selection (L1–L2, contested)",amplification/notes/raw-topic2.md,0.1768,29,42c75fd5-9805-461d-bb22-827fd626fba5,3,Topic 2 adaptive narrative research,1
+"6.3 Continuous monitoring and adaptive narrative selection (L1–L2, contested)",amplification/findings/04-agentic-capability.md,0.1757,28,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+"6.3 Continuous monitoring and adaptive narrative selection (L1–L2, contested)",AI-Autonomy-Threat-Assessment-2026.md,0.1375,42,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,0
+"6.3 Continuous monitoring and adaptive narrative selection (L1–L2, contested)",ai-targeting-loitering-munitions-brief.md,0.1328,23,99dae34e-50a3-42d8-b818-f7eda5a3f4f6,1,Middle East conflict autonomy evidence,1
+6.4 Long-running persona management (L1–L2),amplification/findings/04-agentic-capability.md,0.1866,32,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+6.4 Long-running persona management (L1–L2),amplification/notes/persona-coordination.md,0.1508,38,cc07f9d4-0390-4bb3-90b1-866e31d30b66,2,Persona and coordination research,0
+6.4 Long-running persona management (L1–L2),amplification/Agentic-Threat-Amplification-2026.md,0.1501,53,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+6.4 Long-running persona management (L1–L2),amplification/notes/cost-access.md,0.1273,27,500069eb-b528-47b9-8cbf-6873331d1c1c,2,Cost and access economics research,9
+6.4 Long-running persona management (L1–L2),amplification/research/access-integrity-economics.md,0.1162,24,fe9e2e13-60d9-4f06-b9a7-06ae33839116,3,Platform access and integrity economics,0
+6.4 Long-running persona management (L1–L2),amplification/sources/sub-personas.md,0.1119,24,31ca772b-cb14-42f3-b07d-64354d9cda59,2,Personas and influence-for-hire,0
+6.5 Synthetic corroboration and synthetic eyewitness material (L2–L3),amplification/notes/synthetic-corroboration.md,0.2376,52,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+6.5 Synthetic corroboration and synthetic eyewitness material (L2–L3),amplification/Agentic-Threat-Amplification-2026.md,0.2372,62,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+6.5 Synthetic corroboration and synthetic eyewitness material (L2–L3),amplification/findings/personas-5-deepfakes-synthetic-evidence.md,0.2181,26,53ed1b24-a136-4bab-84d3-06ff837a055d,3,AI deepfakes synthetic evidence,1
+6.5 Synthetic corroboration and synthetic eyewitness material (L2–L3),amplification/sources/sub-personas.md,0.1773,38,31ca772b-cb14-42f3-b07d-64354d9cda59,2,Personas and influence-for-hire,0
+6.5 Synthetic corroboration and synthetic eyewitness material (L2–L3),amplification/findings/03-computational-propaganda.md,0.1739,34,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+6.5 Synthetic corroboration and synthetic eyewitness material (L2–L3),amplification/research/src/newsguard-newsbots-ai-news-sites-2023.txt,0.1666,18,,,,
+"6.7 Automated rebuttal evasion (negative finding, L1)",amplification/Agentic-Threat-Amplification-2026.md,0.2475,73,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"6.7 Automated rebuttal evasion (negative finding, L1)",amplification/findings/04-agentic-capability.md,0.1811,35,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+"6.7 Automated rebuttal evasion (negative finding, L1)",amplification/notes/persona-coordination.md,0.1753,46,cc07f9d4-0390-4bb3-90b1-866e31d30b66,2,Persona and coordination research,0
+"6.7 Automated rebuttal evasion (negative finding, L1)",amplification/notes/synthetic-corroboration.md,0.1642,42,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+"6.7 Automated rebuttal evasion (negative finding, L1)",amplification/notes/monitoring-localisation.md,0.1634,44,bc7323c8-aee3-4194-a341-b6c18b1b0475,2,Monitoring and localisation research,0
+"6.7 Automated rebuttal evasion (negative finding, L1)",amplification/findings/06-health-military-cases.md,0.1542,25,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+6.8 Persuasion: what the controlled studies actually show (L1–L2),amplification/findings/04-agentic-capability.md,0.3728,127,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+6.8 Persuasion: what the controlled studies actually show (L1–L2),amplification/research/persuasion-evidence.md,0.3687,111,4d64b50a-7a7d-4341-ad42-7423dfdb7063,3,Persuasion effects literature,0
+6.8 Persuasion: what the controlled studies actually show (L1–L2),amplification/sources/sub-effectiveness.md,0.3049,88,61b1e41b-32e7-4092-aa70-26577f10fb08,2,Effectiveness evidence,2
+6.8 Persuasion: what the controlled studies actually show (L1–L2),amplification/notes/stream-c-ai-persuasion.md,0.2892,70,8af84e58-43fa-4764-a1b4-7912b5822dcf,3,Research stream C AI persuasion,2
+6.8 Persuasion: what the controlled studies actually show (L1–L2),amplification/Agentic-Threat-Amplification-2026.md,0.2639,173,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+6.8 Persuasion: what the controlled studies actually show (L1–L2),amplification/notes/_sub-audience-effects.md,0.261,85,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,0
+"6.9 The binding constraint is distribution, not generation (L2, structural)",amplification/findings/04-agentic-capability.md,0.3962,136,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+"6.9 The binding constraint is distribution, not generation (L2, structural)",amplification/notes/cost-access.md,0.3687,156,500069eb-b528-47b9-8cbf-6873331d1c1c,2,Cost and access economics research,9
+"6.9 The binding constraint is distribution, not generation (L2, structural)",amplification/Agentic-Threat-Amplification-2026.md,0.3413,235,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"6.9 The binding constraint is distribution, not generation (L2, structural)",amplification/research/access-integrity-economics.md,0.2791,109,fe9e2e13-60d9-4f06-b9a7-06ae33839116,3,Platform access and integrity economics,0
+"6.9 The binding constraint is distribution, not generation (L2, structural)",amplification/notes/synthetic-corroboration.md,0.2483,167,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+"6.9 The binding constraint is distribution, not generation (L2, structural)",amplification/notes/monitoring-localisation.md,0.2297,157,bc7323c8-aee3-4194-a341-b6c18b1b0475,2,Monitoring and localisation research,0
+"6.10 The liar's dividend: the verification layer erodes in both directions (L2, genuinely ",amplification/Agentic-Threat-Amplification-2026.md,0.4442,201,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"6.10 The liar's dividend: the verification layer erodes in both directions (L2, genuinely ",amplification/notes/_sub-detection-studies.md,0.3694,81,54430afb-5e40-47af-b371-e15deabcbf27,3,Deepfake detection accuracy studies,0
+"6.10 The liar's dividend: the verification layer erodes in both directions (L2, genuinely ",amplification/notes/synthetic-corroboration.md,0.2997,136,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+"6.10 The liar's dividend: the verification layer erodes in both directions (L2, genuinely ",amplification/findings/04-agentic-capability.md,0.2987,85,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+"6.10 The liar's dividend: the verification layer erodes in both directions (L2, genuinely ",amplification/findings/personas-6-detection-and-belief-studies.md,0.2946,77,fc1be9de-04ba-4111-abe0-c4c21b4b864c,3,Detection and belief studies,2
+"6.10 The liar's dividend: the verification layer erodes in both directions (L2, genuinely ",amplification/sources/sub-personas.md,0.287,107,31ca772b-cb14-42f3-b07d-64354d9cda59,2,Personas and influence-for-hire,0
+6.11 Capability summary,amplification/findings/04-agentic-capability.md,0.3272,81,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+6.11 Capability summary,amplification/Agentic-Threat-Amplification-2026.md,0.2331,107,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+6.11 Capability summary,amplification/notes/monitoring-localisation.md,0.2177,68,bc7323c8-aee3-4194-a341-b6c18b1b0475,2,Monitoring and localisation research,0
+6.11 Capability summary,amplification/findings/03-computational-propaganda.md,0.211,58,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+6.11 Capability summary,amplification/notes/synthetic-corroboration.md,0.2046,69,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+6.11 Capability summary,amplification/sources/sub-personas.md,0.1917,52,31ca772b-cb14-42f3-b07d-64354d9cda59,2,Personas and influence-for-hire,0
+7.1 What exists at L3,amplification/sources/eeas-4th-fimi-2026.txt,0.3192,45,ea5b5eba-bb5c-4abc-a533-fa3166962e11,3,Infrastructure scare research stream,1
+7.1 What exists at L3,amplification/research/src/eeas-fimi-4th-report-2026.txt,0.3191,45,,,,
+7.1 What exists at L3,amplification/research/eeas-fimi-4th.txt,0.3191,45,74e3962c-673c-4068-90c4-60d02d23773c,3,Part C indicators and warnings research,0
+7.1 What exists at L3,amplification/sources/08394c5c9c4bac6974284a1183c84420.txt,0.3067,23,,,,
+7.1 What exists at L3,amplification/Agentic-Threat-Amplification-2026.md,0.2864,66,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+7.1 What exists at L3,amplification/sources/sub-personas.md,0.2602,43,31ca772b-cb14-42f3-b07d-64354d9cda59,2,Personas and influence-for-hire,0
+7.2 The specific evidence that is missing,amplification/Agentic-Threat-Amplification-2026.md,0.2978,85,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+7.2 The specific evidence that is missing,amplification/notes/persona-coordination.md,0.1618,55,cc07f9d4-0390-4bb3-90b1-866e31d30b66,2,Persona and coordination research,0
+7.2 The specific evidence that is missing,amplification/notes/synthetic-corroboration.md,0.1583,55,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+7.2 The specific evidence that is missing,amplification/findings/03-computational-propaganda.md,0.1579,35,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+7.2 The specific evidence that is missing,amplification/findings/04-agentic-capability.md,0.1497,33,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+7.2 The specific evidence that is missing,amplification/notes/llm-io.md,0.1412,41,1ece4a27-295e-45a1-b4e8-f4a61be5e7a2,3,LLM-driven IO research 2024-26,1
+7.3 The epistemics problem: success is indistinguishable from noise,amplification/Agentic-Threat-Amplification-2026.md,0.4088,131,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+7.3 The epistemics problem: success is indistinguishable from noise,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2514,64,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+7.3 The epistemics problem: success is indistinguishable from noise,amplification/findings/06-health-military-cases.md,0.2439,66,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+7.3 The epistemics problem: success is indistinguishable from noise,amplification/research/parts/synthesis.md,0.2256,50,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+7.3 The epistemics problem: success is indistinguishable from noise,amplification/findings/02-risk-psychology.md,0.205,64,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+7.3 The epistemics problem: success is indistinguishable from noise,amplification/findings/08-defensive.md,0.1903,55,dc0b75f5-7e62-49c9-a810-8793a1c7648f,1,Defensive practice and non-amplification,0
+7.4 What *would* count as convincing evidence,amplification/Agentic-Threat-Amplification-2026.md,0.4339,161,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+7.4 What *would* count as convincing evidence,amplification/notes/synthetic-corroboration.md,0.2301,106,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+7.4 What *would* count as convincing evidence,amplification/sources/sub-personas.md,0.2291,94,31ca772b-cb14-42f3-b07d-64354d9cda59,2,Personas and influence-for-hire,0
+7.4 What *would* count as convincing evidence,amplification/research/parts/synthesis.md,0.2147,50,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+7.4 What *would* count as convincing evidence,amplification/findings/03-computational-propaganda.md,0.2147,88,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+7.4 What *would* count as convincing evidence,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2096,66,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+7.5 The single most important constraint finding in the study,amplification/Agentic-Threat-Amplification-2026.md,0.514,261,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+7.5 The single most important constraint finding in the study,amplification/sources/platform-propaganda.md,0.4648,159,edb0f8d3-0c07-4a47-9834-d2bb6ae9a3ac,2,Research computational propaganda CIB,0
+7.5 The single most important constraint finding in the study,amplification/notes/_sub-network-threat-reports.md,0.3325,143,dabeb4b9-b19b-4707-bb52-c02368aacf3c,3,AI platform threat reports,4
+7.5 The single most important constraint finding in the study,amplification/notes/llm-io.md,0.3298,153,1ece4a27-295e-45a1-b4e8-f4a61be5e7a2,3,LLM-driven IO research 2024-26,1
+7.5 The single most important constraint finding in the study,amplification/findings/03-computational-propaganda.md,0.3237,118,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+7.5 The single most important constraint finding in the study,amplification/notes/synthetic-corroboration.md,0.3139,172,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+8.1 The benchmark measurement — reach is extraordinarily concentrated,amplification/sources/eady-ira-2022.txt,0.3817,53,,,,
+8.1 The benchmark measurement — reach is extraordinarily concentrated,amplification/research/persuasion-evidence.md,0.2782,56,4d64b50a-7a7d-4341-ad42-7423dfdb7063,3,Persuasion effects literature,0
+8.1 The benchmark measurement — reach is extraordinarily concentrated,amplification/notes/stream-f-ira-official.md,0.2512,44,61b1e41b-32e7-4092-aa70-26577f10fb08,2,Effectiveness evidence,0
+8.1 The benchmark measurement — reach is extraordinarily concentrated,amplification/notes/minimal-effects.md,0.2493,48,788b4f96-a913-4fb4-93d7-d44af41dd69e,3,Minimal-effects IO literature,0
+8.1 The benchmark measurement — reach is extraordinarily concentrated,amplification/Agentic-Threat-Amplification-2026.md,0.2488,72,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+8.1 The benchmark measurement — reach is extraordinarily concentrated,amplification/sources/sub-effectiveness.md,0.2244,47,61b1e41b-32e7-4092-aa70-26577f10fb08,2,Effectiveness evidence,2
+8.2 Official bodies now say the same thing,amplification/findings/03-computational-propaganda.md,0.2387,37,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+8.2 Official bodies now say the same thing,amplification/sources/sub-cases-portalkombat-matryoshka.md,0.2385,33,eeb7ab60-2a68-4c2c-ac20-2ecd68401faa,3,Portal Kombat and Matryoshka,2
+8.2 Official bodies now say the same thing,amplification/Agentic-Threat-Amplification-2026.md,0.2165,61,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+8.2 Official bodies now say the same thing,amplification/sources/sub-cases.md,0.2133,33,defd571a-2f0d-47a2-8239-28e4b4bccd9e,2,Storm-1516 and Russian networks,0
+8.2 Official bodies now say the same thing,amplification/notes/_sub-network-threat-reports.md,0.2033,45,dabeb4b9-b19b-4707-bb52-c02368aacf3c,3,AI platform threat reports,4
+8.2 Official bodies now say the same thing,amplification/raw/openai/oa-2025-02-iranian-nexus.txt,0.191,14,,,,
+8.3 Vendor measurements converge,amplification/notes/_sub-network-threat-reports.md,0.3742,98,dabeb4b9-b19b-4707-bb52-c02368aacf3c,3,AI platform threat reports,4
+8.3 Vendor measurements converge,amplification/sources/sub-platforms.md,0.3222,68,f73d55cf-1c48-412b-9e84-8cd33f0e1045,2,AI lab and platform threat reports,0
+8.3 Vendor measurements converge,amplification/Agentic-Threat-Amplification-2026.md,0.3087,123,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+8.3 Vendor measurements converge,amplification/notes/llm-io.md,0.2867,73,1ece4a27-295e-45a1-b4e8-f4a61be5e7a2,3,LLM-driven IO research 2024-26,1
+8.3 Vendor measurements converge,amplification/findings/03-computational-propaganda.md,0.2774,68,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+8.3 Vendor measurements converge,amplification/notes/synthetic-corroboration.md,0.2634,103,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+"8.5 The ""backfire effect"" is a weak explanation — debunking generally works",amplification/sources/wood-porter-backfire.txt,0.2195,28,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,0
+"8.5 The ""backfire effect"" is a weak explanation — debunking generally works",amplification/Agentic-Threat-Amplification-2026.md,0.2047,39,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"8.5 The ""backfire effect"" is a weak explanation — debunking generally works",amplification/research/sources/debunking-handbook-2020.txt,0.1941,21,,,,0
+"8.5 The ""backfire effect"" is a weak explanation — debunking generally works",amplification/sources/sub-effectiveness.md,0.1754,17,61b1e41b-32e7-4092-aa70-26577f10fb08,2,Effectiveness evidence,2
+"8.5 The ""backfire effect"" is a weak explanation — debunking generally works",amplification/research/a3-nyhan-reifler-wayback.txt,0.1699,26,,,,
+"8.5 The ""backfire effect"" is a weak explanation — debunking generally works",amplification/notes/stream-d-sceptical.md,0.1655,15,e5f8178b-4e43-4785-a609-d874a0b4c8ff,3,Research stream D sceptical takes,2
+8.6 The capability-level negative findings,amplification/findings/04-agentic-capability.md,0.3628,111,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+8.6 The capability-level negative findings,amplification/Agentic-Threat-Amplification-2026.md,0.3455,149,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+8.6 The capability-level negative findings,amplification/notes/synthetic-corroboration.md,0.2955,110,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+8.6 The capability-level negative findings,amplification/notes/monitoring-localisation.md,0.2783,97,bc7323c8-aee3-4194-a341-b6c18b1b0475,2,Monitoring and localisation research,0
+8.6 The capability-level negative findings,amplification/notes/raw-topic4.md,0.2567,58,80582e1e-cc24-4c49-bd41-86060a72245a,3,Topic 4 newsjacking research,2
+8.6 The capability-level negative findings,amplification/findings/06-health-military-cases.md,0.2252,69,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+8.7 The counterexamples that keep the disconfirming case from being decisive,amplification/Agentic-Threat-Amplification-2026.md,0.3094,99,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+8.7 The counterexamples that keep the disconfirming case from being decisive,amplification/findings/07-counterexamples.md,0.2106,71,b0f0ef6b-188b-48bb-a9b0-a808aa6a8393,1,Counterexamples and resilience limits,12
+8.7 The counterexamples that keep the disconfirming case from being decisive,amplification/findings/02-risk-psychology.md,0.2024,38,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+8.7 The counterexamples that keep the disconfirming case from being decisive,amplification/notes/synthetic-corroboration.md,0.1999,63,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+8.7 The counterexamples that keep the disconfirming case from being decisive,amplification/findings/06-health-military-cases.md,0.1879,50,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+8.7 The counterexamples that keep the disconfirming case from being decisive,amplification/findings/03-computational-propaganda.md,0.1874,43,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+8.8 How small the effects actually are,amplification/research/persuasion-evidence.md,0.3215,47,4d64b50a-7a7d-4341-ad42-7423dfdb7063,3,Persuasion effects literature,0
+8.8 How small the effects actually are,amplification/research/a3-nyhan-reifler-wayback.txt,0.2697,44,,,,
+8.8 How small the effects actually are,amplification/notes/_sub-audience-effects.md,0.2491,39,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,0
+8.8 How small the effects actually are,amplification/notes/minimal-effects.md,0.2396,40,788b4f96-a913-4fb4-93d7-d44af41dd69e,3,Minimal-effects IO literature,0
+8.8 How small the effects actually are,amplification/Agentic-Threat-Amplification-2026.md,0.2371,84,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+8.8 How small the effects actually are,amplification/notes/stream-b-effects.md,0.2364,35,17a084cf-9432-43a8-b80b-8919b47feba3,3,Research stream B effects,0
+"8.9 Two regimes, two treatments — why the null literature cannot carry the weight placed o",amplification/Agentic-Threat-Amplification-2026.md,0.3669,230,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"8.9 Two regimes, two treatments — why the null literature cannot carry the weight placed o",amplification/research/persuasion-evidence.md,0.3478,124,4d64b50a-7a7d-4341-ad42-7423dfdb7063,3,Persuasion effects literature,0
+"8.9 Two regimes, two treatments — why the null literature cannot carry the weight placed o",amplification/findings/04-agentic-capability.md,0.3084,126,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+"8.9 Two regimes, two treatments — why the null literature cannot carry the weight placed o",amplification/notes/_sub-audience-effects.md,0.2555,86,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,0
+"8.9 Two regimes, two treatments — why the null literature cannot carry the weight placed o",amplification/sources/sub-effectiveness.md,0.2542,94,61b1e41b-32e7-4092-aa70-26577f10fb08,2,Effectiveness evidence,2
+"8.9 Two regimes, two treatments — why the null literature cannot carry the weight placed o",amplification/research/a3-nyhan-reifler-wayback.txt,0.2327,96,,,,
+8.10 Verdict on the disconfirming case,amplification/Agentic-Threat-Amplification-2026.md,0.2497,60,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+8.10 Verdict on the disconfirming case,amplification/findings/03-computational-propaganda.md,0.1727,32,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+8.10 Verdict on the disconfirming case,amplification/findings/04-agentic-capability.md,0.1595,32,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+8.10 Verdict on the disconfirming case,amplification/findings/02-risk-psychology.md,0.1586,33,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+8.10 Verdict on the disconfirming case,amplification/notes/synthetic-corroboration.md,0.1549,38,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+8.10 Verdict on the disconfirming case,amplification/sources/raw-publichealth.md,0.1476,24,b1c47186-e044-4c6c-9148-2f6913193f95,2,Public health scares strand,5
+9.1 Restating the structural finding,amplification/Agentic-Threat-Amplification-2026.md,0.2856,57,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+9.1 Restating the structural finding,amplification/findings/01-concepts.md,0.2061,28,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+9.1 Restating the structural finding,amplification/findings/06-health-military-cases.md,0.194,35,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+9.1 Restating the structural finding,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.1753,31,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+9.1 Restating the structural finding,amplification/sources/self-amplifying-prior-art.md,0.1533,24,a4a04330-c73f-4cd8-a92e-9837ccb861ba,2,Search for self-amplifying attack concept,1
+9.1 Restating the structural finding,amplification/research/sources/uk-sources-verified-fetchlog.txt,0.1382,22,52f269b0-843f-4c9a-9902-198968ecd5f5,3,National CT unknown-cause guidance,0
+9.2 But the effect still has to reach someone — and the evidence says who,amplification/Agentic-Threat-Amplification-2026.md,0.3876,140,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+9.2 But the effect still has to reach someone — and the evidence says who,amplification/research/sources/cerc-media.txt,0.2691,68,,,,0
+9.2 But the effect still has to reach someone — and the evidence says who,amplification/findings/03-computational-propaganda.md,0.2491,74,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+9.2 But the effect still has to reach someone — and the evidence says who,amplification/research/parts/synthesis.md,0.2174,49,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+9.2 But the effect still has to reach someone — and the evidence says who,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.202,64,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+9.2 But the effect still has to reach someone — and the evidence says who,amplification/findings/06-health-military-cases.md,0.1995,63,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+"9.3 The reflexivity trap, stated precisely",amplification/Agentic-Threat-Amplification-2026.md,0.3029,125,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"9.3 The reflexivity trap, stated precisely",amplification/research/parts/synthesis.md,0.2173,42,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+"9.3 The reflexivity trap, stated precisely",amplification/findings/08-defensive.md,0.2032,53,dc0b75f5-7e62-49c9-a810-8793a1c7648f,1,Defensive practice and non-amplification,0
+"9.3 The reflexivity trap, stated precisely",amplification/findings/01-concepts.md,0.1705,47,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+"9.3 The reflexivity trap, stated precisely",amplification/sources/self-amplifying-prior-art.md,0.1693,40,a4a04330-c73f-4cd8-a92e-9837ccb861ba,2,Search for self-amplifying attack concept,1
+"9.3 The reflexivity trap, stated precisely",amplification/research/parts/part-B-core-lead.md,0.1658,55,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",0
+"9.4 Reassessing ""small input, large output""",amplification/Agentic-Threat-Amplification-2026.md,0.2308,49,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"9.4 Reassessing ""small input, large output""",amplification/findings/06-health-military-cases.md,0.1542,21,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+"9.4 Reassessing ""small input, large output""",amplification/notes/cost-access.md,0.1464,25,500069eb-b528-47b9-8cbf-6873331d1c1c,2,Cost and access economics research,9
+"9.4 Reassessing ""small input, large output""",amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.1415,20,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+"9.4 Reassessing ""small input, large output""",amplification/findings/02-risk-psychology.md,0.1258,21,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+"9.4 Reassessing ""small input, large output""",amplification/research/parts/synthesis.md,0.1154,18,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+"9.5 The asymmetry that defines the real threat: institutions, not populations",amplification/findings/02-risk-psychology.md,0.3993,112,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+"9.5 The asymmetry that defines the real threat: institutions, not populations",amplification/Agentic-Threat-Amplification-2026.md,0.3772,143,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"9.5 The asymmetry that defines the real threat: institutions, not populations",amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2617,65,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+"9.5 The asymmetry that defines the real threat: institutions, not populations",amplification/findings/06-health-military-cases.md,0.2576,70,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+"9.5 The asymmetry that defines the real threat: institutions, not populations",amplification/findings/01-concepts.md,0.217,60,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+"9.5 The asymmetry that defines the real threat: institutions, not populations",amplification/sources/platform-propaganda.md,0.1754,50,edb0f8d3-0c07-4a47-9834-d2bb6ae9a3ac,2,Research computational propaganda CIB,0
+9.6 What determines whether an ambiguity survives — six institutional variables,amplification/findings/06-health-military-cases.md,0.6324,375,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+9.6 What determines whether an ambiguity survives — six institutional variables,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.5709,310,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+9.6 What determines whether an ambiguity survives — six institutional variables,amplification/Agentic-Threat-Amplification-2026.md,0.5019,488,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+9.6 What determines whether an ambiguity survives — six institutional variables,amplification/sources/raw-publichealth.md,0.3386,247,b1c47186-e044-4c6c-9148-2f6913193f95,2,Public health scares strand,5
+9.6 What determines whether an ambiguity survives — six institutional variables,amplification/findings/05-drone-cases.md,0.255,185,f5d926fb-1c4e-4c16-af8f-c7dce00748fd,1,Drone sighting ambiguity cases,1
+9.6 What determines whether an ambiguity survives — six institutional variables,amplification/findings/01-concepts.md,0.2474,128,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+9.7 The most plausible objective is not panic — it is sustained ambiguity,amplification/Agentic-Threat-Amplification-2026.md,0.3278,137,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+9.7 The most plausible objective is not panic — it is sustained ambiguity,amplification/findings/02-risk-psychology.md,0.3126,76,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+9.7 The most plausible objective is not panic — it is sustained ambiguity,amplification/findings/06-health-military-cases.md,0.2553,75,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+9.7 The most plausible objective is not panic — it is sustained ambiguity,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2458,68,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+9.7 The most plausible objective is not panic — it is sustained ambiguity,amplification/findings/01-concepts.md,0.1952,51,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+9.7 The most plausible objective is not panic — it is sustained ambiguity,amplification/sources/self-amplifying-prior-art.md,0.1614,45,a4a04330-c73f-4cd8-a92e-9837ccb861ba,2,Search for self-amplifying attack concept,1
+10.1 What can and cannot be detected,amplification/Agentic-Threat-Amplification-2026.md,0.266,82,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+10.1 What can and cannot be detected,amplification/research/sources-04/cai-how-it-works.txt,0.2201,12,,,,
+10.1 What can and cannot be detected,amplification/research/raw/triage-cisa-suspicious-uas-activity-guidance-2025.txt,0.1865,17,,,,
+10.1 What can and cannot be detected,amplification/findings/03-computational-propaganda.md,0.1864,43,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+10.1 What can and cannot be detected,amplification/raw/openai/oa-2024-05-spamouflage.txt,0.1655,13,,,,
+10.1 What can and cannot be detected,amplification/sources/sub-detection.md,0.1644,22,e8b3050c-765a-4f10-9bae-9fcc012336ae,2,Detection and takedown evidence,2
+10.2 The temporal-decoupling test — the most useful unexploited method,amplification/Agentic-Threat-Amplification-2026.md,0.2641,80,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+10.2 The temporal-decoupling test — the most useful unexploited method,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.1427,33,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+10.2 The temporal-decoupling test — the most useful unexploited method,amplification/findings/06-health-military-cases.md,0.1394,33,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+10.2 The temporal-decoupling test — the most useful unexploited method,amplification/notes/synthetic-corroboration.md,0.1189,41,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+10.2 The temporal-decoupling test — the most useful unexploited method,amplification/notes/persona-coordination.md,0.1148,41,cc07f9d4-0390-4bb3-90b1-866e31d30b66,2,Persona and coordination research,0
+10.2 The temporal-decoupling test — the most useful unexploited method,amplification/research/parts/synthesis.md,0.1146,16,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+10.3 Indicator framework,amplification/Agentic-Threat-Amplification-2026.md,0.3631,108,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+10.3 Indicator framework,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2802,58,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+10.3 Indicator framework,amplification/findings/06-health-military-cases.md,0.2575,60,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+10.3 Indicator framework,amplification/findings/08-defensive.md,0.2459,50,dc0b75f5-7e62-49c9-a810-8793a1c7648f,1,Defensive practice and non-amplification,0
+10.3 Indicator framework,amplification/findings/02-risk-psychology.md,0.222,49,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+10.3 Indicator framework,amplification/research/gla-misdis-2026.txt,0.213,57,,,,
+10.4 What detection realistically achieves,amplification/notes/persona-coordination.md,0.2142,41,cc07f9d4-0390-4bb3-90b1-866e31d30b66,2,Persona and coordination research,0
+10.4 What detection realistically achieves,amplification/research/sources-04/cai-how-it-works.txt,0.195,12,,,,
+10.4 What detection realistically achieves,amplification/notes/raw-topic3.md,0.195,30,7b92362e-8682-4b98-afdf-b980936427fc,3,Topic 3 fact-check evasion,4
+10.4 What detection realistically achieves,amplification/notes/nature_comm_notes.txt,0.1887,30,,,,0
+10.4 What detection realistically achieves,amplification/Agentic-Threat-Amplification-2026.md,0.1814,61,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+10.4 What detection realistically achieves,amplification/findings/04-agentic-capability.md,0.1618,31,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+"10.5 The indicator set worth actually building: monitor the response, not the reports",amplification/Agentic-Threat-Amplification-2026.md,0.3488,178,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"10.5 The indicator set worth actually building: monitor the response, not the reports",amplification/findings/08-defensive.md,0.3052,106,dc0b75f5-7e62-49c9-a810-8793a1c7648f,1,Defensive practice and non-amplification,0
+"10.5 The indicator set worth actually building: monitor the response, not the reports",amplification/research/parts/synthesis.md,0.2944,79,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+"10.5 The indicator set worth actually building: monitor the response, not the reports",amplification/research/parts/part-B-core-lead.md,0.2367,87,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",0
+"10.5 The indicator set worth actually building: monitor the response, not the reports",amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2262,81,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+"10.5 The indicator set worth actually building: monitor the response, not the reports",amplification/research/03-verification.md,0.2226,121,ac188085-eef8-4b4d-82d2-e1555f17ba4a,2,Incident verification and triage research,0
+11.1 Attribution discipline,amplification/Agentic-Threat-Amplification-2026.md,0.3367,70,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+11.1 Attribution discipline,amplification/research/01-attribution.md,0.2599,36,ed3f5438-bc1e-4e73-a3eb-c39a1a6720c4,2,Attribution discipline research,0
+11.1 Attribution discipline,AI-Autonomy-Threat-Assessment-2026.md,0.2586,50,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,0
+11.1 Attribution discipline,amplification/findings/08-defensive.md,0.2459,39,dc0b75f5-7e62-49c9-a810-8793a1c7648f,1,Defensive practice and non-amplification,0
+11.1 Attribution discipline,amplification/sources/uk-dronexl-iiss-2026.txt,0.2433,27,,,,
+11.1 Attribution discipline,amplification/research/raw/uk-dronexl-iiss-2026.txt,0.2433,27,,,,
+11.2 Communicating uncertainty without feeding fear,amplification/research/sources/vanderbles-2020.txt,0.3363,74,,,,
+11.2 Communicating uncertainty without feeding fear,amplification/Agentic-Threat-Amplification-2026.md,0.3205,176,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+11.2 Communicating uncertainty without feeding fear,amplification/research/02-riskcomms.md,0.3049,115,66e40dd4-27e6-4a85-83e8-edb605b0b1d9,2,Crisis risk communication research,0
+11.2 Communicating uncertainty without feeding fear,amplification/findings/08-defensive.md,0.2848,88,dc0b75f5-7e62-49c9-a810-8793a1c7648f,1,Defensive practice and non-amplification,0
+11.2 Communicating uncertainty without feeding fear,amplification/research/sources/notes-national-ct-guidance.md,0.2653,87,52f269b0-843f-4c9a-9902-198968ecd5f5,3,National CT unknown-cause guidance,0
+11.2 Communicating uncertainty without feeding fear,amplification/research/sources/ipcc-uncertainty-guidance-2010.txt,0.2646,31,,,,0
+11.3 Incident verification and anomaly triage,amplification/Agentic-Threat-Amplification-2026.md,0.2567,91,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+11.3 Incident verification and anomaly triage,amplification/research/src/dronewatch-denmark-oneyear-2026.txt,0.2069,47,,,,
+11.3 Incident verification and anomaly triage,amplification/research/dw-denmark-year.txt,0.2069,47,,,,
+11.3 Incident verification and anomaly triage,amplification/research/raw/triage-strand.md,0.1983,44,4cb878d7-f1f8-43fe-a5f6-e457721c9553,3,Counter-UAS triage criteria guidance,0
+11.3 Incident verification and anomaly triage,amplification/research/parts/synthesis.md,0.1982,34,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+11.3 Incident verification and anomaly triage,amplification/findings/05-drone-cases.md,0.1878,47,f5d926fb-1c4e-4c16-af8f-c7dce00748fd,1,Drone sighting ambiguity cases,1
+11.4 Not amplifying — resolving the dilemma,amplification/Agentic-Threat-Amplification-2026.md,0.2276,66,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+11.4 Not amplifying — resolving the dilemma,amplification/research/01-attribution.md,0.1896,27,ed3f5438-bc1e-4e73-a3eb-c39a1a6720c4,2,Attribution discipline research,0
+11.4 Not amplifying — resolving the dilemma,amplification/sources/wood-porter-backfire.txt,0.1511,30,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,0
+11.4 Not amplifying — resolving the dilemma,amplification/research/sources/fema-ipaws-best-practices.txt,0.1463,22,,,,
+11.4 Not amplifying — resolving the dilemma,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.1408,29,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+11.4 Not amplifying — resolving the dilemma,amplification/research/a3-truthsandwich-swirethompson.txt,0.1382,20,,,,
+11.5 Detection of synthetic corroboration,amplification/Agentic-Threat-Amplification-2026.md,0.221,80,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+11.5 Detection of synthetic corroboration,amplification/research/04-synthetic.md,0.1986,57,e465e26f-14d4-4ebd-8832-5e216849629a,2,Synthetic corroboration detection research,2
+11.5 Detection of synthetic corroboration,amplification/notes/synthetic-corroboration.md,0.1926,57,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+11.5 Detection of synthetic corroboration,amplification/findings/04-agentic-capability.md,0.1794,31,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+11.5 Detection of synthetic corroboration,amplification/sources/sub-personas.md,0.1705,39,31ca772b-cb14-42f3-b07d-64354d9cda59,2,Personas and influence-for-hire,0
+11.5 Detection of synthetic corroboration,amplification/research/sources-04/cai-how-it-works.txt,0.1674,19,,,,
+11.6 Public reporting protocols,amplification/research/05b-reporting-protocols.md,0.2623,42,1deec50d-0878-4863-bb81-61106e0e28a5,3,Part B reporting protocols research,0
+11.6 Public reporting protocols,amplification/sources/uk-caa-uas-occurrence-reporting.txt,0.2557,18,,,,0
+11.6 Public reporting protocols,amplification/research/raw/uk-caa-uas-occurrence-reporting.txt,0.2557,18,,,,
+11.6 Public reporting protocols,amplification/Agentic-Threat-Amplification-2026.md,0.2099,70,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+11.6 Public reporting protocols,amplification/research/raw/triage-hf-medina-2023-skyview.txt,0.1699,35,,,,
+11.6 Public reporting protocols,amplification/research/03-verification.md,0.1554,51,ac188085-eef8-4b4d-82d2-e1555f17ba4a,2,Incident verification and triage research,0
+11.7 The reflexivity trap: decision rules that do not self-validate,amplification/Agentic-Threat-Amplification-2026.md,0.2589,99,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+11.7 The reflexivity trap: decision rules that do not self-validate,amplification/findings/08-defensive.md,0.189,42,dc0b75f5-7e62-49c9-a810-8793a1c7648f,1,Defensive practice and non-amplification,0
+11.7 The reflexivity trap: decision rules that do not self-validate,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.1683,37,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+11.7 The reflexivity trap: decision rules that do not self-validate,amplification/findings/06-health-military-cases.md,0.1605,45,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+11.7 The reflexivity trap: decision rules that do not self-validate,amplification/findings/02-risk-psychology.md,0.1591,36,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+11.7 The reflexivity trap: decision rules that do not self-validate,amplification/research/parts/synthesis.md,0.155,34,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+"11.8 Prebunking and inoculation — real, small, and decaying",amplification/Agentic-Threat-Amplification-2026.md,0.3217,164,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"11.8 Prebunking and inoculation — real, small, and decaying",amplification/research/parts/synthesis.md,0.2962,77,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+"11.8 Prebunking and inoculation — real, small, and decaying",amplification/research/parts/part-A-prebunking.md,0.2869,107,f46b62e3-769c-456c-86bf-bdc081345c27,3,Part A prebunking research,0
+"11.8 Prebunking and inoculation — real, small, and decaying",amplification/research/persuasion-evidence.md,0.2839,88,4d64b50a-7a7d-4341-ad42-7423dfdb7063,3,Persuasion effects literature,0
+"11.8 Prebunking and inoculation — real, small, and decaying",amplification/research/src/maertens2025-booster-natcomms.txt,0.2745,89,,,,
+"11.8 Prebunking and inoculation — real, small, and decaying",amplification/research/src/maertens2025-booster-natcomms-pdf.txt,0.2699,83,,,,
+11.9 What the evidence says *not* to do,amplification/Agentic-Threat-Amplification-2026.md,0.2814,90,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+11.9 What the evidence says *not* to do,amplification/findings/04-agentic-capability.md,0.2084,45,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+11.9 What the evidence says *not* to do,amplification/research/parts/synthesis.md,0.1891,35,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+11.9 What the evidence says *not* to do,AI-Autonomy-Threat-Assessment-2026.md,0.1708,59,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,0
+11.9 What the evidence says *not* to do,amplification/notes/synthetic-corroboration.md,0.1674,64,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+11.9 What the evidence says *not* to do,amplification/notes/_sub-audience-effects.md,0.1636,31,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,0
+"11.10 The enforcement asymmetry — and why the opening is carriage, not content",amplification/notes/synthetic-corroboration.md,0.2659,102,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+"11.10 The enforcement asymmetry — and why the opening is carriage, not content",amplification/notes/reddit_safety.txt,0.2592,14,,,,
+"11.10 The enforcement asymmetry — and why the opening is carriage, not content",amplification/Agentic-Threat-Amplification-2026.md,0.2113,130,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"11.10 The enforcement asymmetry — and why the opening is carriage, not content",amplification/notes/_sub-intl-deepfakes.md,0.2037,57,f5e96aa3-70c9-4e26-9382-93d9e43e4ad1,3,International political deepfakes,0
+"11.10 The enforcement asymmetry — and why the opening is carriage, not content",amplification/findings/04-agentic-capability.md,0.1955,71,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+"11.10 The enforcement asymmetry — and why the opening is carriage, not content",amplification/research/sources-04/eu-aia-faq-t50.txt,0.1939,19,,,,
+12.1 What is already established?,amplification/Agentic-Threat-Amplification-2026.md,0.4152,107,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+12.1 What is already established?,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.3062,59,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+12.1 What is already established?,amplification/findings/06-health-military-cases.md,0.2901,57,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+12.1 What is already established?,amplification/findings/05-drone-cases.md,0.2764,70,f5d926fb-1c4e-4c16-af8f-c7dce00748fd,1,Drone sighting ambiguity cases,1
+12.1 What is already established?,amplification/notes/physical-incidents.md,0.2711,62,da3f0b85-eed0-4f76-9e18-fe1bac271b94,3,AI and physical incident panics,0
+12.1 What is already established?,amplification/research/parts/synthesis.md,0.2672,47,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+12.2 What becomes newly possible because of agentic AI?,amplification/Agentic-Threat-Amplification-2026.md,0.4663,218,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+12.2 What becomes newly possible because of agentic AI?,amplification/findings/03-computational-propaganda.md,0.3992,141,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,1,Computational propaganda evidence,37
+12.2 What becomes newly possible because of agentic AI?,amplification/sources/sub-personas.md,0.378,142,31ca772b-cb14-42f3-b07d-64354d9cda59,2,Personas and influence-for-hire,0
+12.2 What becomes newly possible because of agentic AI?,amplification/findings/04-agentic-capability.md,0.3549,115,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+12.2 What becomes newly possible because of agentic AI?,amplification/notes/synthetic-corroboration.md,0.3038,145,8605360c-4c6f-42c8-91a0-b14fdbd777da,2,Deepfake and synthetic corroboration research,2
+12.2 What becomes newly possible because of agentic AI?,amplification/sources/sub-platforms.md,0.2686,74,f73d55cf-1c48-412b-9e84-8cd33f0e1045,2,AI lab and platform threat reports,0
+"12.3 The residual risk, stated as narrowly as the evidence allows",amplification/Agentic-Threat-Amplification-2026.md,0.3803,156,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"12.3 The residual risk, stated as narrowly as the evidence allows",amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2411,83,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+"12.3 The residual risk, stated as narrowly as the evidence allows",amplification/findings/02-risk-psychology.md,0.2405,68,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+"12.3 The residual risk, stated as narrowly as the evidence allows",amplification/findings/06-health-military-cases.md,0.2373,84,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+"12.3 The residual risk, stated as narrowly as the evidence allows",amplification/research/sources/uk-nrr-2025.txt,0.2233,88,,,,0
+"12.3 The residual risk, stated as narrowly as the evidence allows",amplification/research/parts/synthesis.md,0.2116,52,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+12.4 What evidence would convince us this is actually happening?,amplification/Agentic-Threat-Amplification-2026.md,0.3639,93,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+12.4 What evidence would convince us this is actually happening?,amplification/findings/08-defensive.md,0.2077,39,dc0b75f5-7e62-49c9-a810-8793a1c7648f,1,Defensive practice and non-amplification,0
+12.4 What evidence would convince us this is actually happening?,amplification/research/parts/synthesis.md,0.2046,35,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",1
+12.4 What evidence would convince us this is actually happening?,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.1938,40,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+12.4 What evidence would convince us this is actually happening?,amplification/research/01-attribution.md,0.1911,33,ed3f5438-bc1e-4e73-a3eb-c39a1a6720c4,2,Attribution discipline research,0
+12.4 What evidence would convince us this is actually happening?,amplification/findings/06-health-military-cases.md,0.1808,42,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+12.5 How could institutions avoid becoming part of the amplification loop?,amplification/Agentic-Threat-Amplification-2026.md,0.34,167,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+12.5 How could institutions avoid becoming part of the amplification loop?,amplification/findings/06-health-military-cases.md,0.2222,75,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+12.5 How could institutions avoid becoming part of the amplification loop?,amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.2061,75,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+12.5 How could institutions avoid becoming part of the amplification loop?,amplification/findings/02-risk-psychology.md,0.18,56,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+12.5 How could institutions avoid becoming part of the amplification loop?,amplification/findings/01-concepts.md,0.1776,55,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+12.5 How could institutions avoid becoming part of the amplification loop?,amplification/findings/04-agentic-capability.md,0.171,64,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,1,Agentic AI capability evidence,54
+"Appendix A — Categories, concepts and what each defence actually addresses",amplification/findings/01-concepts.md,0.3275,53,6f182957-7587-4604-97e9-5b8275f63b51,1,Concept genealogy and fit,6
+"Appendix A — Categories, concepts and what each defence actually addresses",amplification/Agentic-Threat-Amplification-2026.md,0.3136,78,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"Appendix A — Categories, concepts and what each defence actually addresses",amplification/sources/cascade-theory.md,0.2773,33,1e0ef8e5-13ab-407d-9611-97e58bc5370f,2,Research rumour risk amplification theory,1
+"Appendix A — Categories, concepts and what each defence actually addresses",amplification/raw/en-wikipedia-org-wiki-Reflexive-control-e9b016.txt,0.2696,24,,,,
+"Appendix A — Categories, concepts and what each defence actually addresses",amplification/sources/self-amplifying-prior-art.md,0.2566,33,a4a04330-c73f-4cd8-a92e-9837ccb861ba,2,Search for self-amplifying attack concept,1
+"Appendix A — Categories, concepts and what each defence actually addresses",amplification/findings/02-risk-psychology.md,0.2458,34,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2
+Appendix B — Case comparison,amplification/findings/05-drone-cases.md,0.362,72,f5d926fb-1c4e-4c16-af8f-c7dce00748fd,1,Drone sighting ambiguity cases,1
+Appendix B — Case comparison,amplification/Agentic-Threat-Amplification-2026.md,0.3221,100,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+Appendix B — Case comparison,research/06-airports-infrastructure.md,0.3048,50,ac2e73e0-e9f1-433d-94ae-6e2ff77072d7,2,Airport drone disruption,8
+Appendix B — Case comparison,amplification/notes/physical-incidents.md,0.2794,65,da3f0b85-eed0-4f76-9e18-fe1bac271b94,3,AI and physical incident panics,0
+Appendix B — Case comparison,amplification/findings/drone-cases-amplification-retractions.md,0.2786,61,8a55607d-c2f7-40a7-8d99-f0d1e5c44581,2,European retractions and influence ops,1
+Appendix B — Case comparison,amplification/findings/06-health-military-cases.md,0.2688,56,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,5
+"Appendix C — Method, limitations and confidence",amplification/Agentic-Threat-Amplification-2026.md,0.4884,213,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,0,,62
+"Appendix C — Method, limitations and confidence",README.md,0.3646,58,,,,0
+"Appendix C — Method, limitations and confidence",amplification/sources/06-health-military-cases-FULL-DRAFT.md,0.3266,108,46b82e74-e114-4473-b55d-e2c13cfef604,1,Health and military scare cases,0
+"Appendix C — Method, limitations and confidence",amplification/research/06-prebunk-reflexivity-iw.md,0.3243,172,77ee89e8-327b-4e3a-a160-c2ca700953df,2,"Prebunking, reflexivity, indicators research",0
+"Appendix C — Method, limitations and confidence",amplification/research/03-verification.md,0.3192,131,ac188085-eef8-4b4d-82d2-e1555f17ba4a,2,Incident verification and triage research,0
+"Appendix C — Method, limitations and confidence",amplification/findings/02-risk-psychology.md,0.3164,93,56542a81-0524-4af5-acd1-92a7cbbf9c8b,1,Risk psychology and sociology,2

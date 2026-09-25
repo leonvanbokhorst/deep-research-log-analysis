@@ -1,0 +1,44 @@
+id,class,phase,desc,time,clock,depth,session,label
+gatwick_115,NFC,P1,Gatwick 2018: 115 'credible' sightings,1790324656552,08:24:16,2,ac2e73e0-e9f1-433d-94ae-6e2ff77072d7,Airport drone disruption
+nj_5000reports,NFC,P1,"New Jersey 2024: 5,000+ tips",1790324737280,08:25:37,1,99dae34e-50a3-42d8-b818-f7eda5a3f4f6,Middle East conflict autonomy evidence
+gatwick_33h,NFC,P1,Gatwick 2018: 33-hour closure,1790324753777,08:25:53,1,214d85c6-dbe8-43ae-bb06-96929af0216d,Criminal terrorist misuse evidence
+copenhagen_500,NFC,P1,Copenhagen 2025: 500+ reports,1790324797438,08:26:37,2,ac2e73e0-e9f1-433d-94ae-6e2ff77072d7,Airport drone disruption
+central_negative,NEG,P1,no documented AI amplification of a drone wave,1790324823393,08:27:03,2,cbd79d49-d00e-47b2-8613-1814b77230c7,Drone assassination attempts
+com2026_zero,NEG,P1,COM(2026) 81 has zero disinformation terms,1790324846942,08:27:26,1,c2e2b954-63bb-4c00-8d45-37e953901183,NATO EU institutional threat assessments
+vilnius_38min,NFC,P1,"Vilnius 2026: birds, 38-minute closure",1790325057000,08:30:57,1,214d85c6-dbe8-43ae-bb06-96929af0216d,Criminal terrorist misuse evidence
+liars_dividend,NCD,P2,the liar's dividend,1790327970000,09:19:30,1,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,Computational propaganda evidence
+nj_nothing_anomalous,NFC,P2,NJ: no national security / public safety risk,1790327995457,09:19:55,1,f5d926fb-1c4e-4c16-af8f-c7dce00748fd,Drone sighting ambiguity cases
+iran_china_agents,NFC,P2,Iran/China used hundreds of AI agents,1790327998950,09:19:58,0,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,
+followers_80000,NFC,P2,"Iranian network ~80,000 followers H1 2026",1790327998950,09:19:58,0,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,
+reach_billion,NFC,P2,coordinated networks >1bn views in a month,1790328003892,09:20:03,0,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,
+eeas_147,NFC,P2,EEAS AI-related cases 41 (2024) -> 147 (2025),1790328006282,09:20:06,1,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,Computational propaganda evidence
+indian_chronicles,NFC,P2,Indian Chronicles: 750+ fake outlets,1790328006949,09:20:06,2,31ca772b-cb14-42f3-b07d-64354d9cda59,Personas and influence-for-hire
+twitter25_withdrawn,COR,P2,withdraw: 25% of Twitter activity is bots,1790328009028,09:20:09,0,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,
+institution_amplifier,NCD,P2,the amplifier is the institution,1790328015586,09:20:15,0,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,
+botometer_085,NFC,P2,"Botometer AUC 0.85, not 0.94",1790328038330,09:20:38,2,bc7323c8-aee3-4194-a341-b6c18b1b0475,Monitoring and localisation research
+dawel_40_80,NFC,P2,Dawel PNAS 2026: 40% -> 80% with training,1790328061998,09:21:01,3,fc1be9de-04ba-4111-abe0-c4c21b4b864c,Detection and belief studies
+schiff,NFC,P2,Schiff APSR 2024: deepfake true-evidence experiment,1790328074576,09:21:14,3,53ed1b24-a136-4bab-84d3-06ff837a055d,AI deepfakes synthetic evidence
+zero49,NEG,P2,zero average persuasion across 49 experiments,1790328096481,09:21:36,2,61b1e41b-32e7-4092-aa70-26577f10fb08,Effectiveness evidence
+persuasion_005,NFC,P2,measured persuasion 0.05-0.06 SD,1790328108047,09:21:48,3,17a084cf-9432-43a8-b80b-8919b47feba3,Research stream B effects
+synthetic_3749,NFC,P2,"NewsGuard: 3,749 AI content-farm sites",1790328113342,09:21:53,3,1bf60fa7-70cb-49e0-87a2-17d8a39320a6,Pink slime and economics
+correction_lag,NFC,P2,62.9h note lag vs 6.25h post half-life,1790328154308,09:22:34,2,cc07f9d4-0390-4bb3-90b1-866e31d30b66,Persona and coordination research
+eeas_540,NFC,P2,"EEAS 540 FIMI incidents 2025, 27% AI TTPs",1790328180567,09:23:00,1,b61859d5-9abc-4cc9-8ea7-06c15e81ef05,Computational propaganda evidence
+cost_524,NFC,P2,524:1 generation vs distribution asymmetry,1790328239228,09:23:59,1,f54b15a3-b0aa-4d8a-961f-1cd6fa0548d6,Agentic AI capability evidence
+galati_116014,NFC,P2,"Galati 2026: 116,014 coordinated posts in 7 days",1790328241851,09:24:01,3,f38af81e-dc28-419d-ba96-1e5e64b5619c,Influence-op drone amplification
+temporal_decoupling,NCD,P2,temporal-decoupling test,1790328247046,09:24:07,0,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,
+sustained_ambiguity,NCD,P2,objective is sustained ambiguity,1790328248084,09:24:08,1,46b82e74-e114-4473-b55d-e2c13cfef604,Health and military scare cases
+repetition_not_number,NFC,P2,"2012: repetition, not number of sources",1790328264441,09:24:24,3,fc1be9de-04ba-4111-abe0-c4c21b4b864c,Detection and belief studies
+liars_dividend_pct,NFC,P2,45-54% who accepted warning still judged guilt,1790328297448,09:24:57,3,53ed1b24-a136-4bab-84d3-06ff837a055d,AI deepfakes synthetic evidence
+borris_43rounds,NFC,P2,Borris: 43 rounds fired at an aircraft,1790328338624,09:25:38,2,8a55607d-c2f7-40a7-8d99-f0d1e5c44581,European retractions and influence ops
+detect_86155,NFC,P2,"pooled detection N=86,155",1790328427192,09:27:07,3,fc1be9de-04ba-4111-abe0-c4c21b4b864c,Detection and belief studies
+indistinguishable_withdrawn,COR,P2,withdraw: 'indistinguishable in more than half',1790328435598,09:27:15,0,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,
+six_conditions,NCD,P2,six conditions for second-order risk,1790328452187,09:27:32,0,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,
+eeas_noname,NEG,P2,"EEAS names PL/RO/LT/EE, not DK/NO",1790328495740,09:28:15,3,f38af81e-dc28-419d-ba96-1e5e64b5619c,Influence-op drone amplification
+botometer_76,NFC,P2,~76% of accounts labelled bots are human,1790328498970,09:28:18,3,da686808-a9a8-4593-82da-6d9877f9814b,Topic 2 cross-platform coordination
+openai_150k,NFC,P2,"OpenAI: 150,000 views vs 57 for one prompt",1790328629878,09:30:29,3,1ece4a27-295e-45a1-b4e8-f4a61be5e7a2,LLM-driven IO research 2024-26
+detect_555,NFC,P2,55.5% pooled synthetic-media detection,1790328671884,09:31:11,3,fc1be9de-04ba-4111-abe0-c4c21b4b864c,Detection and belief studies
+openai_quote,NEG,P3,OpenAI: no meaningful engagement increase,1790328844983,09:34:04,2,f73d55cf-1c48-412b-9e84-8cd33f0e1045,AI lab and platform threat reports
+two_withdrawn,COR,P3,two early figures withdrawn or bounded,1790329046549,09:37:26,0,session-92c9e38d-5c41-403b-8bd0-52dc0ac5c357,
+gallwitz,NPS,P3,Gallwitz & Kreil 2022 (arXiv 2207.11474),1790329088087,09:38:08,3,d07fdde4-91a3-4617-9341-d7100c77ab33,CIB and bot-detection critiques
+usc_sim,NEG,P3,USC 2510.25003: agent coordination simulation-only,1790329344918,09:42:24,3,1ece4a27-295e-45a1-b4e8-f4a61be5e7a2,LLM-driven IO research 2024-26
+cib_starbird,NPS,P3,"Starbird, Arif & Wilson 2019 CIB critique (source)",1790329554000,09:45:54,3,d07fdde4-91a3-4617-9341-d7100c77ab33,CIB and bot-detection critiques

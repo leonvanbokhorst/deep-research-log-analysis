@@ -1,0 +1,84 @@
+{
+ "note": "The ORIGINAL research workspace, used for comparison only. NOT part of the primary exported corpus. Hashed for traceability at analysis time.",
+ "root": "/Users/leonvanbokhorst/repos/deep-research",
+ "artifacts": [
+  {
+   "path": "README.md",
+   "bytes": 3192,
+   "sha256": "da4436ceba2447c1e67a0e95ff00026583c830c6652bd4a50e843332a8ca2ec4",
+   "mtime": 1790325845.306184
+  },
+  {
+   "path": "AI-Autonomy-Threat-Assessment-2026.md",
+   "bytes": 141793,
+   "sha256": "47ed37d418af869f80011d1d5738c0bc9dd613929b1fb2331917ce6c6a195626",
+   "mtime": 1790329677.1046748
+  },
+  {
+   "path": "amplification/Agentic-Threat-Amplification-2026.md",
+   "bytes": 177734,
+   "sha256": "f2be3868b417a61bbde635820aa83274b31c02f8fed859a348bdc1dc9d8077d0",
+   "mtime": 1790330218.7662773
+  },
+  {
+   "path": "sources-bibliography.md",
+   "bytes": 26285,
+   "sha256": "2957ef6aeb9a241ea8c47872277cfd59a4c9a2a059168e0892eae5aa9c047bd8",
+   "mtime": 1790325268.7600474
+  },
+  {
+   "path": "amplification/findings/",
+   "kind": "directory",
+   "files": 21,
+   "bytes": 492517
+  },
+  {
+   "path": "amplification/notes/",
+   "kind": "directory",
+   "files": 35,
+   "bytes": 1596597
+  },
+  {
+   "path": "amplification/sources/",
+   "kind": "directory",
+   "files": 176,
+   "bytes": 19867360
+  },
+  {
+   "path": "amplification/raw/",
+   "kind": "directory",
+   "files": 190,
+   "bytes": 5983852
+  },
+  {
+   "path": "amplification/research/",
+   "kind": "directory",
+   "files": 702,
+   "bytes": 262516997
+  },
+  {
+   "path": "sources/",
+   "kind": "directory",
+   "files": 54,
+   "bytes": 206405089
+  },
+  {
+   "path": "research/",
+   "kind": "directory",
+   "files": 1080,
+   "bytes": 478287546
+  },
+  {
+   "path": "findings/",
+   "kind": "directory",
+   "files": 55,
+   "bytes": 440115
+  },
+  {
+   "path": "tools/",
+   "kind": "directory",
+   "files": 30,
+   "bytes": 36379
+  }
+ ]
+}
