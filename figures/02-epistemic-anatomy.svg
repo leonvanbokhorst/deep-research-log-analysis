@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <style>
+      .bg{fill:#fbfbfa}.ink{fill:#0b1833}.muted{fill:#657083}.navy{fill:#0e5ab7}.orange{fill:#f47b20}.green{fill:#28a65a}.red{fill:#df3946}
+      .card{fill:#fff;stroke:#d9dfe8;stroke-width:2}.softblue{fill:#eef5ff}.softorange{fill:#fff3e8}.softgreen{fill:#edf9f1}.softred{fill:#fff0f1}
+      .t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#0b1833}.h{font-weight:700}.small{font-size:22px}.body{font-size:26px}.big{font-size:34px}.title{font-size:48px;font-weight:750}
+      .line{stroke:#7b8797;stroke-width:2;fill:none}.thin{stroke:#aeb8c6;stroke-width:1.6;fill:none}
+    </style>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#59677a"/></marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1440" height="900"/>
+  <text class="t title" x="70" y="80">Epistemic anatomy of the run</text>
+  
+  <rect x="475" y="140" width="490" height="120" rx="24" class="softblue" stroke="#b9d5fa" stroke-width="2"/>
+  <text class="t big h" x="525" y="190">Root synthesiser</text><text class="t body" x="525" y="228">1 session · final judgment centralised here</text>
+  <path d="M720,260 L720,340" class="line" marker-end="url(#arr)"/>
+  <rect x="475" y="350" width="490" height="110" rx="24" class="softorange"/>
+  <text class="t big h" x="525" y="395">Depth 1</text><text class="t body" x="525" y="430">16 evidence branches</text>
+  <path d="M720,460 L720,530" class="line" marker-end="url(#arr)"/>
+  <rect x="475" y="540" width="490" height="110" rx="24" class="softgreen"/>
+  <text class="t big h" x="525" y="585">Depth 2</text><text class="t body" x="525" y="620">45 sub-analyses</text>
+  <path d="M720,650 L720,720" class="line" marker-end="url(#arr)"/>
+  <rect x="475" y="730" width="490" height="110" rx="24" class="softred"/>
+  <text class="t big h" x="525" y="775">Depth 3</text><text class="t body" x="525" y="810">91 leaves · half of fresh input</text>
+
+  <rect x="75" y="335" width="320" height="130" rx="20" class="card"/>
+  <text class="t body h" x="105" y="382">Broad evidence gathering</text><text class="t small" x="105" y="420">largely independent in source</text><text class="t small" x="105" y="448">selection and queries</text>
+  <path d="M395,400 C430,400 440,405 475,405" class="line" marker-end="url(#arr)"/>
+
+  <rect x="1045" y="145" width="300" height="105" rx="20" class="card"/>
+  <text class="t body h" x="1075" y="188">Interpretation bottleneck</text><text class="t small" x="1075" y="222">no second adjudicator</text>
+  <path d="M1045,200 C1015,200 1000,200 965,200" class="line" marker-end="url(#arr)"/>
+
+  <rect x="1020" y="720" width="340" height="120" rx="20" class="softred"/>
+  <text class="t body h" x="1050" y="765">3 of 4 largest corrections</text><text class="t small" x="1050" y="803">originated in deep leaves</text>
+  <path d="M1020,785 C995,785 985,785 965,785" class="line" marker-end="url(#arr)"/>
+
+  <rect x="110" y="865" width="1220" height="0" fill="none"/>
+
+</svg>
