@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <style>
+      .bg{fill:#fbfbfa}.ink{fill:#0b1833}.muted{fill:#657083}.navy{fill:#0e5ab7}.orange{fill:#f47b20}.green{fill:#28a65a}.red{fill:#df3946}
+      .card{fill:#fff;stroke:#d9dfe8;stroke-width:2}.softblue{fill:#eef5ff}.softorange{fill:#fff3e8}.softgreen{fill:#edf9f1}.softred{fill:#fff0f1}
+      .t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#0b1833}.h{font-weight:700}.small{font-size:22px}.body{font-size:26px}.big{font-size:34px}.title{font-size:48px;font-weight:750}
+      .line{stroke:#7b8797;stroke-width:2;fill:none}.thin{stroke:#aeb8c6;stroke-width:1.6;fill:none}
+    </style>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#59677a"/></marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1440" height="900"/>
+  <text class="t title" x="70" y="80">Discovery falls while artefact production stays alive</text>
+  
+  <line x1="120" y1="760" x2="1300" y2="760" stroke="#657083" stroke-width="2"/>
+  <line x1="120" y1="200" x2="120" y2="760" stroke="#657083" stroke-width="2"/>
+  <line x1="120" y1="760" x2="1300" y2="760" stroke="#e1e5eb" stroke-width="1"/><text class="t small" x="65" y="768">0</text><line x1="120" y1="635.5555555555555" x2="1300" y2="635.5555555555555" stroke="#e1e5eb" stroke-width="1"/><text class="t small" x="65" y="643.5555555555555">100</text><line x1="120" y1="511.1111111111111" x2="1300" y2="511.1111111111111" stroke="#e1e5eb" stroke-width="1"/><text class="t small" x="65" y="519.1111111111111">200</text><line x1="120" y1="386.6666666666667" x2="1300" y2="386.6666666666667" stroke="#e1e5eb" stroke-width="1"/><text class="t small" x="65" y="394.6666666666667">300</text><line x1="120" y1="262.22222222222223" x2="1300" y2="262.22222222222223" stroke="#e1e5eb" stroke-width="1"/><text class="t small" x="65" y="270.22222222222223">400</text>
+  <text class="t small" x="112" y="800">1</text><text class="t small" x="243.11111111111111" y="800">2</text><text class="t small" x="374.22222222222223" y="800">3</text><text class="t small" x="505.3333333333333" y="800">4</text><text class="t small" x="636.4444444444445" y="800">5</text><text class="t small" x="767.5555555555555" y="800">6</text><text class="t small" x="898.6666666666666" y="800">7</text><text class="t small" x="1029.7777777777778" y="800">8</text><text class="t small" x="1160.888888888889" y="800">9</text><text class="t small" x="1292" y="800">10</text>
+  <text class="t small" x="635" y="845">Work decile</text>
+  <polyline points="120,227.37777777777774 251.11111111111111,579.5555555555555 382.22222222222223,641.7777777777778 513.3333333333333,456.35555555555555 644.4444444444445,498.6666666666667 775.5555555555555,512.3555555555556 906.6666666666666,626.8444444444444 1037.7777777777778,628.088888888889 1168.888888888889,700.2666666666667 1300,677.8666666666667" fill="none" stroke="#0e5ab7" stroke-width="5"/>
+  <polyline points="120,696.5333333333333 251.11111111111111,674.1333333333333 382.22222222222223,725.1555555555556 513.3333333333333,731.3777777777777 644.4444444444445,738.8444444444444 775.5555555555555,704 906.6666666666666,720.1777777777778 1037.7777777777778,705.2444444444444 1168.888888888889,706.4888888888889 1300,712.7111111111111" fill="none" stroke="#f47b20" stroke-width="5"/>
+  <circle cx="120" cy="227.37777777777774" r="7" class="navy"/><circle cx="251.11111111111111" cy="579.5555555555555" r="7" class="navy"/><circle cx="382.22222222222223" cy="641.7777777777778" r="7" class="navy"/><circle cx="513.3333333333333" cy="456.35555555555555" r="7" class="navy"/><circle cx="644.4444444444445" cy="498.6666666666667" r="7" class="navy"/><circle cx="775.5555555555555" cy="512.3555555555556" r="7" class="navy"/><circle cx="906.6666666666666" cy="626.8444444444444" r="7" class="navy"/><circle cx="1037.7777777777778" cy="628.088888888889" r="7" class="navy"/><circle cx="1168.888888888889" cy="700.2666666666667" r="7" class="navy"/><circle cx="1300" cy="677.8666666666667" r="7" class="navy"/>
+  <circle cx="120" cy="696.5333333333333" r="7" class="orange"/><circle cx="251.11111111111111" cy="674.1333333333333" r="7" class="orange"/><circle cx="382.22222222222223" cy="725.1555555555556" r="7" class="orange"/><circle cx="513.3333333333333" cy="731.3777777777777" r="7" class="orange"/><circle cx="644.4444444444445" cy="738.8444444444444" r="7" class="orange"/><circle cx="775.5555555555555" cy="704" r="7" class="orange"/><circle cx="906.6666666666666" cy="720.1777777777778" r="7" class="orange"/><circle cx="1037.7777777777778" cy="705.2444444444444" r="7" class="orange"/><circle cx="1168.888888888889" cy="706.4888888888889" r="7" class="orange"/><circle cx="1300" cy="712.7111111111111" r="7" class="orange"/>
+  <rect x="195" y="240" width="330" height="100" rx="16" class="softblue"/>
+  <text class="t body h" x="225" y="282">Source discovery decays sharply</text><text class="t small" x="225" y="318">428 new hosts → 48–66 late</text>
+  <rect x="845" y="575" width="420" height="110" rx="16" class="softorange"/>
+  <text class="t body h" x="875" y="618">Artefact production persists</text><text class="t small" x="875" y="654">late work shifts toward synthesis and correction</text>
+  <rect x="785" y="205" width="475" height="245" rx="18" class="card"/>
+  <text class="t body h" x="815" y="248">Important findings still arrived late</text>
+  <text class="t small" x="815" y="290">~63% Foster null</text><text class="t small" x="815" y="326">~66% Salvi correction</text>
+  <text class="t small" x="815" y="362">~77% USC constraint paper</text><text class="t small" x="815" y="398">~86% OpenAI negative evidence</text>
+  <text class="t small" x="815" y="434">~95% Botometer caution</text>
+
+</svg>
